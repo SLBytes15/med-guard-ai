@@ -2,7 +2,6 @@ import { supabase } from "@/integrations/supabase/client";
 
 export interface Medication {
   name: string;
-  dosage: string;
 }
 
 export interface Interaction {
@@ -20,36 +19,45 @@ export interface AnalysisResult {
 
 const normalize = (name: string) => name.toLowerCase().trim();
 
+export async function searchDrugNames(query: string): Promise<string[]> {
+  if (!query || query.length < 2) return [];
+  const { data } = await supabase
+    .from("medications_dataset")
+    .select("drug_name")
+    .ilike("drug_name", `${query}%`)
+    .limit(50);
+
+  if (!data) return [];
+  const unique = [...new Set(data.map((r) => r.drug_name))];
+  return unique.sort().slice(0, 8);
+}
+
 export async function checkInteractionsFromDB(medications: Medication[]): Promise<AnalysisResult> {
   const interactions: Interaction[] = [];
   const names = medications.map((m) => m.name);
 
-  const { data: rules } = await supabase
-    .from("medications_dataset")
-    .select("*")
-    .or(
-      names.map((n) => `drug_name.ilike.%${n}%`).join(",") + "," +
-      names.map((n) => `interacts_with.ilike.%${n}%`).join(",")
-    );
+  // For each pair, query DB
+  for (let i = 0; i < names.length; i++) {
+    for (let j = i + 1; j < names.length; j++) {
+      const a = names[i];
+      const b = names[j];
 
-  if (rules) {
-    for (let i = 0; i < medications.length; i++) {
-      for (let j = i + 1; j < medications.length; j++) {
-        const a = normalize(medications[i].name);
-        const b = normalize(medications[j].name);
+      const { data: rules } = await supabase
+        .from("medications_dataset")
+        .select("*")
+        .or(
+          `and(drug_name.ilike.${a},interacts_with.ilike.${b}),and(drug_name.ilike.${b},interacts_with.ilike.${a})`
+        )
+        .limit(1);
 
-        for (const rule of rules) {
-          const rDrug = normalize(rule.drug_name);
-          const rWith = normalize(rule.interacts_with);
-          if ((rDrug === a && rWith === b) || (rDrug === b && rWith === a)) {
-            interactions.push({
-              drugA: medications[i].name,
-              drugB: medications[j].name,
-              severity: rule.severity as "Low" | "Moderate" | "High",
-              message: rule.description,
-            });
-          }
-        }
+      if (rules && rules.length > 0) {
+        const rule = rules[0];
+        interactions.push({
+          drugA: a,
+          drugB: b,
+          severity: (rule.severity === "High" || rule.severity === "Low") ? rule.severity as "High" | "Low" : "Moderate",
+          message: rule.description,
+        });
       }
     }
   }
@@ -61,7 +69,7 @@ export async function checkInteractionsFromDB(medications: Medication[]): Promis
   };
 }
 
-// Fallback client-side rules (used when not authenticated)
+// Fallback client-side rules
 interface InteractionRule {
   drug: string;
   interactsWith: string;
@@ -70,14 +78,13 @@ interface InteractionRule {
 }
 
 const fallbackRules: InteractionRule[] = [
-  { drug: "paracetamol", interactsWith: "ibuprofen", severity: "Moderate", message: "Combined use may increase the risk of kidney damage and gastrointestinal issues." },
-  { drug: "paracetamol", interactsWith: "warfarin", severity: "High", message: "Paracetamol can enhance the anticoagulant effect of warfarin, increasing bleeding risk." },
-  { drug: "ibuprofen", interactsWith: "aspirin", severity: "High", message: "Ibuprofen may reduce the cardioprotective effects of aspirin and increase GI bleeding risk." },
-  { drug: "ibuprofen", interactsWith: "warfarin", severity: "High", message: "NSAIDs increase the risk of bleeding when taken with anticoagulants." },
-  { drug: "warfarin", interactsWith: "aspirin", severity: "High", message: "Significantly increased risk of major bleeding events." },
-  { drug: "omeprazole", interactsWith: "clopidogrel", severity: "High", message: "Omeprazole reduces the antiplatelet effect of clopidogrel." },
-  { drug: "fluoxetine", interactsWith: "tramadol", severity: "High", message: "Risk of serotonin syndrome — a potentially life-threatening condition." },
-  { drug: "digoxin", interactsWith: "amiodarone", severity: "High", message: "Amiodarone increases digoxin levels, risking toxicity and cardiac arrhythmias." },
+  { drug: "paracetamol", interactsWith: "ibuprofen", severity: "Low", message: "Generally safe when used in correct doses." },
+  { drug: "aspirin", interactsWith: "warfarin", severity: "High", message: "Severe bleeding risk." },
+  { drug: "ibuprofen", interactsWith: "aspirin", severity: "High", message: "Increased risk of bleeding and stomach ulcers." },
+  { drug: "ibuprofen", interactsWith: "warfarin", severity: "High", message: "Increased bleeding risk." },
+  { drug: "omeprazole", interactsWith: "clopidogrel", severity: "High", message: "Reduces antiplatelet effectiveness." },
+  { drug: "fluoxetine", interactsWith: "tramadol", severity: "High", message: "Risk of serotonin syndrome." },
+  { drug: "digoxin", interactsWith: "amiodarone", severity: "High", message: "Increased digoxin toxicity risk." },
 ];
 
 export function checkInteractions(medications: Medication[]): AnalysisResult {
@@ -101,5 +108,5 @@ export const drugSuggestions = [
   "Simvastatin", "Amoxicillin", "Lisinopril", "Ciprofloxacin", "Omeprazole",
   "Amlodipine", "Fluoxetine", "Digoxin", "Metoprolol", "Losartan",
   "Atorvastatin", "Clopidogrel", "Tramadol", "Verapamil", "Amiodarone",
-  "Clarithromycin", "Spironolactone", "Methotrexate", "Theophylline", "Potassium",
+  "Cetirizine", "Diclofenac", "Naproxen", "Alprazolam", "Pantoprazole",
 ];
