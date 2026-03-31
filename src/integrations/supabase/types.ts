@@ -14,7 +14,123 @@ export type Database = {
   }
   public: {
     Tables: {
-      [_ in never]: never
+      api_keys: {
+        Row: {
+          created_at: string
+          id: string
+          is_active: boolean
+          key: string
+          label: string | null
+          last_used_at: string | null
+          usage_count: number
+          usage_limit: number
+          user_id: string
+        }
+        Insert: {
+          created_at?: string
+          id?: string
+          is_active?: boolean
+          key: string
+          label?: string | null
+          last_used_at?: string | null
+          usage_count?: number
+          usage_limit?: number
+          user_id: string
+        }
+        Update: {
+          created_at?: string
+          id?: string
+          is_active?: boolean
+          key?: string
+          label?: string | null
+          last_used_at?: string | null
+          usage_count?: number
+          usage_limit?: number
+          user_id?: string
+        }
+        Relationships: []
+      }
+      api_logs: {
+        Row: {
+          created_at: string
+          endpoint: string
+          id: string
+          method: string
+          response_time_ms: number | null
+          status_code: number | null
+          user_id: string
+        }
+        Insert: {
+          created_at?: string
+          endpoint: string
+          id?: string
+          method?: string
+          response_time_ms?: number | null
+          status_code?: number | null
+          user_id: string
+        }
+        Update: {
+          created_at?: string
+          endpoint?: string
+          id?: string
+          method?: string
+          response_time_ms?: number | null
+          status_code?: number | null
+          user_id?: string
+        }
+        Relationships: []
+      }
+      medications_dataset: {
+        Row: {
+          created_at: string
+          description: string
+          drug_name: string
+          id: string
+          interacts_with: string
+          severity: string
+        }
+        Insert: {
+          created_at?: string
+          description: string
+          drug_name: string
+          id?: string
+          interacts_with: string
+          severity: string
+        }
+        Update: {
+          created_at?: string
+          description?: string
+          drug_name?: string
+          id?: string
+          interacts_with?: string
+          severity?: string
+        }
+        Relationships: []
+      }
+      profiles: {
+        Row: {
+          created_at: string
+          full_name: string | null
+          id: string
+          updated_at: string
+          user_id: string
+        }
+        Insert: {
+          created_at?: string
+          full_name?: string | null
+          id?: string
+          updated_at?: string
+          user_id: string
+        }
+        Update: {
+          created_at?: string
+          full_name?: string | null
+          id?: string
+          updated_at?: string
+          user_id?: string
+        }
+        Relationships: []
+      }
     }
     Views: {
       [_ in never]: never

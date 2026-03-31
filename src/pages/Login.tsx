@@ -1,17 +1,30 @@
 import { useState } from "react";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
+import { useAuth } from "@/contexts/AuthContext";
+import { useToast } from "@/hooks/use-toast";
 import logo from "@/assets/rxsense-logo.png";
 
 export default function Login() {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
+  const [loading, setLoading] = useState(false);
+  const { signIn } = useAuth();
+  const navigate = useNavigate();
+  const { toast } = useToast();
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
-    // Auth will be integrated with Lovable Cloud
+    setLoading(true);
+    const { error } = await signIn(email, password);
+    setLoading(false);
+    if (error) {
+      toast({ title: "Login failed", description: error.message, variant: "destructive" });
+    } else {
+      navigate("/dashboard");
+    }
   };
 
   return (
@@ -22,9 +35,7 @@ export default function Login() {
         </div>
         <div className="relative text-center text-primary-foreground max-w-md">
           <h2 className="font-display text-3xl font-bold mb-4">Medication Safety, Simplified</h2>
-          <p className="text-primary-foreground/70">
-            Detect drug interactions and dosage risks in seconds with AI-powered analysis.
-          </p>
+          <p className="text-primary-foreground/70">Detect drug interactions and dosage risks in seconds with AI-powered analysis.</p>
         </div>
       </div>
       <div className="flex-1 flex items-center justify-center p-8">
@@ -43,7 +54,9 @@ export default function Login() {
               <Label htmlFor="password">Password</Label>
               <Input id="password" type="password" placeholder="••••••••" value={password} onChange={(e) => setPassword(e.target.value)} required />
             </div>
-            <Button type="submit" className="w-full gradient-primary border-0">Log in</Button>
+            <Button type="submit" className="w-full gradient-primary border-0" disabled={loading}>
+              {loading ? "Logging in..." : "Log in"}
+            </Button>
           </form>
           <p className="text-center text-sm text-muted-foreground">
             Don't have an account?{" "}
