@@ -1,0 +1,1 @@
+DELETE FROM public.medications_dataset;
