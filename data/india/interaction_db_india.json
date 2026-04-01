@@ -1,0 +1,2249 @@
+{
+  "ace inhibitors + diclofenac": {
+    "level": "HIGH",
+    "reason": "Kidney stress",
+    "advice": "Avoid this combination and consult a doctor immediately."
+  },
+  "ace inhibitors + ibuprofen": {
+    "level": "HIGH",
+    "reason": "Kidney damage",
+    "advice": "Avoid this combination and consult a doctor immediately."
+  },
+  "ace inhibitors + naproxen": {
+    "level": "HIGH",
+    "reason": "Reduced kidney function",
+    "advice": "Avoid this combination and consult a doctor immediately."
+  },
+  "alcohol + alprazolam": {
+    "level": "HIGH",
+    "reason": "Respiratory depression",
+    "advice": "Avoid this combination and consult a doctor immediately."
+  },
+  "alcohol + aspirin": {
+    "level": "HIGH",
+    "reason": "Severe gastric bleeding",
+    "advice": "Avoid this combination and consult a doctor immediately."
+  },
+  "alcohol + cetirizine": {
+    "level": "HIGH",
+    "reason": "Extreme drowsiness",
+    "advice": "Avoid this combination and consult a doctor immediately."
+  },
+  "alcohol + chlorpheniramine": {
+    "level": "HIGH",
+    "reason": "Severe sedation",
+    "advice": "Avoid this combination and consult a doctor immediately."
+  },
+  "alcohol + codeine": {
+    "level": "HIGH",
+    "reason": "Breathing suppression risk",
+    "advice": "Avoid this combination and consult a doctor immediately."
+  },
+  "alcohol + dextromethorphan": {
+    "level": "HIGH",
+    "reason": "CNS depression",
+    "advice": "Avoid this combination and consult a doctor immediately."
+  },
+  "alcohol + glimepiride": {
+    "level": "HIGH",
+    "reason": "Low blood sugar risk",
+    "advice": "Avoid this combination and consult a doctor immediately."
+  },
+  "alcohol + ibuprofen": {
+    "level": "HIGH",
+    "reason": "Stomach bleeding risk",
+    "advice": "Avoid this combination and consult a doctor immediately."
+  },
+  "alcohol + insulin": {
+    "level": "HIGH",
+    "reason": "Severe hypoglycemia",
+    "advice": "Avoid this combination and consult a doctor immediately."
+  },
+  "alcohol + metformin": {
+    "level": "HIGH",
+    "reason": "Lactic acidosis risk",
+    "advice": "Avoid this combination and consult a doctor immediately."
+  },
+  "alcohol + paracetamol": {
+    "level": "HIGH",
+    "reason": "Liver toxicity risk",
+    "advice": "Avoid this combination and consult a doctor immediately."
+  },
+  "alcohol + tramadol": {
+    "level": "HIGH",
+    "reason": "CNS depression",
+    "advice": "Avoid this combination and consult a doctor immediately."
+  },
+  "alprazolam + antidepressant": {
+    "level": "HIGH",
+    "reason": "Sedation risk",
+    "advice": "Avoid this combination and consult a doctor immediately."
+  },
+  "alprazolam + cetirizine": {
+    "level": "HIGH",
+    "reason": "Severe sedation",
+    "advice": "Avoid this combination and consult a doctor immediately."
+  },
+  "alprazolam + chlorpheniramine": {
+    "level": "HIGH",
+    "reason": "Extreme drowsiness",
+    "advice": "Avoid this combination and consult a doctor immediately."
+  },
+  "alprazolam + codeine": {
+    "level": "HIGH",
+    "reason": "Respiratory depression",
+    "advice": "Avoid this combination and consult a doctor immediately."
+  },
+  "alprazolam + diphenhydramine": {
+    "level": "HIGH",
+    "reason": "Respiratory depression",
+    "advice": "Avoid this combination and consult a doctor immediately."
+  },
+  "alprazolam + tramadol": {
+    "level": "HIGH",
+    "reason": "Severe sedation",
+    "advice": "Avoid this combination and consult a doctor immediately."
+  },
+  "amlodipine + aspirin": {
+    "level": "MEDIUM",
+    "reason": "May cause moderate interaction requiring monitoring",
+    "advice": "Use with caution and consult a healthcare professional if needed",
+    "disease_risk": {
+      "hypertension": "May affect blood pressure control",
+      "diabetes": "May alter glucose levels",
+      "kidney_disease": "May increase kidney stress",
+      "liver_disease": "Monitor liver function"
+    }
+  },
+  "amlodipine + diclofenac": {
+    "level": "MEDIUM",
+    "reason": "May cause moderate interaction requiring monitoring",
+    "advice": "Use with caution and consult a healthcare professional if needed",
+    "disease_risk": {
+      "hypertension": "May affect blood pressure control",
+      "diabetes": "May alter glucose levels",
+      "kidney_disease": "May increase kidney stress",
+      "liver_disease": "Monitor liver function"
+    }
+  },
+  "amlodipine + ibuprofen": {
+    "level": "MEDIUM",
+    "reason": "May cause moderate interaction requiring monitoring",
+    "advice": "Use with caution and consult a healthcare professional if needed",
+    "disease_risk": {
+      "hypertension": "May affect blood pressure control",
+      "diabetes": "May alter glucose levels",
+      "kidney_disease": "May increase kidney stress",
+      "liver_disease": "Monitor liver function"
+    }
+  },
+  "amlodipine + paracetamol": {
+    "level": "MEDIUM",
+    "reason": "May cause moderate interaction requiring monitoring",
+    "advice": "Use with caution and consult a healthcare professional if needed",
+    "disease_risk": {
+      "hypertension": "May affect blood pressure control",
+      "diabetes": "May alter glucose levels",
+      "kidney_disease": "May increase kidney stress",
+      "liver_disease": "Monitor liver function"
+    }
+  },
+  "amlodipine + sildenafil": {
+    "level": "HIGH",
+    "reason": "Severe BP drop",
+    "advice": "Avoid this combination and consult a doctor immediately."
+  },
+  "antacid + aspirin": {
+    "level": "MEDIUM",
+    "reason": "May cause moderate interaction requiring monitoring",
+    "advice": "Use with caution and consult a healthcare professional if needed",
+    "disease_risk": {
+      "hypertension": "May affect blood pressure control",
+      "diabetes": "May alter glucose levels",
+      "kidney_disease": "May increase kidney stress",
+      "liver_disease": "Monitor liver function"
+    }
+  },
+  "antacid + calcium": {
+    "level": "LOW",
+    "reason": "Generally safe when used in recommended doses",
+    "advice": "Safe for most users under normal conditions",
+    "disease_risk": {
+      "general": "Minimal risk",
+      "liver_disease": "Monitor dosage if applicable",
+      "kidney_disease": "Use cautiously if long-term"
+    }
+  },
+  "antacid + cetirizine": {
+    "level": "LOW",
+    "reason": "Generally safe when used in recommended doses",
+    "advice": "Safe for most users under normal conditions",
+    "disease_risk": {
+      "general": "Minimal risk",
+      "liver_disease": "Monitor dosage if applicable",
+      "kidney_disease": "Use cautiously if long-term"
+    }
+  },
+  "antacid + ciprofloxacin": {
+    "level": "HIGH",
+    "reason": "Reduced antibiotic effect",
+    "advice": "Avoid this combination and consult a doctor immediately."
+  },
+  "antacid + diclofenac": {
+    "level": "MEDIUM",
+    "reason": "May cause moderate interaction requiring monitoring",
+    "advice": "Use with caution and consult a healthcare professional if needed",
+    "disease_risk": {
+      "hypertension": "May affect blood pressure control",
+      "diabetes": "May alter glucose levels",
+      "kidney_disease": "May increase kidney stress",
+      "liver_disease": "Monitor liver function"
+    }
+  },
+  "antacid + ibuprofen": {
+    "level": "MEDIUM",
+    "reason": "May cause moderate interaction requiring monitoring",
+    "advice": "Use with caution and consult a healthcare professional if needed",
+    "disease_risk": {
+      "hypertension": "May affect blood pressure control",
+      "diabetes": "May alter glucose levels",
+      "kidney_disease": "May increase kidney stress",
+      "liver_disease": "Monitor liver function"
+    }
+  },
+  "antacid + iron": {
+    "level": "HIGH",
+    "reason": "Reduced absorption",
+    "advice": "Avoid this combination and consult a doctor immediately."
+  },
+  "antacid + loratadine": {
+    "level": "LOW",
+    "reason": "Generally safe when used in recommended doses",
+    "advice": "Safe for most users under normal conditions",
+    "disease_risk": {
+      "general": "Minimal risk",
+      "liver_disease": "Monitor dosage if applicable",
+      "kidney_disease": "Use cautiously if long-term"
+    }
+  },
+  "antacid + naproxen": {
+    "level": "MEDIUM",
+    "reason": "May cause moderate interaction requiring monitoring",
+    "advice": "Use with caution and consult a healthcare professional if needed",
+    "disease_risk": {
+      "hypertension": "May affect blood pressure control",
+      "diabetes": "May alter glucose levels",
+      "kidney_disease": "May increase kidney stress",
+      "liver_disease": "Monitor liver function"
+    }
+  },
+  "antacid + paracetamol": {
+    "level": "MEDIUM",
+    "reason": "May cause moderate interaction requiring monitoring",
+    "advice": "Use with caution and consult a healthcare professional if needed",
+    "disease_risk": {
+      "hypertension": "May affect blood pressure control",
+      "diabetes": "May alter glucose levels",
+      "kidney_disease": "May increase kidney stress",
+      "liver_disease": "Monitor liver function"
+    }
+  },
+  "antacid + tetracycline": {
+    "level": "HIGH",
+    "reason": "Reduced absorption",
+    "advice": "Avoid this combination and consult a doctor immediately."
+  },
+  "antacid + vitamin c": {
+    "level": "LOW",
+    "reason": "Generally safe when used in recommended doses",
+    "advice": "Safe for most users under normal conditions",
+    "disease_risk": {
+      "general": "Minimal risk",
+      "liver_disease": "Monitor dosage if applicable",
+      "kidney_disease": "Use cautiously if long-term"
+    }
+  },
+  "antacid + vitamin d": {
+    "level": "LOW",
+    "reason": "Generally safe when used in recommended doses",
+    "advice": "Safe for most users under normal conditions",
+    "disease_risk": {
+      "general": "Minimal risk",
+      "liver_disease": "Monitor dosage if applicable",
+      "kidney_disease": "Use cautiously if long-term"
+    }
+  },
+  "antidepressant + cetirizine": {
+    "level": "HIGH",
+    "reason": "Drowsiness risk",
+    "advice": "Avoid this combination and consult a doctor immediately."
+  },
+  "antidepressant + dextromethorphan": {
+    "level": "HIGH",
+    "reason": "Serotonin syndrome",
+    "advice": "Avoid this combination and consult a doctor immediately."
+  },
+  "antidepressant + diphenhydramine": {
+    "level": "HIGH",
+    "reason": "CNS depression",
+    "advice": "Avoid this combination and consult a doctor immediately."
+  },
+  "antidepressant + tramadol": {
+    "level": "HIGH",
+    "reason": "Seizure risk",
+    "advice": "Avoid this combination and consult a doctor immediately."
+  },
+  "antihypertensive + pseudoephedrine": {
+    "level": "HIGH",
+    "reason": "Raises blood pressure",
+    "advice": "Avoid this combination and consult a doctor immediately."
+  },
+  "aspirin + atenolol": {
+    "level": "MEDIUM",
+    "reason": "May cause moderate interaction requiring monitoring",
+    "advice": "Use with caution and consult a healthcare professional if needed",
+    "disease_risk": {
+      "hypertension": "May affect blood pressure control",
+      "diabetes": "May alter glucose levels",
+      "kidney_disease": "May increase kidney stress",
+      "liver_disease": "Monitor liver function"
+    }
+  },
+  "aspirin + calcium": {
+    "level": "MEDIUM",
+    "reason": "May cause moderate interaction requiring monitoring",
+    "advice": "Use with caution and consult a healthcare professional if needed",
+    "disease_risk": {
+      "hypertension": "May affect blood pressure control",
+      "diabetes": "May alter glucose levels",
+      "kidney_disease": "May increase kidney stress",
+      "liver_disease": "Monitor liver function"
+    }
+  },
+  "aspirin + cetirizine": {
+    "level": "MEDIUM",
+    "reason": "May cause moderate interaction requiring monitoring",
+    "advice": "Use with caution and consult a healthcare professional if needed",
+    "disease_risk": {
+      "hypertension": "May affect blood pressure control",
+      "diabetes": "May alter glucose levels",
+      "kidney_disease": "May increase kidney stress",
+      "liver_disease": "Monitor liver function"
+    }
+  },
+  "aspirin + chlorpheniramine": {
+    "level": "MEDIUM",
+    "reason": "May cause moderate interaction requiring monitoring",
+    "advice": "Use with caution and consult a healthcare professional if needed",
+    "disease_risk": {
+      "hypertension": "May affect blood pressure control",
+      "diabetes": "May alter glucose levels",
+      "kidney_disease": "May increase kidney stress",
+      "liver_disease": "Monitor liver function"
+    }
+  },
+  "aspirin + clopidogrel": {
+    "level": "HIGH",
+    "reason": "High bleeding risk",
+    "advice": "Avoid this combination and consult a doctor immediately."
+  },
+  "aspirin + corticosteroid": {
+    "level": "HIGH",
+    "reason": "GI bleeding",
+    "advice": "Avoid this combination and consult a doctor immediately."
+  },
+  "aspirin + dextromethorphan": {
+    "level": "MEDIUM",
+    "reason": "May cause moderate interaction requiring monitoring",
+    "advice": "Use with caution and consult a healthcare professional if needed",
+    "disease_risk": {
+      "hypertension": "May affect blood pressure control",
+      "diabetes": "May alter glucose levels",
+      "kidney_disease": "May increase kidney stress",
+      "liver_disease": "Monitor liver function"
+    }
+  },
+  "aspirin + diclofenac": {
+    "level": "MEDIUM",
+    "reason": "May cause moderate interaction requiring monitoring",
+    "advice": "Use with caution and consult a healthcare professional if needed",
+    "disease_risk": {
+      "hypertension": "May affect blood pressure control",
+      "diabetes": "May alter glucose levels",
+      "kidney_disease": "May increase kidney stress",
+      "liver_disease": "Monitor liver function"
+    }
+  },
+  "aspirin + diphenhydramine": {
+    "level": "MEDIUM",
+    "reason": "May cause moderate interaction requiring monitoring",
+    "advice": "Use with caution and consult a healthcare professional if needed",
+    "disease_risk": {
+      "hypertension": "May affect blood pressure control",
+      "diabetes": "May alter glucose levels",
+      "kidney_disease": "May increase kidney stress",
+      "liver_disease": "Monitor liver function"
+    }
+  },
+  "aspirin + diuretics": {
+    "level": "HIGH",
+    "reason": "Reduced effectiveness",
+    "advice": "Avoid this combination and consult a doctor immediately."
+  },
+  "aspirin + furosemide": {
+    "level": "MEDIUM",
+    "reason": "May cause moderate interaction requiring monitoring",
+    "advice": "Use with caution and consult a healthcare professional if needed",
+    "disease_risk": {
+      "hypertension": "May affect blood pressure control",
+      "diabetes": "May alter glucose levels",
+      "kidney_disease": "May increase kidney stress",
+      "liver_disease": "Monitor liver function"
+    }
+  },
+  "aspirin + glimepiride": {
+    "level": "MEDIUM",
+    "reason": "May cause moderate interaction requiring monitoring",
+    "advice": "Use with caution and consult a healthcare professional if needed",
+    "disease_risk": {
+      "hypertension": "May affect blood pressure control",
+      "diabetes": "May alter glucose levels",
+      "kidney_disease": "May increase kidney stress",
+      "liver_disease": "Monitor liver function"
+    }
+  },
+  "aspirin + heparin": {
+    "level": "HIGH",
+    "reason": "Extreme bleeding risk",
+    "advice": "Avoid this combination and consult a doctor immediately."
+  },
+  "aspirin + ibuprofen": {
+    "level": "HIGH",
+    "reason": "Increased GI bleeding risk",
+    "advice": "Avoid this combination and consult a doctor immediately."
+  },
+  "aspirin + iron": {
+    "level": "MEDIUM",
+    "reason": "May cause moderate interaction requiring monitoring",
+    "advice": "Use with caution and consult a healthcare professional if needed",
+    "disease_risk": {
+      "hypertension": "May affect blood pressure control",
+      "diabetes": "May alter glucose levels",
+      "kidney_disease": "May increase kidney stress",
+      "liver_disease": "Monitor liver function"
+    }
+  },
+  "aspirin + loratadine": {
+    "level": "MEDIUM",
+    "reason": "May cause moderate interaction requiring monitoring",
+    "advice": "Use with caution and consult a healthcare professional if needed",
+    "disease_risk": {
+      "hypertension": "May affect blood pressure control",
+      "diabetes": "May alter glucose levels",
+      "kidney_disease": "May increase kidney stress",
+      "liver_disease": "Monitor liver function"
+    }
+  },
+  "aspirin + losartan": {
+    "level": "MEDIUM",
+    "reason": "May cause moderate interaction requiring monitoring",
+    "advice": "Use with caution and consult a healthcare professional if needed",
+    "disease_risk": {
+      "hypertension": "May affect blood pressure control",
+      "diabetes": "May alter glucose levels",
+      "kidney_disease": "May increase kidney stress",
+      "liver_disease": "Monitor liver function"
+    }
+  },
+  "aspirin + metformin": {
+    "level": "MEDIUM",
+    "reason": "May cause moderate interaction requiring monitoring",
+    "advice": "Use with caution and consult a healthcare professional if needed",
+    "disease_risk": {
+      "hypertension": "May affect blood pressure control",
+      "diabetes": "May alter glucose levels",
+      "kidney_disease": "May increase kidney stress",
+      "liver_disease": "Monitor liver function"
+    }
+  },
+  "aspirin + naproxen": {
+    "level": "MEDIUM",
+    "reason": "May cause moderate interaction requiring monitoring",
+    "advice": "Use with caution and consult a healthcare professional if needed",
+    "disease_risk": {
+      "hypertension": "May affect blood pressure control",
+      "diabetes": "May alter glucose levels",
+      "kidney_disease": "May increase kidney stress",
+      "liver_disease": "Monitor liver function"
+    }
+  },
+  "aspirin + nsaids": {
+    "level": "HIGH",
+    "reason": "Severe bleeding",
+    "advice": "Avoid this combination and consult a doctor immediately."
+  },
+  "aspirin + omeprazole": {
+    "level": "MEDIUM",
+    "reason": "May cause moderate interaction requiring monitoring",
+    "advice": "Use with caution and consult a healthcare professional if needed",
+    "disease_risk": {
+      "hypertension": "May affect blood pressure control",
+      "diabetes": "May alter glucose levels",
+      "kidney_disease": "May increase kidney stress",
+      "liver_disease": "Monitor liver function"
+    }
+  },
+  "aspirin + pantoprazole": {
+    "level": "MEDIUM",
+    "reason": "May cause moderate interaction requiring monitoring",
+    "advice": "Use with caution and consult a healthcare professional if needed",
+    "disease_risk": {
+      "hypertension": "May affect blood pressure control",
+      "diabetes": "May alter glucose levels",
+      "kidney_disease": "May increase kidney stress",
+      "liver_disease": "Monitor liver function"
+    }
+  },
+  "aspirin + paracetamol": {
+    "level": "MEDIUM",
+    "reason": "May cause moderate interaction requiring monitoring",
+    "advice": "Use with caution and consult a healthcare professional if needed",
+    "disease_risk": {
+      "hypertension": "May affect blood pressure control",
+      "diabetes": "May alter glucose levels",
+      "kidney_disease": "May increase kidney stress",
+      "liver_disease": "Monitor liver function"
+    }
+  },
+  "aspirin + pseudoephedrine": {
+    "level": "MEDIUM",
+    "reason": "May cause moderate interaction requiring monitoring",
+    "advice": "Use with caution and consult a healthcare professional if needed",
+    "disease_risk": {
+      "hypertension": "May affect blood pressure control",
+      "diabetes": "May alter glucose levels",
+      "kidney_disease": "May increase kidney stress",
+      "liver_disease": "Monitor liver function"
+    }
+  },
+  "aspirin + ranitidine": {
+    "level": "MEDIUM",
+    "reason": "May cause moderate interaction requiring monitoring",
+    "advice": "Use with caution and consult a healthcare professional if needed",
+    "disease_risk": {
+      "hypertension": "May affect blood pressure control",
+      "diabetes": "May alter glucose levels",
+      "kidney_disease": "May increase kidney stress",
+      "liver_disease": "Monitor liver function"
+    }
+  },
+  "aspirin + spironolactone": {
+    "level": "MEDIUM",
+    "reason": "May cause moderate interaction requiring monitoring",
+    "advice": "Use with caution and consult a healthcare professional if needed",
+    "disease_risk": {
+      "hypertension": "May affect blood pressure control",
+      "diabetes": "May alter glucose levels",
+      "kidney_disease": "May increase kidney stress",
+      "liver_disease": "Monitor liver function"
+    }
+  },
+  "aspirin + telmisartan": {
+    "level": "MEDIUM",
+    "reason": "May cause moderate interaction requiring monitoring",
+    "advice": "Use with caution and consult a healthcare professional if needed",
+    "disease_risk": {
+      "hypertension": "May affect blood pressure control",
+      "diabetes": "May alter glucose levels",
+      "kidney_disease": "May increase kidney stress",
+      "liver_disease": "Monitor liver function"
+    }
+  },
+  "aspirin + vitamin c": {
+    "level": "MEDIUM",
+    "reason": "May cause moderate interaction requiring monitoring",
+    "advice": "Use with caution and consult a healthcare professional if needed",
+    "disease_risk": {
+      "hypertension": "May affect blood pressure control",
+      "diabetes": "May alter glucose levels",
+      "kidney_disease": "May increase kidney stress",
+      "liver_disease": "Monitor liver function"
+    }
+  },
+  "aspirin + vitamin d": {
+    "level": "MEDIUM",
+    "reason": "May cause moderate interaction requiring monitoring",
+    "advice": "Use with caution and consult a healthcare professional if needed",
+    "disease_risk": {
+      "hypertension": "May affect blood pressure control",
+      "diabetes": "May alter glucose levels",
+      "kidney_disease": "May increase kidney stress",
+      "liver_disease": "Monitor liver function"
+    }
+  },
+  "aspirin + warfarin": {
+    "level": "HIGH",
+    "reason": "Severe bleeding risk",
+    "advice": "Avoid this combination and consult a doctor immediately."
+  },
+  "atenolol + diclofenac": {
+    "level": "MEDIUM",
+    "reason": "May cause moderate interaction requiring monitoring",
+    "advice": "Use with caution and consult a healthcare professional if needed",
+    "disease_risk": {
+      "hypertension": "May affect blood pressure control",
+      "diabetes": "May alter glucose levels",
+      "kidney_disease": "May increase kidney stress",
+      "liver_disease": "Monitor liver function"
+    }
+  },
+  "atenolol + ibuprofen": {
+    "level": "MEDIUM",
+    "reason": "May cause moderate interaction requiring monitoring",
+    "advice": "Use with caution and consult a healthcare professional if needed",
+    "disease_risk": {
+      "hypertension": "May affect blood pressure control",
+      "diabetes": "May alter glucose levels",
+      "kidney_disease": "May increase kidney stress",
+      "liver_disease": "Monitor liver function"
+    }
+  },
+  "atenolol + paracetamol": {
+    "level": "MEDIUM",
+    "reason": "May cause moderate interaction requiring monitoring",
+    "advice": "Use with caution and consult a healthcare professional if needed",
+    "disease_risk": {
+      "hypertension": "May affect blood pressure control",
+      "diabetes": "May alter glucose levels",
+      "kidney_disease": "May increase kidney stress",
+      "liver_disease": "Monitor liver function"
+    }
+  },
+  "caffeine + pseudoephedrine": {
+    "level": "HIGH",
+    "reason": "High heart rate",
+    "advice": "Avoid this combination and consult a doctor immediately."
+  },
+  "calcium + cetirizine": {
+    "level": "LOW",
+    "reason": "Generally safe when used in recommended doses",
+    "advice": "Safe for most users under normal conditions",
+    "disease_risk": {
+      "general": "Minimal risk",
+      "liver_disease": "Monitor dosage if applicable",
+      "kidney_disease": "Use cautiously if long-term"
+    }
+  },
+  "calcium + dextromethorphan": {
+    "level": "LOW",
+    "reason": "Generally safe when used in recommended doses",
+    "advice": "Safe for most users under normal conditions",
+    "disease_risk": {
+      "general": "Minimal risk",
+      "liver_disease": "Monitor dosage if applicable",
+      "kidney_disease": "Use cautiously if long-term"
+    }
+  },
+  "calcium + diclofenac": {
+    "level": "MEDIUM",
+    "reason": "May cause moderate interaction requiring monitoring",
+    "advice": "Use with caution and consult a healthcare professional if needed",
+    "disease_risk": {
+      "hypertension": "May affect blood pressure control",
+      "diabetes": "May alter glucose levels",
+      "kidney_disease": "May increase kidney stress",
+      "liver_disease": "Monitor liver function"
+    }
+  },
+  "calcium + ibuprofen": {
+    "level": "MEDIUM",
+    "reason": "May cause moderate interaction requiring monitoring",
+    "advice": "Use with caution and consult a healthcare professional if needed",
+    "disease_risk": {
+      "hypertension": "May affect blood pressure control",
+      "diabetes": "May alter glucose levels",
+      "kidney_disease": "May increase kidney stress",
+      "liver_disease": "Monitor liver function"
+    }
+  },
+  "calcium + iron": {
+    "level": "HIGH",
+    "reason": "Absorption interference",
+    "advice": "Avoid this combination and consult a doctor immediately."
+  },
+  "calcium + levocetirizine": {
+    "level": "LOW",
+    "reason": "Generally safe when used in recommended doses",
+    "advice": "Safe for most users under normal conditions",
+    "disease_risk": {
+      "general": "Minimal risk",
+      "liver_disease": "Monitor dosage if applicable",
+      "kidney_disease": "Use cautiously if long-term"
+    }
+  },
+  "calcium + loratadine": {
+    "level": "LOW",
+    "reason": "Generally safe when used in recommended doses",
+    "advice": "Safe for most users under normal conditions",
+    "disease_risk": {
+      "general": "Minimal risk",
+      "liver_disease": "Monitor dosage if applicable",
+      "kidney_disease": "Use cautiously if long-term"
+    }
+  },
+  "calcium + magnesium": {
+    "level": "LOW",
+    "reason": "Generally safe when used in recommended doses",
+    "advice": "Safe for most users under normal conditions",
+    "disease_risk": {
+      "general": "Minimal risk",
+      "liver_disease": "Monitor dosage if applicable",
+      "kidney_disease": "Use cautiously if long-term"
+    }
+  },
+  "calcium + montelukast": {
+    "level": "LOW",
+    "reason": "Generally safe when used in recommended doses",
+    "advice": "Safe for most users under normal conditions",
+    "disease_risk": {
+      "general": "Minimal risk",
+      "liver_disease": "Monitor dosage if applicable",
+      "kidney_disease": "Use cautiously if long-term"
+    }
+  },
+  "calcium + naproxen": {
+    "level": "MEDIUM",
+    "reason": "May cause moderate interaction requiring monitoring",
+    "advice": "Use with caution and consult a healthcare professional if needed",
+    "disease_risk": {
+      "hypertension": "May affect blood pressure control",
+      "diabetes": "May alter glucose levels",
+      "kidney_disease": "May increase kidney stress",
+      "liver_disease": "Monitor liver function"
+    }
+  },
+  "calcium + omeprazole": {
+    "level": "LOW",
+    "reason": "Generally safe when used in recommended doses",
+    "advice": "Safe for most users under normal conditions",
+    "disease_risk": {
+      "general": "Minimal risk",
+      "liver_disease": "Monitor dosage if applicable",
+      "kidney_disease": "Use cautiously if long-term"
+    }
+  },
+  "calcium + pantoprazole": {
+    "level": "LOW",
+    "reason": "Generally safe when used in recommended doses",
+    "advice": "Safe for most users under normal conditions",
+    "disease_risk": {
+      "general": "Minimal risk",
+      "liver_disease": "Monitor dosage if applicable",
+      "kidney_disease": "Use cautiously if long-term"
+    }
+  },
+  "calcium + paracetamol": {
+    "level": "MEDIUM",
+    "reason": "May cause moderate interaction requiring monitoring",
+    "advice": "Use with caution and consult a healthcare professional if needed",
+    "disease_risk": {
+      "hypertension": "May affect blood pressure control",
+      "diabetes": "May alter glucose levels",
+      "kidney_disease": "May increase kidney stress",
+      "liver_disease": "Monitor liver function"
+    }
+  },
+  "calcium + pseudoephedrine": {
+    "level": "LOW",
+    "reason": "Generally safe when used in recommended doses",
+    "advice": "Safe for most users under normal conditions",
+    "disease_risk": {
+      "general": "Minimal risk",
+      "liver_disease": "Monitor dosage if applicable",
+      "kidney_disease": "Use cautiously if long-term"
+    }
+  },
+  "calcium + ranitidine": {
+    "level": "LOW",
+    "reason": "Generally safe when used in recommended doses",
+    "advice": "Safe for most users under normal conditions",
+    "disease_risk": {
+      "general": "Minimal risk",
+      "liver_disease": "Monitor dosage if applicable",
+      "kidney_disease": "Use cautiously if long-term"
+    }
+  },
+  "calcium + vitamin c": {
+    "level": "LOW",
+    "reason": "Generally safe when used in recommended doses",
+    "advice": "Safe for most users under normal conditions",
+    "disease_risk": {
+      "general": "Minimal risk",
+      "liver_disease": "Monitor dosage if applicable",
+      "kidney_disease": "Use cautiously if long-term"
+    }
+  },
+  "calcium + vitamin d": {
+    "level": "LOW",
+    "reason": "Generally safe when used in recommended doses",
+    "advice": "Safe for most users under normal conditions",
+    "disease_risk": {
+      "general": "Minimal risk",
+      "liver_disease": "Monitor dosage if applicable",
+      "kidney_disease": "Use cautiously if long-term"
+    }
+  },
+  "cetirizine + dextromethorphan": {
+    "level": "LOW",
+    "reason": "Generally safe when used in recommended doses",
+    "advice": "Safe for most users under normal conditions",
+    "disease_risk": {
+      "general": "Minimal risk",
+      "liver_disease": "Monitor dosage if applicable",
+      "kidney_disease": "Use cautiously if long-term"
+    }
+  },
+  "cetirizine + diclofenac": {
+    "level": "MEDIUM",
+    "reason": "May cause moderate interaction requiring monitoring",
+    "advice": "Use with caution and consult a healthcare professional if needed",
+    "disease_risk": {
+      "hypertension": "May affect blood pressure control",
+      "diabetes": "May alter glucose levels",
+      "kidney_disease": "May increase kidney stress",
+      "liver_disease": "Monitor liver function"
+    }
+  },
+  "cetirizine + diphenhydramine": {
+    "level": "HIGH",
+    "reason": "Excess sedation",
+    "advice": "Avoid this combination and consult a doctor immediately."
+  },
+  "cetirizine + ibuprofen": {
+    "level": "MEDIUM",
+    "reason": "May cause moderate interaction requiring monitoring",
+    "advice": "Use with caution and consult a healthcare professional if needed",
+    "disease_risk": {
+      "hypertension": "May affect blood pressure control",
+      "diabetes": "May alter glucose levels",
+      "kidney_disease": "May increase kidney stress",
+      "liver_disease": "Monitor liver function"
+    }
+  },
+  "cetirizine + iron": {
+    "level": "LOW",
+    "reason": "Generally safe when used in recommended doses",
+    "advice": "Safe for most users under normal conditions",
+    "disease_risk": {
+      "general": "Minimal risk",
+      "liver_disease": "Monitor dosage if applicable",
+      "kidney_disease": "Use cautiously if long-term"
+    }
+  },
+  "cetirizine + levocetirizine": {
+    "level": "LOW",
+    "reason": "Generally safe when used in recommended doses",
+    "advice": "Safe for most users under normal conditions",
+    "disease_risk": {
+      "general": "Minimal risk",
+      "liver_disease": "Monitor dosage if applicable",
+      "kidney_disease": "Use cautiously if long-term"
+    }
+  },
+  "cetirizine + loratadine": {
+    "level": "LOW",
+    "reason": "Generally safe when used in recommended doses",
+    "advice": "Safe for most users under normal conditions",
+    "disease_risk": {
+      "general": "Minimal risk",
+      "liver_disease": "Monitor dosage if applicable",
+      "kidney_disease": "Use cautiously if long-term"
+    }
+  },
+  "cetirizine + magnesium": {
+    "level": "LOW",
+    "reason": "Generally safe when used in recommended doses",
+    "advice": "Safe for most users under normal conditions",
+    "disease_risk": {
+      "general": "Minimal risk",
+      "liver_disease": "Monitor dosage if applicable",
+      "kidney_disease": "Use cautiously if long-term"
+    }
+  },
+  "cetirizine + montelukast": {
+    "level": "LOW",
+    "reason": "Generally safe when used in recommended doses",
+    "advice": "Safe for most users under normal conditions",
+    "disease_risk": {
+      "general": "Minimal risk",
+      "liver_disease": "Monitor dosage if applicable",
+      "kidney_disease": "Use cautiously if long-term"
+    }
+  },
+  "cetirizine + naproxen": {
+    "level": "MEDIUM",
+    "reason": "May cause moderate interaction requiring monitoring",
+    "advice": "Use with caution and consult a healthcare professional if needed",
+    "disease_risk": {
+      "hypertension": "May affect blood pressure control",
+      "diabetes": "May alter glucose levels",
+      "kidney_disease": "May increase kidney stress",
+      "liver_disease": "Monitor liver function"
+    }
+  },
+  "cetirizine + omeprazole": {
+    "level": "LOW",
+    "reason": "Generally safe when used in recommended doses",
+    "advice": "Safe for most users under normal conditions",
+    "disease_risk": {
+      "general": "Minimal risk",
+      "liver_disease": "Monitor dosage if applicable",
+      "kidney_disease": "Use cautiously if long-term"
+    }
+  },
+  "cetirizine + pantoprazole": {
+    "level": "LOW",
+    "reason": "Generally safe when used in recommended doses",
+    "advice": "Safe for most users under normal conditions",
+    "disease_risk": {
+      "general": "Minimal risk",
+      "liver_disease": "Monitor dosage if applicable",
+      "kidney_disease": "Use cautiously if long-term"
+    }
+  },
+  "cetirizine + paracetamol": {
+    "level": "MEDIUM",
+    "reason": "May cause moderate interaction requiring monitoring",
+    "advice": "Use with caution and consult a healthcare professional if needed",
+    "disease_risk": {
+      "hypertension": "May affect blood pressure control",
+      "diabetes": "May alter glucose levels",
+      "kidney_disease": "May increase kidney stress",
+      "liver_disease": "Monitor liver function"
+    }
+  },
+  "cetirizine + pseudoephedrine": {
+    "level": "LOW",
+    "reason": "Generally safe when used in recommended doses",
+    "advice": "Safe for most users under normal conditions",
+    "disease_risk": {
+      "general": "Minimal risk",
+      "liver_disease": "Monitor dosage if applicable",
+      "kidney_disease": "Use cautiously if long-term"
+    }
+  },
+  "cetirizine + ranitidine": {
+    "level": "LOW",
+    "reason": "Generally safe when used in recommended doses",
+    "advice": "Safe for most users under normal conditions",
+    "disease_risk": {
+      "general": "Minimal risk",
+      "liver_disease": "Monitor dosage if applicable",
+      "kidney_disease": "Use cautiously if long-term"
+    }
+  },
+  "cetirizine + vitamin c": {
+    "level": "LOW",
+    "reason": "Generally safe when used in recommended doses",
+    "advice": "Safe for most users under normal conditions",
+    "disease_risk": {
+      "general": "Minimal risk",
+      "liver_disease": "Monitor dosage if applicable",
+      "kidney_disease": "Use cautiously if long-term"
+    }
+  },
+  "cetirizine + vitamin d": {
+    "level": "LOW",
+    "reason": "Generally safe when used in recommended doses",
+    "advice": "Safe for most users under normal conditions",
+    "disease_risk": {
+      "general": "Minimal risk",
+      "liver_disease": "Monitor dosage if applicable",
+      "kidney_disease": "Use cautiously if long-term"
+    }
+  },
+  "chlorpheniramine + diclofenac": {
+    "level": "MEDIUM",
+    "reason": "May cause moderate interaction requiring monitoring",
+    "advice": "Use with caution and consult a healthcare professional if needed",
+    "disease_risk": {
+      "hypertension": "May affect blood pressure control",
+      "diabetes": "May alter glucose levels",
+      "kidney_disease": "May increase kidney stress",
+      "liver_disease": "Monitor liver function"
+    }
+  },
+  "chlorpheniramine + ibuprofen": {
+    "level": "MEDIUM",
+    "reason": "May cause moderate interaction requiring monitoring",
+    "advice": "Use with caution and consult a healthcare professional if needed",
+    "disease_risk": {
+      "hypertension": "May affect blood pressure control",
+      "diabetes": "May alter glucose levels",
+      "kidney_disease": "May increase kidney stress",
+      "liver_disease": "Monitor liver function"
+    }
+  },
+  "chlorpheniramine + naproxen": {
+    "level": "MEDIUM",
+    "reason": "May cause moderate interaction requiring monitoring",
+    "advice": "Use with caution and consult a healthcare professional if needed",
+    "disease_risk": {
+      "hypertension": "May affect blood pressure control",
+      "diabetes": "May alter glucose levels",
+      "kidney_disease": "May increase kidney stress",
+      "liver_disease": "Monitor liver function"
+    }
+  },
+  "chlorpheniramine + paracetamol": {
+    "level": "MEDIUM",
+    "reason": "May cause moderate interaction requiring monitoring",
+    "advice": "Use with caution and consult a healthcare professional if needed",
+    "disease_risk": {
+      "hypertension": "May affect blood pressure control",
+      "diabetes": "May alter glucose levels",
+      "kidney_disease": "May increase kidney stress",
+      "liver_disease": "Monitor liver function"
+    }
+  },
+  "ciprofloxacin + tizanidine": {
+    "level": "HIGH",
+    "reason": "Dangerous BP drop",
+    "advice": "Avoid this combination and consult a doctor immediately."
+  },
+  "clopidogrel + omeprazole": {
+    "level": "HIGH",
+    "reason": "Reduced effectiveness",
+    "advice": "Avoid this combination and consult a doctor immediately."
+  },
+  "clopidogrel + warfarin": {
+    "level": "HIGH",
+    "reason": "Severe bleeding",
+    "advice": "Avoid this combination and consult a doctor immediately."
+  },
+  "codeine + diphenhydramine": {
+    "level": "HIGH",
+    "reason": "Severe sedation",
+    "advice": "Avoid this combination and consult a doctor immediately."
+  },
+  "corticosteroid + diclofenac": {
+    "level": "HIGH",
+    "reason": "Severe GI damage",
+    "advice": "Avoid this combination and consult a doctor immediately."
+  },
+  "corticosteroid + ibuprofen": {
+    "level": "HIGH",
+    "reason": "Ulcer risk",
+    "advice": "Avoid this combination and consult a doctor immediately."
+  },
+  "corticosteroid + naproxen": {
+    "level": "HIGH",
+    "reason": "Bleeding risk",
+    "advice": "Avoid this combination and consult a doctor immediately."
+  },
+  "dextromethorphan + diclofenac": {
+    "level": "MEDIUM",
+    "reason": "May cause moderate interaction requiring monitoring",
+    "advice": "Use with caution and consult a healthcare professional if needed",
+    "disease_risk": {
+      "hypertension": "May affect blood pressure control",
+      "diabetes": "May alter glucose levels",
+      "kidney_disease": "May increase kidney stress",
+      "liver_disease": "Monitor liver function"
+    }
+  },
+  "dextromethorphan + ibuprofen": {
+    "level": "MEDIUM",
+    "reason": "May cause moderate interaction requiring monitoring",
+    "advice": "Use with caution and consult a healthcare professional if needed",
+    "disease_risk": {
+      "hypertension": "May affect blood pressure control",
+      "diabetes": "May alter glucose levels",
+      "kidney_disease": "May increase kidney stress",
+      "liver_disease": "Monitor liver function"
+    }
+  },
+  "dextromethorphan + iron": {
+    "level": "LOW",
+    "reason": "Generally safe when used in recommended doses",
+    "advice": "Safe for most users under normal conditions",
+    "disease_risk": {
+      "general": "Minimal risk",
+      "liver_disease": "Monitor dosage if applicable",
+      "kidney_disease": "Use cautiously if long-term"
+    }
+  },
+  "dextromethorphan + loratadine": {
+    "level": "LOW",
+    "reason": "Generally safe when used in recommended doses",
+    "advice": "Safe for most users under normal conditions",
+    "disease_risk": {
+      "general": "Minimal risk",
+      "liver_disease": "Monitor dosage if applicable",
+      "kidney_disease": "Use cautiously if long-term"
+    }
+  },
+  "dextromethorphan + naproxen": {
+    "level": "MEDIUM",
+    "reason": "May cause moderate interaction requiring monitoring",
+    "advice": "Use with caution and consult a healthcare professional if needed",
+    "disease_risk": {
+      "hypertension": "May affect blood pressure control",
+      "diabetes": "May alter glucose levels",
+      "kidney_disease": "May increase kidney stress",
+      "liver_disease": "Monitor liver function"
+    }
+  },
+  "dextromethorphan + paracetamol": {
+    "level": "MEDIUM",
+    "reason": "May cause moderate interaction requiring monitoring",
+    "advice": "Use with caution and consult a healthcare professional if needed",
+    "disease_risk": {
+      "hypertension": "May affect blood pressure control",
+      "diabetes": "May alter glucose levels",
+      "kidney_disease": "May increase kidney stress",
+      "liver_disease": "Monitor liver function"
+    }
+  },
+  "dextromethorphan + vitamin c": {
+    "level": "LOW",
+    "reason": "Generally safe when used in recommended doses",
+    "advice": "Safe for most users under normal conditions",
+    "disease_risk": {
+      "general": "Minimal risk",
+      "liver_disease": "Monitor dosage if applicable",
+      "kidney_disease": "Use cautiously if long-term"
+    }
+  },
+  "dextromethorphan + vitamin d": {
+    "level": "LOW",
+    "reason": "Generally safe when used in recommended doses",
+    "advice": "Safe for most users under normal conditions",
+    "disease_risk": {
+      "general": "Minimal risk",
+      "liver_disease": "Monitor dosage if applicable",
+      "kidney_disease": "Use cautiously if long-term"
+    }
+  },
+  "diclofenac + diphenhydramine": {
+    "level": "MEDIUM",
+    "reason": "May cause moderate interaction requiring monitoring",
+    "advice": "Use with caution and consult a healthcare professional if needed",
+    "disease_risk": {
+      "hypertension": "May affect blood pressure control",
+      "diabetes": "May alter glucose levels",
+      "kidney_disease": "May increase kidney stress",
+      "liver_disease": "Monitor liver function"
+    }
+  },
+  "diclofenac + diuretics": {
+    "level": "HIGH",
+    "reason": "Electrolyte imbalance",
+    "advice": "Avoid this combination and consult a doctor immediately."
+  },
+  "diclofenac + furosemide": {
+    "level": "MEDIUM",
+    "reason": "May cause moderate interaction requiring monitoring",
+    "advice": "Use with caution and consult a healthcare professional if needed",
+    "disease_risk": {
+      "hypertension": "May affect blood pressure control",
+      "diabetes": "May alter glucose levels",
+      "kidney_disease": "May increase kidney stress",
+      "liver_disease": "Monitor liver function"
+    }
+  },
+  "diclofenac + glimepiride": {
+    "level": "MEDIUM",
+    "reason": "May cause moderate interaction requiring monitoring",
+    "advice": "Use with caution and consult a healthcare professional if needed",
+    "disease_risk": {
+      "hypertension": "May affect blood pressure control",
+      "diabetes": "May alter glucose levels",
+      "kidney_disease": "May increase kidney stress",
+      "liver_disease": "Monitor liver function"
+    }
+  },
+  "diclofenac + ibuprofen": {
+    "level": "HIGH",
+    "reason": "Duplicate NSAIDs causing ulcers",
+    "advice": "Avoid this combination and consult a doctor immediately."
+  },
+  "diclofenac + iron": {
+    "level": "MEDIUM",
+    "reason": "May cause moderate interaction requiring monitoring",
+    "advice": "Use with caution and consult a healthcare professional if needed",
+    "disease_risk": {
+      "hypertension": "May affect blood pressure control",
+      "diabetes": "May alter glucose levels",
+      "kidney_disease": "May increase kidney stress",
+      "liver_disease": "Monitor liver function"
+    }
+  },
+  "diclofenac + lithium": {
+    "level": "HIGH",
+    "reason": "Lithium buildup",
+    "advice": "Avoid this combination and consult a doctor immediately."
+  },
+  "diclofenac + loratadine": {
+    "level": "MEDIUM",
+    "reason": "May cause moderate interaction requiring monitoring",
+    "advice": "Use with caution and consult a healthcare professional if needed",
+    "disease_risk": {
+      "hypertension": "May affect blood pressure control",
+      "diabetes": "May alter glucose levels",
+      "kidney_disease": "May increase kidney stress",
+      "liver_disease": "Monitor liver function"
+    }
+  },
+  "diclofenac + losartan": {
+    "level": "MEDIUM",
+    "reason": "May cause moderate interaction requiring monitoring",
+    "advice": "Use with caution and consult a healthcare professional if needed",
+    "disease_risk": {
+      "hypertension": "May affect blood pressure control",
+      "diabetes": "May alter glucose levels",
+      "kidney_disease": "May increase kidney stress",
+      "liver_disease": "Monitor liver function"
+    }
+  },
+  "diclofenac + metformin": {
+    "level": "MEDIUM",
+    "reason": "May cause moderate interaction requiring monitoring",
+    "advice": "Use with caution and consult a healthcare professional if needed",
+    "disease_risk": {
+      "hypertension": "May affect blood pressure control",
+      "diabetes": "May alter glucose levels",
+      "kidney_disease": "May increase kidney stress",
+      "liver_disease": "Monitor liver function"
+    }
+  },
+  "diclofenac + naproxen": {
+    "level": "MEDIUM",
+    "reason": "May cause moderate interaction requiring monitoring",
+    "advice": "Use with caution and consult a healthcare professional if needed",
+    "disease_risk": {
+      "hypertension": "May affect blood pressure control",
+      "diabetes": "May alter glucose levels",
+      "kidney_disease": "May increase kidney stress",
+      "liver_disease": "Monitor liver function"
+    }
+  },
+  "diclofenac + nsaids": {
+    "level": "HIGH",
+    "reason": "Ulcer risk",
+    "advice": "Avoid this combination and consult a doctor immediately."
+  },
+  "diclofenac + omeprazole": {
+    "level": "MEDIUM",
+    "reason": "May cause moderate interaction requiring monitoring",
+    "advice": "Use with caution and consult a healthcare professional if needed",
+    "disease_risk": {
+      "hypertension": "May affect blood pressure control",
+      "diabetes": "May alter glucose levels",
+      "kidney_disease": "May increase kidney stress",
+      "liver_disease": "Monitor liver function"
+    }
+  },
+  "diclofenac + pantoprazole": {
+    "level": "MEDIUM",
+    "reason": "May cause moderate interaction requiring monitoring",
+    "advice": "Use with caution and consult a healthcare professional if needed",
+    "disease_risk": {
+      "hypertension": "May affect blood pressure control",
+      "diabetes": "May alter glucose levels",
+      "kidney_disease": "May increase kidney stress",
+      "liver_disease": "Monitor liver function"
+    }
+  },
+  "diclofenac + paracetamol": {
+    "level": "MEDIUM",
+    "reason": "May cause moderate interaction requiring monitoring",
+    "advice": "Use with caution and consult a healthcare professional if needed",
+    "disease_risk": {
+      "hypertension": "May affect blood pressure control",
+      "diabetes": "May alter glucose levels",
+      "kidney_disease": "May increase kidney stress",
+      "liver_disease": "Monitor liver function"
+    }
+  },
+  "diclofenac + pseudoephedrine": {
+    "level": "MEDIUM",
+    "reason": "May cause moderate interaction requiring monitoring",
+    "advice": "Use with caution and consult a healthcare professional if needed",
+    "disease_risk": {
+      "hypertension": "May affect blood pressure control",
+      "diabetes": "May alter glucose levels",
+      "kidney_disease": "May increase kidney stress",
+      "liver_disease": "Monitor liver function"
+    }
+  },
+  "diclofenac + ranitidine": {
+    "level": "MEDIUM",
+    "reason": "May cause moderate interaction requiring monitoring",
+    "advice": "Use with caution and consult a healthcare professional if needed",
+    "disease_risk": {
+      "hypertension": "May affect blood pressure control",
+      "diabetes": "May alter glucose levels",
+      "kidney_disease": "May increase kidney stress",
+      "liver_disease": "Monitor liver function"
+    }
+  },
+  "diclofenac + spironolactone": {
+    "level": "MEDIUM",
+    "reason": "May cause moderate interaction requiring monitoring",
+    "advice": "Use with caution and consult a healthcare professional if needed",
+    "disease_risk": {
+      "hypertension": "May affect blood pressure control",
+      "diabetes": "May alter glucose levels",
+      "kidney_disease": "May increase kidney stress",
+      "liver_disease": "Monitor liver function"
+    }
+  },
+  "diclofenac + telmisartan": {
+    "level": "MEDIUM",
+    "reason": "May cause moderate interaction requiring monitoring",
+    "advice": "Use with caution and consult a healthcare professional if needed",
+    "disease_risk": {
+      "hypertension": "May affect blood pressure control",
+      "diabetes": "May alter glucose levels",
+      "kidney_disease": "May increase kidney stress",
+      "liver_disease": "Monitor liver function"
+    }
+  },
+  "diclofenac + vitamin c": {
+    "level": "MEDIUM",
+    "reason": "May cause moderate interaction requiring monitoring",
+    "advice": "Use with caution and consult a healthcare professional if needed",
+    "disease_risk": {
+      "hypertension": "May affect blood pressure control",
+      "diabetes": "May alter glucose levels",
+      "kidney_disease": "May increase kidney stress",
+      "liver_disease": "Monitor liver function"
+    }
+  },
+  "diclofenac + vitamin d": {
+    "level": "MEDIUM",
+    "reason": "May cause moderate interaction requiring monitoring",
+    "advice": "Use with caution and consult a healthcare professional if needed",
+    "disease_risk": {
+      "hypertension": "May affect blood pressure control",
+      "diabetes": "May alter glucose levels",
+      "kidney_disease": "May increase kidney stress",
+      "liver_disease": "Monitor liver function"
+    }
+  },
+  "diclofenac + warfarin": {
+    "level": "HIGH",
+    "reason": "Bleeding complications",
+    "advice": "Avoid this combination and consult a doctor immediately."
+  },
+  "diphenhydramine + ibuprofen": {
+    "level": "MEDIUM",
+    "reason": "May cause moderate interaction requiring monitoring",
+    "advice": "Use with caution and consult a healthcare professional if needed",
+    "disease_risk": {
+      "hypertension": "May affect blood pressure control",
+      "diabetes": "May alter glucose levels",
+      "kidney_disease": "May increase kidney stress",
+      "liver_disease": "Monitor liver function"
+    }
+  },
+  "diphenhydramine + naproxen": {
+    "level": "MEDIUM",
+    "reason": "May cause moderate interaction requiring monitoring",
+    "advice": "Use with caution and consult a healthcare professional if needed",
+    "disease_risk": {
+      "hypertension": "May affect blood pressure control",
+      "diabetes": "May alter glucose levels",
+      "kidney_disease": "May increase kidney stress",
+      "liver_disease": "Monitor liver function"
+    }
+  },
+  "diphenhydramine + paracetamol": {
+    "level": "MEDIUM",
+    "reason": "May cause moderate interaction requiring monitoring",
+    "advice": "Use with caution and consult a healthcare professional if needed",
+    "disease_risk": {
+      "hypertension": "May affect blood pressure control",
+      "diabetes": "May alter glucose levels",
+      "kidney_disease": "May increase kidney stress",
+      "liver_disease": "Monitor liver function"
+    }
+  },
+  "diphenhydramine + tramadol": {
+    "level": "HIGH",
+    "reason": "CNS depression",
+    "advice": "Avoid this combination and consult a doctor immediately."
+  },
+  "diuretics + ibuprofen": {
+    "level": "HIGH",
+    "reason": "Kidney damage",
+    "advice": "Avoid this combination and consult a doctor immediately."
+  },
+  "diuretics + naproxen": {
+    "level": "HIGH",
+    "reason": "Kidney stress",
+    "advice": "Avoid this combination and consult a doctor immediately."
+  },
+  "furosemide + ibuprofen": {
+    "level": "MEDIUM",
+    "reason": "May cause moderate interaction requiring monitoring",
+    "advice": "Use with caution and consult a healthcare professional if needed",
+    "disease_risk": {
+      "hypertension": "May affect blood pressure control",
+      "diabetes": "May alter glucose levels",
+      "kidney_disease": "May increase kidney stress",
+      "liver_disease": "Monitor liver function"
+    }
+  },
+  "furosemide + paracetamol": {
+    "level": "MEDIUM",
+    "reason": "May cause moderate interaction requiring monitoring",
+    "advice": "Use with caution and consult a healthcare professional if needed",
+    "disease_risk": {
+      "hypertension": "May affect blood pressure control",
+      "diabetes": "May alter glucose levels",
+      "kidney_disease": "May increase kidney stress",
+      "liver_disease": "Monitor liver function"
+    }
+  },
+  "glimepiride + ibuprofen": {
+    "level": "MEDIUM",
+    "reason": "May cause moderate interaction requiring monitoring",
+    "advice": "Use with caution and consult a healthcare professional if needed",
+    "disease_risk": {
+      "hypertension": "May affect blood pressure control",
+      "diabetes": "May alter glucose levels",
+      "kidney_disease": "May increase kidney stress",
+      "liver_disease": "Monitor liver function"
+    }
+  },
+  "glimepiride + paracetamol": {
+    "level": "MEDIUM",
+    "reason": "May cause moderate interaction requiring monitoring",
+    "advice": "Use with caution and consult a healthcare professional if needed",
+    "disease_risk": {
+      "hypertension": "May affect blood pressure control",
+      "diabetes": "May alter glucose levels",
+      "kidney_disease": "May increase kidney stress",
+      "liver_disease": "Monitor liver function"
+    }
+  },
+  "heparin + warfarin": {
+    "level": "HIGH",
+    "reason": "Life-threatening bleeding",
+    "advice": "Avoid this combination and consult a doctor immediately."
+  },
+  "ibuprofen + iron": {
+    "level": "MEDIUM",
+    "reason": "May cause moderate interaction requiring monitoring",
+    "advice": "Use with caution and consult a healthcare professional if needed",
+    "disease_risk": {
+      "hypertension": "May affect blood pressure control",
+      "diabetes": "May alter glucose levels",
+      "kidney_disease": "May increase kidney stress",
+      "liver_disease": "Monitor liver function"
+    }
+  },
+  "ibuprofen + levocetirizine": {
+    "level": "LOW",
+    "reason": "Generally safe when used in recommended doses",
+    "advice": "Safe for most users under normal conditions",
+    "disease_risk": {
+      "general": "Minimal risk",
+      "liver_disease": "Monitor dosage if applicable",
+      "kidney_disease": "Use cautiously if long-term"
+    }
+  },
+  "ibuprofen + lithium": {
+    "level": "HIGH",
+    "reason": "Lithium toxicity",
+    "advice": "Avoid this combination and consult a doctor immediately."
+  },
+  "ibuprofen + loratadine": {
+    "level": "MEDIUM",
+    "reason": "May cause moderate interaction requiring monitoring",
+    "advice": "Use with caution and consult a healthcare professional if needed",
+    "disease_risk": {
+      "hypertension": "May affect blood pressure control",
+      "diabetes": "May alter glucose levels",
+      "kidney_disease": "May increase kidney stress",
+      "liver_disease": "Monitor liver function"
+    }
+  },
+  "ibuprofen + losartan": {
+    "level": "MEDIUM",
+    "reason": "May cause moderate interaction requiring monitoring",
+    "advice": "Use with caution and consult a healthcare professional if needed",
+    "disease_risk": {
+      "hypertension": "May affect blood pressure control",
+      "diabetes": "May alter glucose levels",
+      "kidney_disease": "May increase kidney stress",
+      "liver_disease": "Monitor liver function"
+    }
+  },
+  "ibuprofen + magnesium": {
+    "level": "LOW",
+    "reason": "Generally safe when used in recommended doses",
+    "advice": "Safe for most users under normal conditions",
+    "disease_risk": {
+      "general": "Minimal risk",
+      "liver_disease": "Monitor dosage if applicable",
+      "kidney_disease": "Use cautiously if long-term"
+    }
+  },
+  "ibuprofen + metformin": {
+    "level": "MEDIUM",
+    "reason": "May cause moderate interaction requiring monitoring",
+    "advice": "Use with caution and consult a healthcare professional if needed",
+    "disease_risk": {
+      "hypertension": "May affect blood pressure control",
+      "diabetes": "May alter glucose levels",
+      "kidney_disease": "May increase kidney stress",
+      "liver_disease": "Monitor liver function"
+    }
+  },
+  "ibuprofen + montelukast": {
+    "level": "LOW",
+    "reason": "Generally safe when used in recommended doses",
+    "advice": "Safe for most users under normal conditions",
+    "disease_risk": {
+      "general": "Minimal risk",
+      "liver_disease": "Monitor dosage if applicable",
+      "kidney_disease": "Use cautiously if long-term"
+    }
+  },
+  "ibuprofen + naproxen": {
+    "level": "HIGH",
+    "reason": "High risk of stomach bleeding",
+    "advice": "Avoid this combination and consult a doctor immediately."
+  },
+  "ibuprofen + omeprazole": {
+    "level": "MEDIUM",
+    "reason": "May cause moderate interaction requiring monitoring",
+    "advice": "Use with caution and consult a healthcare professional if needed",
+    "disease_risk": {
+      "hypertension": "May affect blood pressure control",
+      "diabetes": "May alter glucose levels",
+      "kidney_disease": "May increase kidney stress",
+      "liver_disease": "Monitor liver function"
+    }
+  },
+  "ibuprofen + pantoprazole": {
+    "level": "MEDIUM",
+    "reason": "May cause moderate interaction requiring monitoring",
+    "advice": "Use with caution and consult a healthcare professional if needed",
+    "disease_risk": {
+      "hypertension": "May affect blood pressure control",
+      "diabetes": "May alter glucose levels",
+      "kidney_disease": "May increase kidney stress",
+      "liver_disease": "Monitor liver function"
+    }
+  },
+  "ibuprofen + paracetamol": {
+    "level": "MEDIUM",
+    "reason": "May cause moderate interaction requiring monitoring",
+    "advice": "Use with caution and consult a healthcare professional if needed",
+    "disease_risk": {
+      "hypertension": "May affect blood pressure control",
+      "diabetes": "May alter glucose levels",
+      "kidney_disease": "May increase kidney stress",
+      "liver_disease": "Monitor liver function"
+    }
+  },
+  "ibuprofen + pseudoephedrine": {
+    "level": "MEDIUM",
+    "reason": "May cause moderate interaction requiring monitoring",
+    "advice": "Use with caution and consult a healthcare professional if needed",
+    "disease_risk": {
+      "hypertension": "May affect blood pressure control",
+      "diabetes": "May alter glucose levels",
+      "kidney_disease": "May increase kidney stress",
+      "liver_disease": "Monitor liver function"
+    }
+  },
+  "ibuprofen + ranitidine": {
+    "level": "MEDIUM",
+    "reason": "May cause moderate interaction requiring monitoring",
+    "advice": "Use with caution and consult a healthcare professional if needed",
+    "disease_risk": {
+      "hypertension": "May affect blood pressure control",
+      "diabetes": "May alter glucose levels",
+      "kidney_disease": "May increase kidney stress",
+      "liver_disease": "Monitor liver function"
+    }
+  },
+  "ibuprofen + spironolactone": {
+    "level": "MEDIUM",
+    "reason": "May cause moderate interaction requiring monitoring",
+    "advice": "Use with caution and consult a healthcare professional if needed",
+    "disease_risk": {
+      "hypertension": "May affect blood pressure control",
+      "diabetes": "May alter glucose levels",
+      "kidney_disease": "May increase kidney stress",
+      "liver_disease": "Monitor liver function"
+    }
+  },
+  "ibuprofen + telmisartan": {
+    "level": "MEDIUM",
+    "reason": "May cause moderate interaction requiring monitoring",
+    "advice": "Use with caution and consult a healthcare professional if needed",
+    "disease_risk": {
+      "hypertension": "May affect blood pressure control",
+      "diabetes": "May alter glucose levels",
+      "kidney_disease": "May increase kidney stress",
+      "liver_disease": "Monitor liver function"
+    }
+  },
+  "ibuprofen + vitamin c": {
+    "level": "MEDIUM",
+    "reason": "May cause moderate interaction requiring monitoring",
+    "advice": "Use with caution and consult a healthcare professional if needed",
+    "disease_risk": {
+      "hypertension": "May affect blood pressure control",
+      "diabetes": "May alter glucose levels",
+      "kidney_disease": "May increase kidney stress",
+      "liver_disease": "Monitor liver function"
+    }
+  },
+  "ibuprofen + vitamin d": {
+    "level": "MEDIUM",
+    "reason": "May cause moderate interaction requiring monitoring",
+    "advice": "Use with caution and consult a healthcare professional if needed",
+    "disease_risk": {
+      "hypertension": "May affect blood pressure control",
+      "diabetes": "May alter glucose levels",
+      "kidney_disease": "May increase kidney stress",
+      "liver_disease": "Monitor liver function"
+    }
+  },
+  "ibuprofen + warfarin": {
+    "level": "HIGH",
+    "reason": "Severe bleeding",
+    "advice": "Avoid this combination and consult a doctor immediately."
+  },
+  "iron + levocetirizine": {
+    "level": "LOW",
+    "reason": "Generally safe when used in recommended doses",
+    "advice": "Safe for most users under normal conditions",
+    "disease_risk": {
+      "general": "Minimal risk",
+      "liver_disease": "Monitor dosage if applicable",
+      "kidney_disease": "Use cautiously if long-term"
+    }
+  },
+  "iron + loratadine": {
+    "level": "LOW",
+    "reason": "Generally safe when used in recommended doses",
+    "advice": "Safe for most users under normal conditions",
+    "disease_risk": {
+      "general": "Minimal risk",
+      "liver_disease": "Monitor dosage if applicable",
+      "kidney_disease": "Use cautiously if long-term"
+    }
+  },
+  "iron + montelukast": {
+    "level": "LOW",
+    "reason": "Generally safe when used in recommended doses",
+    "advice": "Safe for most users under normal conditions",
+    "disease_risk": {
+      "general": "Minimal risk",
+      "liver_disease": "Monitor dosage if applicable",
+      "kidney_disease": "Use cautiously if long-term"
+    }
+  },
+  "iron + naproxen": {
+    "level": "MEDIUM",
+    "reason": "May cause moderate interaction requiring monitoring",
+    "advice": "Use with caution and consult a healthcare professional if needed",
+    "disease_risk": {
+      "hypertension": "May affect blood pressure control",
+      "diabetes": "May alter glucose levels",
+      "kidney_disease": "May increase kidney stress",
+      "liver_disease": "Monitor liver function"
+    }
+  },
+  "iron + omeprazole": {
+    "level": "LOW",
+    "reason": "Generally safe when used in recommended doses",
+    "advice": "Safe for most users under normal conditions",
+    "disease_risk": {
+      "general": "Minimal risk",
+      "liver_disease": "Monitor dosage if applicable",
+      "kidney_disease": "Use cautiously if long-term"
+    }
+  },
+  "iron + pantoprazole": {
+    "level": "LOW",
+    "reason": "Generally safe when used in recommended doses",
+    "advice": "Safe for most users under normal conditions",
+    "disease_risk": {
+      "general": "Minimal risk",
+      "liver_disease": "Monitor dosage if applicable",
+      "kidney_disease": "Use cautiously if long-term"
+    }
+  },
+  "iron + paracetamol": {
+    "level": "MEDIUM",
+    "reason": "May cause moderate interaction requiring monitoring",
+    "advice": "Use with caution and consult a healthcare professional if needed",
+    "disease_risk": {
+      "hypertension": "May affect blood pressure control",
+      "diabetes": "May alter glucose levels",
+      "kidney_disease": "May increase kidney stress",
+      "liver_disease": "Monitor liver function"
+    }
+  },
+  "iron + pseudoephedrine": {
+    "level": "LOW",
+    "reason": "Generally safe when used in recommended doses",
+    "advice": "Safe for most users under normal conditions",
+    "disease_risk": {
+      "general": "Minimal risk",
+      "liver_disease": "Monitor dosage if applicable",
+      "kidney_disease": "Use cautiously if long-term"
+    }
+  },
+  "iron + ranitidine": {
+    "level": "LOW",
+    "reason": "Generally safe when used in recommended doses",
+    "advice": "Safe for most users under normal conditions",
+    "disease_risk": {
+      "general": "Minimal risk",
+      "liver_disease": "Monitor dosage if applicable",
+      "kidney_disease": "Use cautiously if long-term"
+    }
+  },
+  "iron + vitamin c": {
+    "level": "LOW",
+    "reason": "Generally safe when used in recommended doses",
+    "advice": "Safe for most users under normal conditions",
+    "disease_risk": {
+      "general": "Minimal risk",
+      "liver_disease": "Monitor dosage if applicable",
+      "kidney_disease": "Use cautiously if long-term"
+    }
+  },
+  "iron + vitamin d": {
+    "level": "LOW",
+    "reason": "Generally safe when used in recommended doses",
+    "advice": "Safe for most users under normal conditions",
+    "disease_risk": {
+      "general": "Minimal risk",
+      "liver_disease": "Monitor dosage if applicable",
+      "kidney_disease": "Use cautiously if long-term"
+    }
+  },
+  "levocetirizine + loratadine": {
+    "level": "LOW",
+    "reason": "Generally safe when used in recommended doses",
+    "advice": "Safe for most users under normal conditions",
+    "disease_risk": {
+      "general": "Minimal risk",
+      "liver_disease": "Monitor dosage if applicable",
+      "kidney_disease": "Use cautiously if long-term"
+    }
+  },
+  "levocetirizine + paracetamol": {
+    "level": "LOW",
+    "reason": "Generally safe when used in recommended doses",
+    "advice": "Safe for most users under normal conditions",
+    "disease_risk": {
+      "general": "Minimal risk",
+      "liver_disease": "Monitor dosage if applicable",
+      "kidney_disease": "Use cautiously if long-term"
+    }
+  },
+  "levocetirizine + vitamin c": {
+    "level": "LOW",
+    "reason": "Generally safe when used in recommended doses",
+    "advice": "Safe for most users under normal conditions",
+    "disease_risk": {
+      "general": "Minimal risk",
+      "liver_disease": "Monitor dosage if applicable",
+      "kidney_disease": "Use cautiously if long-term"
+    }
+  },
+  "levocetirizine + vitamin d": {
+    "level": "LOW",
+    "reason": "Generally safe when used in recommended doses",
+    "advice": "Safe for most users under normal conditions",
+    "disease_risk": {
+      "general": "Minimal risk",
+      "liver_disease": "Monitor dosage if applicable",
+      "kidney_disease": "Use cautiously if long-term"
+    }
+  },
+  "lithium + naproxen": {
+    "level": "HIGH",
+    "reason": "Toxic levels",
+    "advice": "Avoid this combination and consult a doctor immediately."
+  },
+  "loratadine + magnesium": {
+    "level": "LOW",
+    "reason": "Generally safe when used in recommended doses",
+    "advice": "Safe for most users under normal conditions",
+    "disease_risk": {
+      "general": "Minimal risk",
+      "liver_disease": "Monitor dosage if applicable",
+      "kidney_disease": "Use cautiously if long-term"
+    }
+  },
+  "loratadine + montelukast": {
+    "level": "LOW",
+    "reason": "Generally safe when used in recommended doses",
+    "advice": "Safe for most users under normal conditions",
+    "disease_risk": {
+      "general": "Minimal risk",
+      "liver_disease": "Monitor dosage if applicable",
+      "kidney_disease": "Use cautiously if long-term"
+    }
+  },
+  "loratadine + naproxen": {
+    "level": "MEDIUM",
+    "reason": "May cause moderate interaction requiring monitoring",
+    "advice": "Use with caution and consult a healthcare professional if needed",
+    "disease_risk": {
+      "hypertension": "May affect blood pressure control",
+      "diabetes": "May alter glucose levels",
+      "kidney_disease": "May increase kidney stress",
+      "liver_disease": "Monitor liver function"
+    }
+  },
+  "loratadine + omeprazole": {
+    "level": "LOW",
+    "reason": "Generally safe when used in recommended doses",
+    "advice": "Safe for most users under normal conditions",
+    "disease_risk": {
+      "general": "Minimal risk",
+      "liver_disease": "Monitor dosage if applicable",
+      "kidney_disease": "Use cautiously if long-term"
+    }
+  },
+  "loratadine + pantoprazole": {
+    "level": "LOW",
+    "reason": "Generally safe when used in recommended doses",
+    "advice": "Safe for most users under normal conditions",
+    "disease_risk": {
+      "general": "Minimal risk",
+      "liver_disease": "Monitor dosage if applicable",
+      "kidney_disease": "Use cautiously if long-term"
+    }
+  },
+  "loratadine + paracetamol": {
+    "level": "MEDIUM",
+    "reason": "May cause moderate interaction requiring monitoring",
+    "advice": "Use with caution and consult a healthcare professional if needed",
+    "disease_risk": {
+      "hypertension": "May affect blood pressure control",
+      "diabetes": "May alter glucose levels",
+      "kidney_disease": "May increase kidney stress",
+      "liver_disease": "Monitor liver function"
+    }
+  },
+  "loratadine + pseudoephedrine": {
+    "level": "LOW",
+    "reason": "Generally safe when used in recommended doses",
+    "advice": "Safe for most users under normal conditions",
+    "disease_risk": {
+      "general": "Minimal risk",
+      "liver_disease": "Monitor dosage if applicable",
+      "kidney_disease": "Use cautiously if long-term"
+    }
+  },
+  "loratadine + ranitidine": {
+    "level": "LOW",
+    "reason": "Generally safe when used in recommended doses",
+    "advice": "Safe for most users under normal conditions",
+    "disease_risk": {
+      "general": "Minimal risk",
+      "liver_disease": "Monitor dosage if applicable",
+      "kidney_disease": "Use cautiously if long-term"
+    }
+  },
+  "loratadine + vitamin c": {
+    "level": "LOW",
+    "reason": "Generally safe when used in recommended doses",
+    "advice": "Safe for most users under normal conditions",
+    "disease_risk": {
+      "general": "Minimal risk",
+      "liver_disease": "Monitor dosage if applicable",
+      "kidney_disease": "Use cautiously if long-term"
+    }
+  },
+  "loratadine + vitamin d": {
+    "level": "LOW",
+    "reason": "Generally safe when used in recommended doses",
+    "advice": "Safe for most users under normal conditions",
+    "disease_risk": {
+      "general": "Minimal risk",
+      "liver_disease": "Monitor dosage if applicable",
+      "kidney_disease": "Use cautiously if long-term"
+    }
+  },
+  "losartan + paracetamol": {
+    "level": "MEDIUM",
+    "reason": "May cause moderate interaction requiring monitoring",
+    "advice": "Use with caution and consult a healthcare professional if needed",
+    "disease_risk": {
+      "hypertension": "May affect blood pressure control",
+      "diabetes": "May alter glucose levels",
+      "kidney_disease": "May increase kidney stress",
+      "liver_disease": "Monitor liver function"
+    }
+  },
+  "losartan + potassium": {
+    "level": "HIGH",
+    "reason": "Hyperkalemia risk",
+    "advice": "Avoid this combination and consult a doctor immediately."
+  },
+  "magnesium + paracetamol": {
+    "level": "LOW",
+    "reason": "Generally safe when used in recommended doses",
+    "advice": "Safe for most users under normal conditions",
+    "disease_risk": {
+      "general": "Minimal risk",
+      "liver_disease": "Monitor dosage if applicable",
+      "kidney_disease": "Use cautiously if long-term"
+    }
+  },
+  "magnesium + vitamin c": {
+    "level": "LOW",
+    "reason": "Generally safe when used in recommended doses",
+    "advice": "Safe for most users under normal conditions",
+    "disease_risk": {
+      "general": "Minimal risk",
+      "liver_disease": "Monitor dosage if applicable",
+      "kidney_disease": "Use cautiously if long-term"
+    }
+  },
+  "magnesium + vitamin d": {
+    "level": "LOW",
+    "reason": "Generally safe when used in recommended doses",
+    "advice": "Safe for most users under normal conditions",
+    "disease_risk": {
+      "general": "Minimal risk",
+      "liver_disease": "Monitor dosage if applicable",
+      "kidney_disease": "Use cautiously if long-term"
+    }
+  },
+  "maoi + pseudoephedrine": {
+    "level": "HIGH",
+    "reason": "Hypertensive crisis",
+    "advice": "Avoid this combination and consult a doctor immediately."
+  },
+  "metformin + paracetamol": {
+    "level": "MEDIUM",
+    "reason": "May cause moderate interaction requiring monitoring",
+    "advice": "Use with caution and consult a healthcare professional if needed",
+    "disease_risk": {
+      "hypertension": "May affect blood pressure control",
+      "diabetes": "May alter glucose levels",
+      "kidney_disease": "May increase kidney stress",
+      "liver_disease": "Monitor liver function"
+    }
+  },
+  "montelukast + paracetamol": {
+    "level": "LOW",
+    "reason": "Generally safe when used in recommended doses",
+    "advice": "Safe for most users under normal conditions",
+    "disease_risk": {
+      "general": "Minimal risk",
+      "liver_disease": "Monitor dosage if applicable",
+      "kidney_disease": "Use cautiously if long-term"
+    }
+  },
+  "montelukast + vitamin c": {
+    "level": "LOW",
+    "reason": "Generally safe when used in recommended doses",
+    "advice": "Safe for most users under normal conditions",
+    "disease_risk": {
+      "general": "Minimal risk",
+      "liver_disease": "Monitor dosage if applicable",
+      "kidney_disease": "Use cautiously if long-term"
+    }
+  },
+  "montelukast + vitamin d": {
+    "level": "LOW",
+    "reason": "Generally safe when used in recommended doses",
+    "advice": "Safe for most users under normal conditions",
+    "disease_risk": {
+      "general": "Minimal risk",
+      "liver_disease": "Monitor dosage if applicable",
+      "kidney_disease": "Use cautiously if long-term"
+    }
+  },
+  "naproxen + nsaids": {
+    "level": "HIGH",
+    "reason": "GI damage",
+    "advice": "Avoid this combination and consult a doctor immediately."
+  },
+  "naproxen + omeprazole": {
+    "level": "MEDIUM",
+    "reason": "May cause moderate interaction requiring monitoring",
+    "advice": "Use with caution and consult a healthcare professional if needed",
+    "disease_risk": {
+      "hypertension": "May affect blood pressure control",
+      "diabetes": "May alter glucose levels",
+      "kidney_disease": "May increase kidney stress",
+      "liver_disease": "Monitor liver function"
+    }
+  },
+  "naproxen + pantoprazole": {
+    "level": "MEDIUM",
+    "reason": "May cause moderate interaction requiring monitoring",
+    "advice": "Use with caution and consult a healthcare professional if needed",
+    "disease_risk": {
+      "hypertension": "May affect blood pressure control",
+      "diabetes": "May alter glucose levels",
+      "kidney_disease": "May increase kidney stress",
+      "liver_disease": "Monitor liver function"
+    }
+  },
+  "naproxen + paracetamol": {
+    "level": "MEDIUM",
+    "reason": "May cause moderate interaction requiring monitoring",
+    "advice": "Use with caution and consult a healthcare professional if needed",
+    "disease_risk": {
+      "hypertension": "May affect blood pressure control",
+      "diabetes": "May alter glucose levels",
+      "kidney_disease": "May increase kidney stress",
+      "liver_disease": "Monitor liver function"
+    }
+  },
+  "naproxen + pseudoephedrine": {
+    "level": "MEDIUM",
+    "reason": "May cause moderate interaction requiring monitoring",
+    "advice": "Use with caution and consult a healthcare professional if needed",
+    "disease_risk": {
+      "hypertension": "May affect blood pressure control",
+      "diabetes": "May alter glucose levels",
+      "kidney_disease": "May increase kidney stress",
+      "liver_disease": "Monitor liver function"
+    }
+  },
+  "naproxen + ranitidine": {
+    "level": "MEDIUM",
+    "reason": "May cause moderate interaction requiring monitoring",
+    "advice": "Use with caution and consult a healthcare professional if needed",
+    "disease_risk": {
+      "hypertension": "May affect blood pressure control",
+      "diabetes": "May alter glucose levels",
+      "kidney_disease": "May increase kidney stress",
+      "liver_disease": "Monitor liver function"
+    }
+  },
+  "naproxen + vitamin c": {
+    "level": "LOW",
+    "reason": "Generally safe when used in recommended doses",
+    "advice": "Safe for most users under normal conditions",
+    "disease_risk": {
+      "general": "Minimal risk",
+      "liver_disease": "Monitor dosage if applicable",
+      "kidney_disease": "Use cautiously if long-term"
+    }
+  },
+  "naproxen + vitamin d": {
+    "level": "LOW",
+    "reason": "Generally safe when used in recommended doses",
+    "advice": "Safe for most users under normal conditions",
+    "disease_risk": {
+      "general": "Minimal risk",
+      "liver_disease": "Monitor dosage if applicable",
+      "kidney_disease": "Use cautiously if long-term"
+    }
+  },
+  "naproxen + warfarin": {
+    "level": "HIGH",
+    "reason": "Severe bleeding risk",
+    "advice": "Avoid this combination and consult a doctor immediately."
+  },
+  "omeprazole + paracetamol": {
+    "level": "MEDIUM",
+    "reason": "May cause moderate interaction requiring monitoring",
+    "advice": "Use with caution and consult a healthcare professional if needed",
+    "disease_risk": {
+      "hypertension": "May affect blood pressure control",
+      "diabetes": "May alter glucose levels",
+      "kidney_disease": "May increase kidney stress",
+      "liver_disease": "Monitor liver function"
+    }
+  },
+  "omeprazole + vitamin c": {
+    "level": "LOW",
+    "reason": "Generally safe when used in recommended doses",
+    "advice": "Safe for most users under normal conditions",
+    "disease_risk": {
+      "general": "Minimal risk",
+      "liver_disease": "Monitor dosage if applicable",
+      "kidney_disease": "Use cautiously if long-term"
+    }
+  },
+  "omeprazole + vitamin d": {
+    "level": "LOW",
+    "reason": "Generally safe when used in recommended doses",
+    "advice": "Safe for most users under normal conditions",
+    "disease_risk": {
+      "general": "Minimal risk",
+      "liver_disease": "Monitor dosage if applicable",
+      "kidney_disease": "Use cautiously if long-term"
+    }
+  },
+  "pantoprazole + paracetamol": {
+    "level": "MEDIUM",
+    "reason": "May cause moderate interaction requiring monitoring",
+    "advice": "Use with caution and consult a healthcare professional if needed",
+    "disease_risk": {
+      "hypertension": "May affect blood pressure control",
+      "diabetes": "May alter glucose levels",
+      "kidney_disease": "May increase kidney stress",
+      "liver_disease": "Monitor liver function"
+    }
+  },
+  "pantoprazole + vitamin c": {
+    "level": "LOW",
+    "reason": "Generally safe when used in recommended doses",
+    "advice": "Safe for most users under normal conditions",
+    "disease_risk": {
+      "general": "Minimal risk",
+      "liver_disease": "Monitor dosage if applicable",
+      "kidney_disease": "Use cautiously if long-term"
+    }
+  },
+  "pantoprazole + vitamin d": {
+    "level": "LOW",
+    "reason": "Generally safe when used in recommended doses",
+    "advice": "Safe for most users under normal conditions",
+    "disease_risk": {
+      "general": "Minimal risk",
+      "liver_disease": "Monitor dosage if applicable",
+      "kidney_disease": "Use cautiously if long-term"
+    }
+  },
+  "paracetamol + pseudoephedrine": {
+    "level": "MEDIUM",
+    "reason": "May cause moderate interaction requiring monitoring",
+    "advice": "Use with caution and consult a healthcare professional if needed",
+    "disease_risk": {
+      "hypertension": "May affect blood pressure control",
+      "diabetes": "May alter glucose levels",
+      "kidney_disease": "May increase kidney stress",
+      "liver_disease": "Monitor liver function"
+    }
+  },
+  "paracetamol + ranitidine": {
+    "level": "MEDIUM",
+    "reason": "May cause moderate interaction requiring monitoring",
+    "advice": "Use with caution and consult a healthcare professional if needed",
+    "disease_risk": {
+      "hypertension": "May affect blood pressure control",
+      "diabetes": "May alter glucose levels",
+      "kidney_disease": "May increase kidney stress",
+      "liver_disease": "Monitor liver function"
+    }
+  },
+  "paracetamol + spironolactone": {
+    "level": "MEDIUM",
+    "reason": "May cause moderate interaction requiring monitoring",
+    "advice": "Use with caution and consult a healthcare professional if needed",
+    "disease_risk": {
+      "hypertension": "May affect blood pressure control",
+      "diabetes": "May alter glucose levels",
+      "kidney_disease": "May increase kidney stress",
+      "liver_disease": "Monitor liver function"
+    }
+  },
+  "paracetamol + telmisartan": {
+    "level": "MEDIUM",
+    "reason": "May cause moderate interaction requiring monitoring",
+    "advice": "Use with caution and consult a healthcare professional if needed",
+    "disease_risk": {
+      "hypertension": "May affect blood pressure control",
+      "diabetes": "May alter glucose levels",
+      "kidney_disease": "May increase kidney stress",
+      "liver_disease": "Monitor liver function"
+    }
+  },
+  "paracetamol + vitamin c": {
+    "level": "MEDIUM",
+    "reason": "May cause moderate interaction requiring monitoring",
+    "advice": "Use with caution and consult a healthcare professional if needed",
+    "disease_risk": {
+      "hypertension": "May affect blood pressure control",
+      "diabetes": "May alter glucose levels",
+      "kidney_disease": "May increase kidney stress",
+      "liver_disease": "Monitor liver function"
+    }
+  },
+  "paracetamol + vitamin d": {
+    "level": "MEDIUM",
+    "reason": "May cause moderate interaction requiring monitoring",
+    "advice": "Use with caution and consult a healthcare professional if needed",
+    "disease_risk": {
+      "hypertension": "May affect blood pressure control",
+      "diabetes": "May alter glucose levels",
+      "kidney_disease": "May increase kidney stress",
+      "liver_disease": "Monitor liver function"
+    }
+  },
+  "paracetamol + warfarin": {
+    "level": "HIGH",
+    "reason": "Bleeding risk increase",
+    "advice": "Avoid this combination and consult a doctor immediately."
+  },
+  "potassium + spironolactone": {
+    "level": "HIGH",
+    "reason": "High potassium levels",
+    "advice": "Avoid this combination and consult a doctor immediately."
+  },
+  "pseudoephedrine + vitamin c": {
+    "level": "LOW",
+    "reason": "Generally safe when used in recommended doses",
+    "advice": "Safe for most users under normal conditions",
+    "disease_risk": {
+      "general": "Minimal risk",
+      "liver_disease": "Monitor dosage if applicable",
+      "kidney_disease": "Use cautiously if long-term"
+    }
+  },
+  "pseudoephedrine + vitamin d": {
+    "level": "LOW",
+    "reason": "Generally safe when used in recommended doses",
+    "advice": "Safe for most users under normal conditions",
+    "disease_risk": {
+      "general": "Minimal risk",
+      "liver_disease": "Monitor dosage if applicable",
+      "kidney_disease": "Use cautiously if long-term"
+    }
+  },
+  "ranitidine + vitamin c": {
+    "level": "LOW",
+    "reason": "Generally safe when used in recommended doses",
+    "advice": "Safe for most users under normal conditions",
+    "disease_risk": {
+      "general": "Minimal risk",
+      "liver_disease": "Monitor dosage if applicable",
+      "kidney_disease": "Use cautiously if long-term"
+    }
+  },
+  "ranitidine + vitamin d": {
+    "level": "LOW",
+    "reason": "Generally safe when used in recommended doses",
+    "advice": "Safe for most users under normal conditions",
+    "disease_risk": {
+      "general": "Minimal risk",
+      "liver_disease": "Monitor dosage if applicable",
+      "kidney_disease": "Use cautiously if long-term"
+    }
+  },
+  "vitamin c + vitamin d": {
+    "level": "LOW",
+    "reason": "Generally safe when used in recommended doses",
+    "advice": "Safe for most users under normal conditions",
+    "disease_risk": {
+      "general": "Minimal risk",
+      "liver_disease": "Monitor dosage if applicable",
+      "kidney_disease": "Use cautiously if long-term"
+    }
+  }
+}

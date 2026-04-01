@@ -1,0 +1,445 @@
+{
+  "actrapid": [
+    "insulin"
+  ],
+  "albendazole": [
+    "albendazole"
+  ],
+  "allegra": [
+    "fexofenadine"
+  ],
+  "amaryl": [
+    "glimepiride"
+  ],
+  "amlopres": [
+    "amlodipine"
+  ],
+  "amoxil": [
+    "amoxicillin"
+  ],
+  "ascoril": [
+    "salbutamol",
+    "bromhexine",
+    "guaifenesin"
+  ],
+  "aten": [
+    "atenolol"
+  ],
+  "augmentin": [
+    "amoxicillin",
+    "clavulanic acid"
+  ],
+  "autrin": [
+    "iron",
+    "folic acid"
+  ],
+  "avomine": [
+    "promethazine"
+  ],
+  "azee": [
+    "azithromycin"
+  ],
+  "azithral": [
+    "azithromycin"
+  ],
+  "becosules": [
+    "vitamin b complex"
+  ],
+  "benadryl": [
+    "diphenhydramine"
+  ],
+  "betadine": [
+    "povidone iodine"
+  ],
+  "betaloc": [
+    "metoprolol"
+  ],
+  "betnovate": [
+    "betamethasone"
+  ],
+  "brufen": [
+    "ibuprofen"
+  ],
+  "caladryl": [
+    "calamine",
+    "diphenhydramine"
+  ],
+  "calcimax": [
+    "calcium",
+    "vitamin d3"
+  ],
+  "calpol": [
+    "paracetamol"
+  ],
+  "candid": [
+    "clotrimazole"
+  ],
+  "canesten": [
+    "clotrimazole"
+  ],
+  "cardace": [
+    "ramipril"
+  ],
+  "cefix": [
+    "cefixime"
+  ],
+  "celin": [
+    "vitamin c"
+  ],
+  "cetaphil": [
+    "moisturizing cleanser"
+  ],
+  "cetcip": [
+    "cetirizine"
+  ],
+  "cifran": [
+    "ciprofloxacin"
+  ],
+  "ciplox": [
+    "ciprofloxacin"
+  ],
+  "clopitab": [
+    "clopidogrel"
+  ],
+  "combiflam": [
+    "ibuprofen",
+    "paracetamol"
+  ],
+  "corex": [
+    "codeine",
+    "chlorpheniramine"
+  ],
+  "coversyl": [
+    "perindopril"
+  ],
+  "cozaar": [
+    "losartan"
+  ],
+  "cremaffin": [
+    "liquid paraffin",
+    "milk of magnesia"
+  ],
+  "crestor": [
+    "rosuvastatin"
+  ],
+  "crocin": [
+    "paracetamol"
+  ],
+  "crocin cold and flu": [
+    "paracetamol",
+    "phenylephrine",
+    "chlorpheniramine"
+  ],
+  "d cold total": [
+    "paracetamol",
+    "phenylephrine",
+    "chlorpheniramine"
+  ],
+  "dermovate": [
+    "clobetasol"
+  ],
+  "digene": [
+    "antacid (aluminium hydroxide",
+    "magnesium hydroxide)"
+  ],
+  "disprin": [
+    "aspirin"
+  ],
+  "dolo 650": [
+    "paracetamol"
+  ],
+  "dolokind plus": [
+    "paracetamol",
+    "diclofenac"
+  ],
+  "domstal": [
+    "domperidone"
+  ],
+  "dulcolax": [
+    "bisacodyl"
+  ],
+  "duphalac": [
+    "lactulose"
+  ],
+  "dytor": [
+    "torsemide"
+  ],
+  "ecosprin": [
+    "aspirin"
+  ],
+  "emetrol": [
+    "antiemetic formulation"
+  ],
+  "enalapril": [
+    "enalapril"
+  ],
+  "eno": [
+    "antacid (sodium bicarbonate)"
+  ],
+  "fast relief": [
+    "diclofenac (topical)"
+  ],
+  "ferium": [
+    "iron supplement"
+  ],
+  "flagyl": [
+    "metronidazole"
+  ],
+  "flexon": [
+    "ibuprofen",
+    "paracetamol"
+  ],
+  "gelusil": [
+    "antacid (aluminium hydroxide",
+    "magnesium hydroxide)"
+  ],
+  "glycomet": [
+    "metformin"
+  ],
+  "glycomet gp": [
+    "metformin",
+    "glimepiride"
+  ],
+  "grilinctus": [
+    "dextromethorphan",
+    "chlorpheniramine"
+  ],
+  "istamet": [
+    "metformin",
+    "sitagliptin"
+  ],
+  "ivermectin": [
+    "ivermectin"
+  ],
+  "ivermectol": [
+    "ivermectin"
+  ],
+  "janumet": [
+    "metformin",
+    "sitagliptin"
+  ],
+  "l montus": [
+    "montelukast",
+    "levocetirizine"
+  ],
+  "lactifiber": [
+    "ispaghula husk"
+  ],
+  "lacto calamine": [
+    "calamine lotion"
+  ],
+  "lantus": [
+    "insulin glargine"
+  ],
+  "lanzol": [
+    "lansoprazole"
+  ],
+  "lasix": [
+    "furosemide"
+  ],
+  "levocet": [
+    "levocetirizine"
+  ],
+  "levoflox": [
+    "levofloxacin"
+  ],
+  "limcee": [
+    "vitamin c"
+  ],
+  "lipitor": [
+    "atorvastatin"
+  ],
+  "lisinopril": [
+    "lisinopril"
+  ],
+  "livogen": [
+    "iron",
+    "folic acid"
+  ],
+  "losar": [
+    "losartan"
+  ],
+  "metacin": [
+    "paracetamol"
+  ],
+  "metolar": [
+    "metoprolol"
+  ],
+  "metrogyl": [
+    "metronidazole"
+  ],
+  "micardis": [
+    "telmisartan"
+  ],
+  "mixtard": [
+    "insulin"
+  ],
+  "montair": [
+    "montelukast"
+  ],
+  "montek lc": [
+    "montelukast",
+    "levocetirizine"
+  ],
+  "montelast": [
+    "montelukast"
+  ],
+  "moov": [
+    "diclofenac (topical)"
+  ],
+  "motilium": [
+    "domperidone"
+  ],
+  "mox": [
+    "amoxicillin"
+  ],
+  "nasivion": [
+    "oxymetazoline"
+  ],
+  "natrilix": [
+    "indapamide"
+  ],
+  "neosporin": [
+    "neomycin",
+    "bacitracin"
+  ],
+  "neurobion": [
+    "vitamin b complex"
+  ],
+  "nexpro": [
+    "esomeprazole"
+  ],
+  "norvasc": [
+    "amlodipine"
+  ],
+  "ocid": [
+    "omeprazole"
+  ],
+  "oflox": [
+    "ofloxacin"
+  ],
+  "okacet": [
+    "cetirizine"
+  ],
+  "omez": [
+    "omeprazole"
+  ],
+  "otrivin": [
+    "xylometazoline"
+  ],
+  "otrivin saline": [
+    "saline nasal spray"
+  ],
+  "pan 40": [
+    "pantoprazole"
+  ],
+  "pantocid": [
+    "pantoprazole"
+  ],
+  "perinorm": [
+    "metoclopramide"
+  ],
+  "phensedyl": [
+    "codeine",
+    "chlorpheniramine"
+  ],
+  "plavix": [
+    "clopidogrel"
+  ],
+  "ramipril": [
+    "ramipril"
+  ],
+  "rantac": [
+    "ranitidine"
+  ],
+  "revital h": [
+    "multivitamin"
+  ],
+  "rosuvas": [
+    "rosuvastatin"
+  ],
+  "sensicare": [
+    "moisturizing cream"
+  ],
+  "shelcal": [
+    "calcium",
+    "vitamin d3"
+  ],
+  "sinarest": [
+    "paracetamol",
+    "chlorpheniramine",
+    "phenylephrine"
+  ],
+  "somac": [
+    "pantoprazole"
+  ],
+  "storvas": [
+    "atorvastatin"
+  ],
+  "sumo": [
+    "azithromycin"
+  ],
+  "supradyn": [
+    "multivitamin"
+  ],
+  "t bact": [
+    "mupirocin"
+  ],
+  "tarivid": [
+    "ofloxacin"
+  ],
+  "tavanic": [
+    "levofloxacin"
+  ],
+  "taxim o": [
+    "cefixime"
+  ],
+  "telfast": [
+    "fexofenadine"
+  ],
+  "telma": [
+    "telmisartan"
+  ],
+  "tenormin": [
+    "atenolol"
+  ],
+  "tiniba": [
+    "tinidazole"
+  ],
+  "torsemide": [
+    "torsemide"
+  ],
+  "vicks action 500": [
+    "paracetamol",
+    "phenylephrine",
+    "caffeine"
+  ],
+  "volini": [
+    "diclofenac (topical)"
+  ],
+  "vovran": [
+    "diclofenac"
+  ],
+  "xyzal": [
+    "levocetirizine"
+  ],
+  "zentel": [
+    "albendazole"
+  ],
+  "zerodol": [
+    "aceclofenac"
+  ],
+  "zestril": [
+    "lisinopril"
+  ],
+  "zifi": [
+    "cefixime"
+  ],
+  "zincovit": [
+    "multivitamin",
+    "zinc"
+  ],
+  "zyrtec": [
+    "cetirizine"
+  ]
+}

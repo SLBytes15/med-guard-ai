@@ -64,7 +64,7 @@ export default function Index() {
             className="flex flex-col sm:flex-row gap-3"
           >
             <Button size="lg" className="bg-secondary hover:bg-secondary/90 text-secondary-foreground border-0 gap-2" asChild>
-              <Link to="/signup">Start Free Trial <ArrowRight className="h-4 w-4" /></Link>
+              <Link to="/analyzer">Start Analysis <ArrowRight className="h-4 w-4" /></Link>
             </Button>
             <Button size="lg" variant="outline" className="border-primary-foreground/20 text-primary-foreground hover:bg-primary-foreground/10" asChild>
               <Link to="/api-docs">View API Docs</Link>
@@ -148,7 +148,7 @@ export default function Index() {
               Join healthcare providers using RxSense to prevent medication errors and save lives.
             </p>
             <Button size="lg" className="bg-secondary hover:bg-secondary/90 text-secondary-foreground border-0 gap-2" asChild>
-              <Link to="/signup">Get Started Free <ArrowRight className="h-4 w-4" /></Link>
+              <Link to="/analyzer">Go To Analyzer <ArrowRight className="h-4 w-4" /></Link>
             </Button>
           </div>
         </div>

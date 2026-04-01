@@ -8,20 +8,29 @@ import { Footer } from "@/components/Footer";
 import { SeverityBadge } from "@/components/SeverityBadge";
 import { useAuth } from "@/contexts/AuthContext";
 import { supabase } from "@/integrations/supabase/client";
+import { useToast } from "@/hooks/use-toast";
 import {
   checkInteractions,
-  checkInteractionsFromDB,
-  searchDrugNames,
-  drugSuggestions,
+  checkInteractionsFromAPI,
   type Medication,
   type AnalysisResult,
 } from "@/services/interactionEngine";
+import {
+  appendUniqueEntries,
+  formatSelectedSummary,
+  normalizeSelectedForInteractionCheck,
+  parsePrescriptionText,
+  resolveSuggestionEntries,
+  searchDrugSuggestions,
+  type DrugSuggestion,
+} from "@/services/drugIntelligence";
 
 export default function Analyzer() {
   const { user } = useAuth();
+  const { toast } = useToast();
   const [selectedDrugs, setSelectedDrugs] = useState<string[]>([]);
   const [inputValue, setInputValue] = useState("");
-  const [suggestions, setSuggestions] = useState<string[]>([]);
+  const [suggestions, setSuggestions] = useState<DrugSuggestion[]>([]);
   const [showSuggestions, setShowSuggestions] = useState(false);
   const [result, setResult] = useState<AnalysisResult | null>(null);
   const [analyzing, setAnalyzing] = useState(false);
@@ -32,28 +41,20 @@ export default function Analyzer() {
 
   // Debounced search
   useEffect(() => {
-    if (!inputValue || inputValue.length < 2) {
+    if (!inputValue || inputValue.length < 1) {
       setSuggestions([]);
       return;
     }
 
-    const timer = setTimeout(async () => {
+    const timer = setTimeout(() => {
       setLoadingSuggestions(true);
-      if (user) {
-        const results = await searchDrugNames(inputValue);
-        setSuggestions(results.filter((d) => !selectedDrugs.includes(d)));
-      } else {
-        const q = inputValue.toLowerCase();
-        const results = drugSuggestions
-          .filter((d) => d.toLowerCase().includes(q) && !selectedDrugs.includes(d))
-          .slice(0, 8);
-        setSuggestions(results);
-      }
+      const results = searchDrugSuggestions(inputValue, selectedDrugs);
+      setSuggestions(results);
       setLoadingSuggestions(false);
     }, 200);
 
     return () => clearTimeout(timer);
-  }, [inputValue, selectedDrugs, user]);
+  }, [inputValue, selectedDrugs]);
 
   // Close dropdown on outside click
   useEffect(() => {
@@ -66,52 +67,106 @@ export default function Analyzer() {
     return () => document.removeEventListener("mousedown", handler);
   }, []);
 
-  const addDrug = useCallback(
-    (name: string) => {
-      if (!selectedDrugs.includes(name)) {
-        setSelectedDrugs((prev) => [...prev, name]);
-      }
-      setInputValue("");
-      setSuggestions([]);
-      setResult(null);
-      inputRef.current?.focus();
-    },
-    [selectedDrugs]
-  );
+  const addEntries = useCallback((entries: string[]) => {
+    setSelectedDrugs((prev) => appendUniqueEntries(prev, entries));
+    setInputValue("");
+    setSuggestions([]);
+    setResult(null);
+    inputRef.current?.focus();
+  }, []);
 
   const removeDrug = (name: string) => {
     setSelectedDrugs((prev) => prev.filter((d) => d !== name));
     setResult(null);
   };
 
+  const addSuggestion = useCallback(
+    (suggestionId: string) => {
+      const entries = resolveSuggestionEntries(suggestionId);
+      addEntries(entries);
+    },
+    [addEntries]
+  );
+
+  const addFromTypedInput = useCallback(() => {
+    const entries = parsePrescriptionText(inputValue);
+    if (entries.length === 0) return;
+    addEntries(entries);
+  }, [addEntries, inputValue]);
+
+  const highlightLabel = (label: string, matchIndex: number, query: string) => {
+    if (matchIndex < 0 || !query) return <>{label}</>;
+    const end = matchIndex + query.length;
+    return (
+      <>
+        {label.slice(0, matchIndex)}
+        <span className="font-semibold text-foreground">{label.slice(matchIndex, end)}</span>
+        {label.slice(end)}
+      </>
+    );
+  };
+
   const analyze = async () => {
     if (selectedDrugs.length < 2) return;
     setAnalyzing(true);
     const start = Date.now();
-    const meds: Medication[] = selectedDrugs.map((name) => ({ name }));
-
-    let res: AnalysisResult;
-    if (user) {
-      res = await checkInteractionsFromDB(meds);
-      await supabase.from("api_logs").insert({
-        user_id: user.id,
-        endpoint: "/check-interactions",
-        method: "POST",
-        status_code: 200,
-        response_time_ms: Date.now() - start,
+    const normalized = normalizeSelectedForInteractionCheck(selectedDrugs);
+    if (normalized.length < 2) {
+      toast({
+        title: "Need more unique drugs",
+        description: "Add at least 2 unique generic medicines for interaction analysis.",
+        variant: "destructive",
       });
-    } else {
-      res = checkInteractions(meds);
+      setAnalyzing(false);
+      return;
     }
+    const meds: Medication[] = normalized.map((name) => ({ name }));
 
-    setResult(res);
-    setAnalyzing(false);
+    try {
+      const res: AnalysisResult = await checkInteractionsFromAPI(meds);
+      if (user) {
+        await supabase.from("api_logs").insert({
+          user_id: user.id,
+          endpoint: "/check-interactions",
+          method: "POST",
+          status_code: 200,
+          response_time_ms: Date.now() - start,
+        });
+      }
+      setResult(res);
+    } catch (error) {
+      try {
+        const fallback = await checkInteractions(meds);
+        setResult(fallback);
+        toast({
+          title: "Running in local mode",
+          description: "Backend is unreachable, so local interaction data was used for this analysis.",
+        });
+      } catch (fallbackError) {
+        toast({
+          title: "Analysis failed",
+          description:
+            fallbackError instanceof Error
+              ? fallbackError.message
+              : error instanceof Error
+              ? error.message
+              : "Could not run interaction analysis.",
+          variant: "destructive",
+        });
+        setResult(null);
+      }
+    } finally {
+      setAnalyzing(false);
+    }
   };
 
   const handleKeyDown = (e: React.KeyboardEvent) => {
     if (e.key === "Enter" && suggestions.length > 0) {
       e.preventDefault();
-      addDrug(suggestions[0]);
+      addSuggestion(suggestions[0].id);
+    } else if (e.key === "Enter" && inputValue.trim()) {
+      e.preventDefault();
+      addFromTypedInput();
     } else if (e.key === "Backspace" && inputValue === "" && selectedDrugs.length > 0) {
       removeDrug(selectedDrugs[selectedDrugs.length - 1]);
     }
@@ -126,6 +181,26 @@ export default function Analyzer() {
       ? "caution"
       : "safe"
     : null;
+  const interactionSummary = result?.summary ?? {
+    total: result?.interactions.length ?? 0,
+    high: result?.interactions.filter((item) => item.severity === "High").length ?? 0,
+    moderate: result?.interactions.filter((item) => item.severity === "Moderate").length ?? 0,
+    low: result?.interactions.filter((item) => item.severity === "Low").length ?? 0,
+  };
+  const riskTypeLabel =
+    overallSeverity === "danger"
+      ? "High Risk"
+      : overallSeverity === "caution"
+      ? "Moderate Risk"
+      : overallSeverity === "safe" && interactionSummary.total > 0
+      ? "Low Risk"
+      : "No Known Risk";
+  const overallCardTone =
+    overallSeverity === "danger"
+      ? "border-destructive/60 bg-destructive/10"
+      : overallSeverity === "caution"
+      ? "border-warning/60 bg-warning/10"
+      : "border-success/60 bg-success/10";
 
   return (
     <div className="min-h-screen flex flex-col bg-background">
@@ -143,20 +218,29 @@ export default function Analyzer() {
               Detect unsafe drug interactions instantly
             </h1>
             <p className="text-lg text-white/70 max-w-xl mx-auto">
-              Enter your medications below. Our engine cross-references 190,000+ interaction rules to keep you safe.
+              Enter medicine brands or generic names below. Our engine checks real interaction intelligence to flag safety risks.
             </p>
+            <div className="mt-7">
+              <Button
+                className="bg-secondary hover:bg-secondary/90 text-secondary-foreground border-0 gap-2"
+                onClick={() => document.getElementById("analysis-input")?.scrollIntoView({ behavior: "smooth", block: "start" })}
+              >
+                <Search className="h-4 w-4" />
+                Start Analysis
+              </Button>
+            </div>
           </motion.div>
         </div>
       </section>
 
       <main className="flex-1 container py-10">
-        <div className="max-w-3xl mx-auto">
+        <div id="analysis-input" className="max-w-3xl mx-auto">
           {/* Input Section */}
           <motion.div
             initial={{ opacity: 0, y: 12 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.2 }}
-            className="rounded-2xl border border-border bg-card shadow-card p-6 mb-8"
+            className="rounded-2xl border border-border bg-card shadow-[0_20px_60px_-30px_rgba(15,23,42,0.45)] p-6 mb-8"
           >
             <div className="flex items-center gap-2 mb-4">
               <Pill className="h-5 w-5 text-secondary" />
@@ -200,9 +284,20 @@ export default function Analyzer() {
                   }}
                   onFocus={() => setShowSuggestions(true)}
                   onKeyDown={handleKeyDown}
-                  placeholder={selectedDrugs.length === 0 ? "Type a drug name (e.g., Aspirin, Warfarin)..." : "Add another medication..."}
+                  placeholder={selectedDrugs.length === 0 ? "Type medicine (e.g., combiflam, dolo 650, aspirin)..." : "Add another medicine..."}
                   className="flex-1 min-w-[160px] border-0 shadow-none p-0 h-auto focus-visible:ring-0 bg-transparent"
                 />
+                {inputValue.trim().length > 0 && (
+                  <Button
+                    type="button"
+                    size="sm"
+                    variant="outline"
+                    className="h-7 px-2 text-xs"
+                    onClick={addFromTypedInput}
+                  >
+                    Add
+                  </Button>
+                )}
               </div>
 
               {/* Autocomplete dropdown */}
@@ -222,15 +317,23 @@ export default function Analyzer() {
                     ) : (
                       suggestions.map((s) => (
                         <button
-                          key={s}
-                          className="w-full text-left px-4 py-2.5 text-sm hover:bg-muted transition-colors flex items-center gap-2"
+                          key={s.id}
+                          className="w-full text-left px-4 py-2.5 text-sm hover:bg-muted transition-colors flex items-center justify-between gap-3"
                           onMouseDown={(e) => {
                             e.preventDefault();
-                            addDrug(s);
+                            addSuggestion(s.id);
                           }}
                         >
-                          <Pill className="h-3.5 w-3.5 text-muted-foreground" />
-                          {s}
+                          <div className="flex items-start gap-2 min-w-0">
+                            <Pill className="h-3.5 w-3.5 text-muted-foreground mt-0.5 shrink-0" />
+                            <div className="min-w-0">
+                              <div className="truncate">{highlightLabel(s.label, s.matchIndex, inputValue.toLowerCase())}</div>
+                              <div className="text-xs text-muted-foreground truncate">{s.subtitle}</div>
+                            </div>
+                          </div>
+                          <span className="text-[10px] uppercase tracking-wide px-2 py-0.5 rounded-full bg-muted text-muted-foreground shrink-0">
+                            {s.type}
+                          </span>
                         </button>
                       ))
                     )}
@@ -247,7 +350,7 @@ export default function Analyzer() {
               <Button
                 onClick={analyze}
                 disabled={selectedDrugs.length < 2 || analyzing}
-                className="gradient-primary border-0 gap-2 shadow-card hover:shadow-elevated transition-shadow"
+                className="gradient-primary border-0 gap-2 px-6 shadow-card hover:shadow-elevated transition-shadow"
               >
                 {analyzing ? (
                   <Loader2 className="h-4 w-4 animate-spin" />
@@ -257,6 +360,11 @@ export default function Analyzer() {
                 {analyzing ? "Analyzing..." : "Analyze Interactions"}
               </Button>
             </div>
+            {selectedDrugs.length > 0 && (
+              <p className="text-xs text-muted-foreground mt-3 break-words">
+                Input summary: {formatSelectedSummary(selectedDrugs)}
+              </p>
+            )}
           </motion.div>
 
           {/* Results */}
@@ -270,13 +378,7 @@ export default function Analyzer() {
               >
                 {/* Overall Assessment Card */}
                 <div
-                  className={`rounded-2xl border p-6 shadow-card ${
-                    overallSeverity === "safe"
-                      ? "border-success/30 bg-success/5"
-                      : overallSeverity === "caution"
-                      ? "border-warning/30 bg-warning/5"
-                      : "border-destructive/30 bg-destructive/5"
-                  }`}
+                  className={`rounded-2xl border p-6 shadow-card ${overallCardTone}`}
                 >
                   <div className="flex items-center gap-3 mb-2">
                     <div
@@ -298,15 +400,45 @@ export default function Analyzer() {
                     </div>
                     <div>
                       <h3 className="font-display font-semibold">Overall Assessment</h3>
+                      <p
+                        className={`text-sm font-semibold ${
+                          overallSeverity === "danger"
+                            ? "text-destructive"
+                            : overallSeverity === "caution"
+                            ? "text-warning"
+                            : "text-success"
+                        }`}
+                      >
+                        Risk Type: {riskTypeLabel}
+                      </p>
                       <p className="text-sm text-muted-foreground">
                         {overallSeverity === "safe"
                           ? "No known interactions found between these medications."
                           : overallSeverity === "caution"
-                          ? `${result.interactions.length} interaction(s) found — review below.`
-                          : `${result.interactions.length} interaction(s) found — including high-risk combinations.`}
+                          ? `${interactionSummary.total} interaction(s) found — review below.`
+                          : `${interactionSummary.total} interaction(s) found — including high-risk combinations.`}
                       </p>
                     </div>
                   </div>
+                  {interactionSummary.total > 0 && (
+                    <div className="flex flex-wrap gap-2 mt-4">
+                      {interactionSummary.high > 0 && (
+                        <span className="text-xs px-2.5 py-1 rounded-full bg-destructive/10 text-destructive font-medium">
+                          High: {interactionSummary.high}
+                        </span>
+                      )}
+                      {interactionSummary.moderate > 0 && (
+                        <span className="text-xs px-2.5 py-1 rounded-full bg-warning/10 text-warning font-medium">
+                          Moderate: {interactionSummary.moderate}
+                        </span>
+                      )}
+                      {interactionSummary.low > 0 && (
+                        <span className="text-xs px-2.5 py-1 rounded-full bg-success/10 text-success font-medium">
+                          Low: {interactionSummary.low}
+                        </span>
+                      )}
+                    </div>
+                  )}
                 </div>
 
                 {/* Medications Card */}
@@ -371,11 +503,39 @@ export default function Analyzer() {
                                 className="overflow-hidden"
                               >
                                 <div className="px-6 pb-4 border-t border-border pt-3">
-                                  <div className="flex items-start gap-2">
-                                    <Info className="h-4 w-4 text-muted-foreground mt-0.5 shrink-0" />
-                                    <p className="text-sm text-muted-foreground leading-relaxed">
-                                      {interaction.message}
-                                    </p>
+                                  <div className="space-y-3">
+                                    <div className="flex items-start gap-2">
+                                      <Info className="h-4 w-4 text-muted-foreground mt-0.5 shrink-0" />
+                                      <p className="text-sm text-muted-foreground leading-relaxed">
+                                        {interaction.reason || interaction.message}
+                                      </p>
+                                    </div>
+                                    {interaction.advice && (
+                                      <div className="rounded-lg bg-muted/60 px-3 py-2 text-xs text-muted-foreground">
+                                        <span className="font-semibold text-foreground">Guidance:</span> {interaction.advice}
+                                      </div>
+                                    )}
+                                    {interaction.diseaseRisk &&
+                                      Object.keys(interaction.diseaseRisk).length > 0 && (
+                                        <div className="rounded-lg border border-border px-3 py-2">
+                                          <p className="text-xs font-semibold mb-1">Condition-specific notes</p>
+                                          <div className="grid gap-1">
+                                            {Object.entries(interaction.diseaseRisk).map(([condition, note]) => (
+                                              <p key={condition} className="text-xs text-muted-foreground">
+                                                <span className="font-medium text-foreground">
+                                                  {condition.replace(/_/g, " ")}:
+                                                </span>{" "}
+                                                {note}
+                                              </p>
+                                            ))}
+                                          </div>
+                                        </div>
+                                      )}
+                                    {interaction.source && (
+                                      <p className="text-[11px] text-muted-foreground">
+                                        Source: {interaction.source}
+                                      </p>
+                                    )}
                                   </div>
                                 </div>
                               </motion.div>

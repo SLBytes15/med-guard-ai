@@ -1,0 +1,62 @@
+{
+  "combiflam": {
+    "composition": ["ibuprofen 400mg", "paracetamol 325mg"]
+  },
+  "ultracet": {
+    "composition": ["tramadol 37.5mg", "paracetamol 325mg"]
+  },
+  "augmentin 625": {
+    "composition": ["amoxicillin 500mg", "clavulanic acid 125mg"]
+  },
+  "zerodol sp": {
+    "composition": ["aceclofenac 100mg", "paracetamol 325mg", "serratiopeptidase 15mg"]
+  },
+  "dolowin plus": {
+    "composition": ["aceclofenac 100mg", "paracetamol 325mg"]
+  },
+  "montek lc": {
+    "composition": ["montelukast 10mg", "levocetirizine 5mg"]
+  },
+  "sinarest": {
+    "composition": ["paracetamol 500mg", "phenylephrine 10mg", "chlorpheniramine 2mg"]
+  },
+  "wikoryl": {
+    "composition": ["paracetamol", "phenylephrine", "chlorpheniramine"]
+  },
+  "duolin": {
+    "composition": ["salbutamol", "ipratropium"]
+  },
+  "foracort": {
+    "composition": ["formoterol", "budesonide"]
+  },
+  "seroflo": {
+    "composition": ["salmeterol", "fluticasone"]
+  },
+  "glycomet gp": {
+    "composition": ["metformin", "glimepiride"]
+  },
+  "janumet": {
+    "composition": ["metformin", "sitagliptin"]
+  },
+  "trajenta duo": {
+    "composition": ["linagliptin", "metformin"]
+  },
+  "galvus met": {
+    "composition": ["vildagliptin", "metformin"]
+  },
+  "telma h": {
+    "composition": ["telmisartan", "hydrochlorothiazide"]
+  },
+  "losar h": {
+    "composition": ["losartan", "hydrochlorothiazide"]
+  },
+  "amlong a": {
+    "composition": ["amlodipine", "atenolol"]
+  },
+  "ecosprin av": {
+    "composition": ["aspirin", "atorvastatin"]
+  },
+  "clopitab a": {
+    "composition": ["clopidogrel", "aspirin"]
+  }
+}

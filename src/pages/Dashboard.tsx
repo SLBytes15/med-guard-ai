@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { Link, useNavigate } from "react-router-dom";
+import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
 import { Activity, Key, BarChart3, Search, ArrowRight, Shield, Clock, Plus, Trash2, Copy } from "lucide-react";
 import { Button } from "@/components/ui/button";
@@ -31,16 +31,11 @@ interface ApiLog {
 
 export default function Dashboard() {
   const { user, loading: authLoading } = useAuth();
-  const navigate = useNavigate();
   const { toast } = useToast();
   const [apiKeys, setApiKeys] = useState<ApiKey[]>([]);
   const [logs, setLogs] = useState<ApiLog[]>([]);
   const [newKeyLabel, setNewKeyLabel] = useState("");
   const [showKeyForm, setShowKeyForm] = useState(false);
-
-  useEffect(() => {
-    if (!authLoading && !user) navigate("/login");
-  }, [user, authLoading, navigate]);
 
   useEffect(() => {
     if (!user) return;
@@ -82,7 +77,7 @@ export default function Dashboard() {
     toast({ title: "Copied!", description: "API key copied to clipboard." });
   };
 
-  if (authLoading || !user) return null;
+  if (authLoading) return null;
 
   const totalUsage = apiKeys.reduce((sum, k) => sum + k.usage_count, 0);
 
@@ -100,7 +95,9 @@ export default function Dashboard() {
         <div className="flex items-center justify-between mb-8">
           <div>
             <h1 className="font-display text-3xl font-bold">Dashboard</h1>
-            <p className="text-muted-foreground text-sm">Welcome back</p>
+            <p className="text-muted-foreground text-sm">
+              {user ? "Welcome back" : "Open access preview mode"}
+            </p>
           </div>
           <Button className="gradient-primary border-0 gap-2" asChild>
             <Link to="/analyzer"><Search className="h-4 w-4" /> New Analysis</Link>
@@ -131,10 +128,15 @@ export default function Dashboard() {
                 <Plus className="h-3 w-3" /> New Key
               </Button>
             </div>
+            {!user && (
+              <p className="text-sm text-muted-foreground mb-4">
+                Sign-in is hidden for hackathon mode. API key generation is disabled in preview.
+              </p>
+            )}
             {showKeyForm && (
               <div className="flex gap-2 mb-4">
                 <Input placeholder="Key label (e.g. Production)" value={newKeyLabel} onChange={(e) => setNewKeyLabel(e.target.value)} className="flex-1" />
-                <Button onClick={generateApiKey} className="gradient-primary border-0">Generate</Button>
+                <Button onClick={generateApiKey} className="gradient-primary border-0" disabled={!user}>Generate</Button>
               </div>
             )}
             {apiKeys.length === 0 ? (

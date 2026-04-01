@@ -18,14 +18,23 @@ export default function Signup() {
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
-    setLoading(true);
-    const { error } = await signUp(email, password, name);
-    setLoading(false);
-    if (error) {
-      toast({ title: "Signup failed", description: error.message, variant: "destructive" });
-    } else {
-      toast({ title: "Account created!", description: "Please check your email to verify your account." });
-      navigate("/login");
+    try {
+      setLoading(true);
+      const { error } = await signUp(email.trim(), password, name.trim());
+      if (error) {
+        toast({ title: "Signup failed", description: error.message, variant: "destructive" });
+      } else {
+        toast({ title: "Account created!", description: "Please check your email to verify your account." });
+        navigate("/login");
+      }
+    } catch {
+      toast({
+        title: "Signup failed",
+        description: "Something went wrong while creating your account. Please try again.",
+        variant: "destructive",
+      });
+    } finally {
+      setLoading(false);
     }
   };
 

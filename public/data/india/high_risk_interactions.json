@@ -1,0 +1,200 @@
+{
+  "aspirin + warfarin": {
+    "reason": "Severe bleeding risk"
+  },
+  "ibuprofen + aspirin": {
+    "reason": "Increased GI bleeding risk"
+  },
+  "diclofenac + ibuprofen": {
+    "reason": "Duplicate NSAIDs causing ulcers"
+  },
+  "naproxen + ibuprofen": {
+    "reason": "High risk of stomach bleeding"
+  },
+  "paracetamol + alcohol": {
+    "reason": "Liver toxicity risk"
+  },
+  "ibuprofen + alcohol": {
+    "reason": "Stomach bleeding risk"
+  },
+  "aspirin + alcohol": {
+    "reason": "Severe gastric bleeding"
+  },
+  "alprazolam + alcohol": {
+    "reason": "Respiratory depression"
+  },
+  "codeine + alcohol": {
+    "reason": "Breathing suppression risk"
+  },
+  "tramadol + alprazolam": {
+    "reason": "Severe sedation"
+  },
+  "tramadol + alcohol": {
+    "reason": "CNS depression"
+  },
+  "cetirizine + alcohol": {
+    "reason": "Extreme drowsiness"
+  },
+  "diphenhydramine + cetirizine": {
+    "reason": "Excess sedation"
+  },
+  "chlorpheniramine + alcohol": {
+    "reason": "Severe sedation"
+  },
+  "dextromethorphan + alcohol": {
+    "reason": "CNS depression"
+  },
+  "pseudoephedrine + antihypertensive": {
+    "reason": "Raises blood pressure"
+  },
+  "ibuprofen + corticosteroid": {
+    "reason": "Ulcer risk"
+  },
+  "diclofenac + corticosteroid": {
+    "reason": "Severe GI damage"
+  },
+  "aspirin + clopidogrel": {
+    "reason": "High bleeding risk"
+  },
+  "ibuprofen + warfarin": {
+    "reason": "Severe bleeding"
+  },
+  "diclofenac + warfarin": {
+    "reason": "Bleeding complications"
+  },
+  "naproxen + warfarin": {
+    "reason": "Severe bleeding risk"
+  },
+  "metformin + alcohol": {
+    "reason": "Lactic acidosis risk"
+  },
+  "insulin + alcohol": {
+    "reason": "Severe hypoglycemia"
+  },
+  "glimepiride + alcohol": {
+    "reason": "Low blood sugar risk"
+  },
+  "losartan + potassium": {
+    "reason": "Hyperkalemia risk"
+  },
+  "spironolactone + potassium": {
+    "reason": "High potassium levels"
+  },
+  "amlodipine + sildenafil": {
+    "reason": "Severe BP drop"
+  },
+  "tizanidine + ciprofloxacin": {
+    "reason": "Dangerous BP drop"
+  },
+  "omeprazole + clopidogrel": {
+    "reason": "Reduced effectiveness"
+  },
+  "iron + antacid": {
+    "reason": "Reduced absorption"
+  },
+  "calcium + iron": {
+    "reason": "Absorption interference"
+  },
+  "antacid + ciprofloxacin": {
+    "reason": "Reduced antibiotic effect"
+  },
+  "antacid + tetracycline": {
+    "reason": "Reduced absorption"
+  },
+  "diphenhydramine + alprazolam": {
+    "reason": "Respiratory depression"
+  },
+  "cetirizine + alprazolam": {
+    "reason": "Severe sedation"
+  },
+  "chlorpheniramine + alprazolam": {
+    "reason": "Extreme drowsiness"
+  },
+  "dextromethorphan + antidepressant": {
+    "reason": "Serotonin syndrome"
+  },
+  "tramadol + antidepressant": {
+    "reason": "Seizure risk"
+  },
+  "aspirin + NSAIDs": {
+    "reason": "Severe bleeding"
+  },
+  "diclofenac + NSAIDs": {
+    "reason": "Ulcer risk"
+  },
+  "naproxen + NSAIDs": {
+    "reason": "GI damage"
+  },
+  "ibuprofen + ACE inhibitors": {
+    "reason": "Kidney damage"
+  },
+  "diclofenac + ACE inhibitors": {
+    "reason": "Kidney stress"
+  },
+  "naproxen + ACE inhibitors": {
+    "reason": "Reduced kidney function"
+  },
+  "ibuprofen + diuretics": {
+    "reason": "Kidney damage"
+  },
+  "diclofenac + diuretics": {
+    "reason": "Electrolyte imbalance"
+  },
+  "naproxen + diuretics": {
+    "reason": "Kidney stress"
+  },
+  "aspirin + diuretics": {
+    "reason": "Reduced effectiveness"
+  },
+  "cetirizine + antidepressant": {
+    "reason": "Drowsiness risk"
+  },
+  "diphenhydramine + antidepressant": {
+    "reason": "CNS depression"
+  },
+  "alprazolam + antidepressant": {
+    "reason": "Sedation risk"
+  },
+  "codeine + alprazolam": {
+    "reason": "Respiratory depression"
+  },
+  "codeine + diphenhydramine": {
+    "reason": "Severe sedation"
+  },
+  "tramadol + diphenhydramine": {
+    "reason": "CNS depression"
+  },
+  "aspirin + heparin": {
+    "reason": "Extreme bleeding risk"
+  },
+  "warfarin + heparin": {
+    "reason": "Life-threatening bleeding"
+  },
+  "warfarin + clopidogrel": {
+    "reason": "Severe bleeding"
+  },
+  "ibuprofen + lithium": {
+    "reason": "Lithium toxicity"
+  },
+  "diclofenac + lithium": {
+    "reason": "Lithium buildup"
+  },
+  "naproxen + lithium": {
+    "reason": "Toxic levels"
+  },
+  "paracetamol + warfarin": {
+    "reason": "Bleeding risk increase"
+  },
+  "aspirin + corticosteroid": {
+    "reason": "GI bleeding"
+  },
+  "naproxen + corticosteroid": {
+    "reason": "Bleeding risk"
+  },
+  "pseudoephedrine + caffeine": {
+    "reason": "High heart rate"
+  },
+  "pseudoephedrine + MAOI": {
+    "reason": "Hypertensive crisis"
+  }
+}

@@ -8,31 +8,13 @@ import { cn } from "@/lib/utils";
 
 const plans = [
   {
-    name: "Free",
-    price: "$0",
-    period: "forever",
-    desc: "For individual providers exploring the platform.",
-    features: ["50 API calls / month", "Manual drug checker", "Basic interaction database", "Community support"],
-    cta: "Get Started",
-    featured: false,
-  },
-  {
-    name: "Professional",
-    price: "$49",
-    period: "/month",
-    desc: "For clinics and small healthcare teams.",
-    features: ["5,000 API calls / month", "Full interaction database", "Dosage risk analysis", "API key management", "Priority email support", "Usage analytics dashboard"],
-    cta: "Start Free Trial",
-    featured: true,
-  },
-  {
     name: "Enterprise",
-    price: "Custom",
+    price: "To be announced",
     period: "",
     desc: "For hospitals and health systems at scale.",
-    features: ["Unlimited API calls", "Custom AI model training", "EHR/EMR integration support", "Dedicated account manager", "HIPAA BAA included", "SLA guarantee", "On-premise deployment option"],
+    features: ["Real-time interaction detection API", "EHR/EMR integration support", "Dedicated onboarding and support", "Security and compliance assistance"],
     cta: "Contact Sales",
-    featured: false,
+    featured: true,
   },
 ];
 
@@ -42,10 +24,10 @@ export default function Pricing() {
       <Navbar />
       <main className="flex-1 container py-24">
         <div className="text-center max-w-2xl mx-auto mb-16">
-          <h1 className="font-display text-4xl font-bold mb-4">Simple, Transparent Pricing</h1>
-          <p className="text-muted-foreground">Start free. Scale as your needs grow.</p>
+          <h1 className="font-display text-4xl font-bold mb-4">Enterprise Pricing</h1>
+          <p className="text-muted-foreground">Single enterprise plan. Pricing will be announced soon.</p>
         </div>
-        <div className="grid md:grid-cols-3 gap-6 max-w-5xl mx-auto">
+        <div className="grid md:grid-cols-1 gap-6 max-w-2xl mx-auto">
           {plans.map((plan, i) => (
             <motion.div
               key={plan.name}

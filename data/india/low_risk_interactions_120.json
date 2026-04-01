@@ -1,0 +1,1202 @@
+{
+  "paracetamol + ibuprofen": {
+    "level": "LOW",
+    "reason": "Generally safe when used in recommended doses",
+    "advice": "Safe for most users under normal conditions",
+    "disease_risk": {
+      "general": "Minimal risk",
+      "liver_disease": "Monitor dosage if applicable",
+      "kidney_disease": "Use cautiously if long-term"
+    }
+  },
+  "paracetamol + cetirizine": {
+    "level": "LOW",
+    "reason": "Generally safe when used in recommended doses",
+    "advice": "Safe for most users under normal conditions",
+    "disease_risk": {
+      "general": "Minimal risk",
+      "liver_disease": "Monitor dosage if applicable",
+      "kidney_disease": "Use cautiously if long-term"
+    }
+  },
+  "paracetamol + loratadine": {
+    "level": "LOW",
+    "reason": "Generally safe when used in recommended doses",
+    "advice": "Safe for most users under normal conditions",
+    "disease_risk": {
+      "general": "Minimal risk",
+      "liver_disease": "Monitor dosage if applicable",
+      "kidney_disease": "Use cautiously if long-term"
+    }
+  },
+  "paracetamol + vitamin c": {
+    "level": "LOW",
+    "reason": "Generally safe when used in recommended doses",
+    "advice": "Safe for most users under normal conditions",
+    "disease_risk": {
+      "general": "Minimal risk",
+      "liver_disease": "Monitor dosage if applicable",
+      "kidney_disease": "Use cautiously if long-term"
+    }
+  },
+  "paracetamol + vitamin d": {
+    "level": "LOW",
+    "reason": "Generally safe when used in recommended doses",
+    "advice": "Safe for most users under normal conditions",
+    "disease_risk": {
+      "general": "Minimal risk",
+      "liver_disease": "Monitor dosage if applicable",
+      "kidney_disease": "Use cautiously if long-term"
+    }
+  },
+  "paracetamol + calcium": {
+    "level": "LOW",
+    "reason": "Generally safe when used in recommended doses",
+    "advice": "Safe for most users under normal conditions",
+    "disease_risk": {
+      "general": "Minimal risk",
+      "liver_disease": "Monitor dosage if applicable",
+      "kidney_disease": "Use cautiously if long-term"
+    }
+  },
+  "paracetamol + iron": {
+    "level": "LOW",
+    "reason": "Generally safe when used in recommended doses",
+    "advice": "Safe for most users under normal conditions",
+    "disease_risk": {
+      "general": "Minimal risk",
+      "liver_disease": "Monitor dosage if applicable",
+      "kidney_disease": "Use cautiously if long-term"
+    }
+  },
+  "paracetamol + antacid": {
+    "level": "LOW",
+    "reason": "Generally safe when used in recommended doses",
+    "advice": "Safe for most users under normal conditions",
+    "disease_risk": {
+      "general": "Minimal risk",
+      "liver_disease": "Monitor dosage if applicable",
+      "kidney_disease": "Use cautiously if long-term"
+    }
+  },
+  "paracetamol + montelukast": {
+    "level": "LOW",
+    "reason": "Generally safe when used in recommended doses",
+    "advice": "Safe for most users under normal conditions",
+    "disease_risk": {
+      "general": "Minimal risk",
+      "liver_disease": "Monitor dosage if applicable",
+      "kidney_disease": "Use cautiously if long-term"
+    }
+  },
+  "paracetamol + levocetirizine": {
+    "level": "LOW",
+    "reason": "Generally safe when used in recommended doses",
+    "advice": "Safe for most users under normal conditions",
+    "disease_risk": {
+      "general": "Minimal risk",
+      "liver_disease": "Monitor dosage if applicable",
+      "kidney_disease": "Use cautiously if long-term"
+    }
+  },
+  "paracetamol + pantoprazole": {
+    "level": "LOW",
+    "reason": "Generally safe when used in recommended doses",
+    "advice": "Safe for most users under normal conditions",
+    "disease_risk": {
+      "general": "Minimal risk",
+      "liver_disease": "Monitor dosage if applicable",
+      "kidney_disease": "Use cautiously if long-term"
+    }
+  },
+  "paracetamol + omeprazole": {
+    "level": "LOW",
+    "reason": "Generally safe when used in recommended doses",
+    "advice": "Safe for most users under normal conditions",
+    "disease_risk": {
+      "general": "Minimal risk",
+      "liver_disease": "Monitor dosage if applicable",
+      "kidney_disease": "Use cautiously if long-term"
+    }
+  },
+  "paracetamol + ranitidine": {
+    "level": "LOW",
+    "reason": "Generally safe when used in recommended doses",
+    "advice": "Safe for most users under normal conditions",
+    "disease_risk": {
+      "general": "Minimal risk",
+      "liver_disease": "Monitor dosage if applicable",
+      "kidney_disease": "Use cautiously if long-term"
+    }
+  },
+  "paracetamol + dextromethorphan": {
+    "level": "LOW",
+    "reason": "Generally safe when used in recommended doses",
+    "advice": "Safe for most users under normal conditions",
+    "disease_risk": {
+      "general": "Minimal risk",
+      "liver_disease": "Monitor dosage if applicable",
+      "kidney_disease": "Use cautiously if long-term"
+    }
+  },
+  "paracetamol + pseudoephedrine": {
+    "level": "LOW",
+    "reason": "Generally safe when used in recommended doses",
+    "advice": "Safe for most users under normal conditions",
+    "disease_risk": {
+      "general": "Minimal risk",
+      "liver_disease": "Monitor dosage if applicable",
+      "kidney_disease": "Use cautiously if long-term"
+    }
+  },
+  "paracetamol + naproxen": {
+    "level": "LOW",
+    "reason": "Generally safe when used in recommended doses",
+    "advice": "Safe for most users under normal conditions",
+    "disease_risk": {
+      "general": "Minimal risk",
+      "liver_disease": "Monitor dosage if applicable",
+      "kidney_disease": "Use cautiously if long-term"
+    }
+  },
+  "paracetamol + diclofenac": {
+    "level": "LOW",
+    "reason": "Generally safe when used in recommended doses",
+    "advice": "Safe for most users under normal conditions",
+    "disease_risk": {
+      "general": "Minimal risk",
+      "liver_disease": "Monitor dosage if applicable",
+      "kidney_disease": "Use cautiously if long-term"
+    }
+  },
+  "paracetamol + aspirin": {
+    "level": "LOW",
+    "reason": "Generally safe when used in recommended doses",
+    "advice": "Safe for most users under normal conditions",
+    "disease_risk": {
+      "general": "Minimal risk",
+      "liver_disease": "Monitor dosage if applicable",
+      "kidney_disease": "Use cautiously if long-term"
+    }
+  },
+  "paracetamol + magnesium": {
+    "level": "LOW",
+    "reason": "Generally safe when used in recommended doses",
+    "advice": "Safe for most users under normal conditions",
+    "disease_risk": {
+      "general": "Minimal risk",
+      "liver_disease": "Monitor dosage if applicable",
+      "kidney_disease": "Use cautiously if long-term"
+    }
+  },
+  "ibuprofen + cetirizine": {
+    "level": "LOW",
+    "reason": "Generally safe when used in recommended doses",
+    "advice": "Safe for most users under normal conditions",
+    "disease_risk": {
+      "general": "Minimal risk",
+      "liver_disease": "Monitor dosage if applicable",
+      "kidney_disease": "Use cautiously if long-term"
+    }
+  },
+  "ibuprofen + loratadine": {
+    "level": "LOW",
+    "reason": "Generally safe when used in recommended doses",
+    "advice": "Safe for most users under normal conditions",
+    "disease_risk": {
+      "general": "Minimal risk",
+      "liver_disease": "Monitor dosage if applicable",
+      "kidney_disease": "Use cautiously if long-term"
+    }
+  },
+  "ibuprofen + vitamin c": {
+    "level": "LOW",
+    "reason": "Generally safe when used in recommended doses",
+    "advice": "Safe for most users under normal conditions",
+    "disease_risk": {
+      "general": "Minimal risk",
+      "liver_disease": "Monitor dosage if applicable",
+      "kidney_disease": "Use cautiously if long-term"
+    }
+  },
+  "ibuprofen + vitamin d": {
+    "level": "LOW",
+    "reason": "Generally safe when used in recommended doses",
+    "advice": "Safe for most users under normal conditions",
+    "disease_risk": {
+      "general": "Minimal risk",
+      "liver_disease": "Monitor dosage if applicable",
+      "kidney_disease": "Use cautiously if long-term"
+    }
+  },
+  "ibuprofen + calcium": {
+    "level": "LOW",
+    "reason": "Generally safe when used in recommended doses",
+    "advice": "Safe for most users under normal conditions",
+    "disease_risk": {
+      "general": "Minimal risk",
+      "liver_disease": "Monitor dosage if applicable",
+      "kidney_disease": "Use cautiously if long-term"
+    }
+  },
+  "ibuprofen + iron": {
+    "level": "LOW",
+    "reason": "Generally safe when used in recommended doses",
+    "advice": "Safe for most users under normal conditions",
+    "disease_risk": {
+      "general": "Minimal risk",
+      "liver_disease": "Monitor dosage if applicable",
+      "kidney_disease": "Use cautiously if long-term"
+    }
+  },
+  "ibuprofen + antacid": {
+    "level": "LOW",
+    "reason": "Generally safe when used in recommended doses",
+    "advice": "Safe for most users under normal conditions",
+    "disease_risk": {
+      "general": "Minimal risk",
+      "liver_disease": "Monitor dosage if applicable",
+      "kidney_disease": "Use cautiously if long-term"
+    }
+  },
+  "ibuprofen + montelukast": {
+    "level": "LOW",
+    "reason": "Generally safe when used in recommended doses",
+    "advice": "Safe for most users under normal conditions",
+    "disease_risk": {
+      "general": "Minimal risk",
+      "liver_disease": "Monitor dosage if applicable",
+      "kidney_disease": "Use cautiously if long-term"
+    }
+  },
+  "ibuprofen + levocetirizine": {
+    "level": "LOW",
+    "reason": "Generally safe when used in recommended doses",
+    "advice": "Safe for most users under normal conditions",
+    "disease_risk": {
+      "general": "Minimal risk",
+      "liver_disease": "Monitor dosage if applicable",
+      "kidney_disease": "Use cautiously if long-term"
+    }
+  },
+  "ibuprofen + pantoprazole": {
+    "level": "LOW",
+    "reason": "Generally safe when used in recommended doses",
+    "advice": "Safe for most users under normal conditions",
+    "disease_risk": {
+      "general": "Minimal risk",
+      "liver_disease": "Monitor dosage if applicable",
+      "kidney_disease": "Use cautiously if long-term"
+    }
+  },
+  "ibuprofen + omeprazole": {
+    "level": "LOW",
+    "reason": "Generally safe when used in recommended doses",
+    "advice": "Safe for most users under normal conditions",
+    "disease_risk": {
+      "general": "Minimal risk",
+      "liver_disease": "Monitor dosage if applicable",
+      "kidney_disease": "Use cautiously if long-term"
+    }
+  },
+  "ibuprofen + ranitidine": {
+    "level": "LOW",
+    "reason": "Generally safe when used in recommended doses",
+    "advice": "Safe for most users under normal conditions",
+    "disease_risk": {
+      "general": "Minimal risk",
+      "liver_disease": "Monitor dosage if applicable",
+      "kidney_disease": "Use cautiously if long-term"
+    }
+  },
+  "ibuprofen + dextromethorphan": {
+    "level": "LOW",
+    "reason": "Generally safe when used in recommended doses",
+    "advice": "Safe for most users under normal conditions",
+    "disease_risk": {
+      "general": "Minimal risk",
+      "liver_disease": "Monitor dosage if applicable",
+      "kidney_disease": "Use cautiously if long-term"
+    }
+  },
+  "ibuprofen + pseudoephedrine": {
+    "level": "LOW",
+    "reason": "Generally safe when used in recommended doses",
+    "advice": "Safe for most users under normal conditions",
+    "disease_risk": {
+      "general": "Minimal risk",
+      "liver_disease": "Monitor dosage if applicable",
+      "kidney_disease": "Use cautiously if long-term"
+    }
+  },
+  "ibuprofen + naproxen": {
+    "level": "LOW",
+    "reason": "Generally safe when used in recommended doses",
+    "advice": "Safe for most users under normal conditions",
+    "disease_risk": {
+      "general": "Minimal risk",
+      "liver_disease": "Monitor dosage if applicable",
+      "kidney_disease": "Use cautiously if long-term"
+    }
+  },
+  "ibuprofen + diclofenac": {
+    "level": "LOW",
+    "reason": "Generally safe when used in recommended doses",
+    "advice": "Safe for most users under normal conditions",
+    "disease_risk": {
+      "general": "Minimal risk",
+      "liver_disease": "Monitor dosage if applicable",
+      "kidney_disease": "Use cautiously if long-term"
+    }
+  },
+  "ibuprofen + aspirin": {
+    "level": "LOW",
+    "reason": "Generally safe when used in recommended doses",
+    "advice": "Safe for most users under normal conditions",
+    "disease_risk": {
+      "general": "Minimal risk",
+      "liver_disease": "Monitor dosage if applicable",
+      "kidney_disease": "Use cautiously if long-term"
+    }
+  },
+  "ibuprofen + magnesium": {
+    "level": "LOW",
+    "reason": "Generally safe when used in recommended doses",
+    "advice": "Safe for most users under normal conditions",
+    "disease_risk": {
+      "general": "Minimal risk",
+      "liver_disease": "Monitor dosage if applicable",
+      "kidney_disease": "Use cautiously if long-term"
+    }
+  },
+  "cetirizine + loratadine": {
+    "level": "LOW",
+    "reason": "Generally safe when used in recommended doses",
+    "advice": "Safe for most users under normal conditions",
+    "disease_risk": {
+      "general": "Minimal risk",
+      "liver_disease": "Monitor dosage if applicable",
+      "kidney_disease": "Use cautiously if long-term"
+    }
+  },
+  "cetirizine + vitamin c": {
+    "level": "LOW",
+    "reason": "Generally safe when used in recommended doses",
+    "advice": "Safe for most users under normal conditions",
+    "disease_risk": {
+      "general": "Minimal risk",
+      "liver_disease": "Monitor dosage if applicable",
+      "kidney_disease": "Use cautiously if long-term"
+    }
+  },
+  "cetirizine + vitamin d": {
+    "level": "LOW",
+    "reason": "Generally safe when used in recommended doses",
+    "advice": "Safe for most users under normal conditions",
+    "disease_risk": {
+      "general": "Minimal risk",
+      "liver_disease": "Monitor dosage if applicable",
+      "kidney_disease": "Use cautiously if long-term"
+    }
+  },
+  "cetirizine + calcium": {
+    "level": "LOW",
+    "reason": "Generally safe when used in recommended doses",
+    "advice": "Safe for most users under normal conditions",
+    "disease_risk": {
+      "general": "Minimal risk",
+      "liver_disease": "Monitor dosage if applicable",
+      "kidney_disease": "Use cautiously if long-term"
+    }
+  },
+  "cetirizine + iron": {
+    "level": "LOW",
+    "reason": "Generally safe when used in recommended doses",
+    "advice": "Safe for most users under normal conditions",
+    "disease_risk": {
+      "general": "Minimal risk",
+      "liver_disease": "Monitor dosage if applicable",
+      "kidney_disease": "Use cautiously if long-term"
+    }
+  },
+  "cetirizine + antacid": {
+    "level": "LOW",
+    "reason": "Generally safe when used in recommended doses",
+    "advice": "Safe for most users under normal conditions",
+    "disease_risk": {
+      "general": "Minimal risk",
+      "liver_disease": "Monitor dosage if applicable",
+      "kidney_disease": "Use cautiously if long-term"
+    }
+  },
+  "cetirizine + montelukast": {
+    "level": "LOW",
+    "reason": "Generally safe when used in recommended doses",
+    "advice": "Safe for most users under normal conditions",
+    "disease_risk": {
+      "general": "Minimal risk",
+      "liver_disease": "Monitor dosage if applicable",
+      "kidney_disease": "Use cautiously if long-term"
+    }
+  },
+  "cetirizine + levocetirizine": {
+    "level": "LOW",
+    "reason": "Generally safe when used in recommended doses",
+    "advice": "Safe for most users under normal conditions",
+    "disease_risk": {
+      "general": "Minimal risk",
+      "liver_disease": "Monitor dosage if applicable",
+      "kidney_disease": "Use cautiously if long-term"
+    }
+  },
+  "cetirizine + pantoprazole": {
+    "level": "LOW",
+    "reason": "Generally safe when used in recommended doses",
+    "advice": "Safe for most users under normal conditions",
+    "disease_risk": {
+      "general": "Minimal risk",
+      "liver_disease": "Monitor dosage if applicable",
+      "kidney_disease": "Use cautiously if long-term"
+    }
+  },
+  "cetirizine + omeprazole": {
+    "level": "LOW",
+    "reason": "Generally safe when used in recommended doses",
+    "advice": "Safe for most users under normal conditions",
+    "disease_risk": {
+      "general": "Minimal risk",
+      "liver_disease": "Monitor dosage if applicable",
+      "kidney_disease": "Use cautiously if long-term"
+    }
+  },
+  "cetirizine + ranitidine": {
+    "level": "LOW",
+    "reason": "Generally safe when used in recommended doses",
+    "advice": "Safe for most users under normal conditions",
+    "disease_risk": {
+      "general": "Minimal risk",
+      "liver_disease": "Monitor dosage if applicable",
+      "kidney_disease": "Use cautiously if long-term"
+    }
+  },
+  "cetirizine + dextromethorphan": {
+    "level": "LOW",
+    "reason": "Generally safe when used in recommended doses",
+    "advice": "Safe for most users under normal conditions",
+    "disease_risk": {
+      "general": "Minimal risk",
+      "liver_disease": "Monitor dosage if applicable",
+      "kidney_disease": "Use cautiously if long-term"
+    }
+  },
+  "cetirizine + pseudoephedrine": {
+    "level": "LOW",
+    "reason": "Generally safe when used in recommended doses",
+    "advice": "Safe for most users under normal conditions",
+    "disease_risk": {
+      "general": "Minimal risk",
+      "liver_disease": "Monitor dosage if applicable",
+      "kidney_disease": "Use cautiously if long-term"
+    }
+  },
+  "cetirizine + naproxen": {
+    "level": "LOW",
+    "reason": "Generally safe when used in recommended doses",
+    "advice": "Safe for most users under normal conditions",
+    "disease_risk": {
+      "general": "Minimal risk",
+      "liver_disease": "Monitor dosage if applicable",
+      "kidney_disease": "Use cautiously if long-term"
+    }
+  },
+  "cetirizine + diclofenac": {
+    "level": "LOW",
+    "reason": "Generally safe when used in recommended doses",
+    "advice": "Safe for most users under normal conditions",
+    "disease_risk": {
+      "general": "Minimal risk",
+      "liver_disease": "Monitor dosage if applicable",
+      "kidney_disease": "Use cautiously if long-term"
+    }
+  },
+  "cetirizine + aspirin": {
+    "level": "LOW",
+    "reason": "Generally safe when used in recommended doses",
+    "advice": "Safe for most users under normal conditions",
+    "disease_risk": {
+      "general": "Minimal risk",
+      "liver_disease": "Monitor dosage if applicable",
+      "kidney_disease": "Use cautiously if long-term"
+    }
+  },
+  "cetirizine + magnesium": {
+    "level": "LOW",
+    "reason": "Generally safe when used in recommended doses",
+    "advice": "Safe for most users under normal conditions",
+    "disease_risk": {
+      "general": "Minimal risk",
+      "liver_disease": "Monitor dosage if applicable",
+      "kidney_disease": "Use cautiously if long-term"
+    }
+  },
+  "loratadine + vitamin c": {
+    "level": "LOW",
+    "reason": "Generally safe when used in recommended doses",
+    "advice": "Safe for most users under normal conditions",
+    "disease_risk": {
+      "general": "Minimal risk",
+      "liver_disease": "Monitor dosage if applicable",
+      "kidney_disease": "Use cautiously if long-term"
+    }
+  },
+  "loratadine + vitamin d": {
+    "level": "LOW",
+    "reason": "Generally safe when used in recommended doses",
+    "advice": "Safe for most users under normal conditions",
+    "disease_risk": {
+      "general": "Minimal risk",
+      "liver_disease": "Monitor dosage if applicable",
+      "kidney_disease": "Use cautiously if long-term"
+    }
+  },
+  "loratadine + calcium": {
+    "level": "LOW",
+    "reason": "Generally safe when used in recommended doses",
+    "advice": "Safe for most users under normal conditions",
+    "disease_risk": {
+      "general": "Minimal risk",
+      "liver_disease": "Monitor dosage if applicable",
+      "kidney_disease": "Use cautiously if long-term"
+    }
+  },
+  "loratadine + iron": {
+    "level": "LOW",
+    "reason": "Generally safe when used in recommended doses",
+    "advice": "Safe for most users under normal conditions",
+    "disease_risk": {
+      "general": "Minimal risk",
+      "liver_disease": "Monitor dosage if applicable",
+      "kidney_disease": "Use cautiously if long-term"
+    }
+  },
+  "loratadine + antacid": {
+    "level": "LOW",
+    "reason": "Generally safe when used in recommended doses",
+    "advice": "Safe for most users under normal conditions",
+    "disease_risk": {
+      "general": "Minimal risk",
+      "liver_disease": "Monitor dosage if applicable",
+      "kidney_disease": "Use cautiously if long-term"
+    }
+  },
+  "loratadine + montelukast": {
+    "level": "LOW",
+    "reason": "Generally safe when used in recommended doses",
+    "advice": "Safe for most users under normal conditions",
+    "disease_risk": {
+      "general": "Minimal risk",
+      "liver_disease": "Monitor dosage if applicable",
+      "kidney_disease": "Use cautiously if long-term"
+    }
+  },
+  "loratadine + levocetirizine": {
+    "level": "LOW",
+    "reason": "Generally safe when used in recommended doses",
+    "advice": "Safe for most users under normal conditions",
+    "disease_risk": {
+      "general": "Minimal risk",
+      "liver_disease": "Monitor dosage if applicable",
+      "kidney_disease": "Use cautiously if long-term"
+    }
+  },
+  "loratadine + pantoprazole": {
+    "level": "LOW",
+    "reason": "Generally safe when used in recommended doses",
+    "advice": "Safe for most users under normal conditions",
+    "disease_risk": {
+      "general": "Minimal risk",
+      "liver_disease": "Monitor dosage if applicable",
+      "kidney_disease": "Use cautiously if long-term"
+    }
+  },
+  "loratadine + omeprazole": {
+    "level": "LOW",
+    "reason": "Generally safe when used in recommended doses",
+    "advice": "Safe for most users under normal conditions",
+    "disease_risk": {
+      "general": "Minimal risk",
+      "liver_disease": "Monitor dosage if applicable",
+      "kidney_disease": "Use cautiously if long-term"
+    }
+  },
+  "loratadine + ranitidine": {
+    "level": "LOW",
+    "reason": "Generally safe when used in recommended doses",
+    "advice": "Safe for most users under normal conditions",
+    "disease_risk": {
+      "general": "Minimal risk",
+      "liver_disease": "Monitor dosage if applicable",
+      "kidney_disease": "Use cautiously if long-term"
+    }
+  },
+  "loratadine + dextromethorphan": {
+    "level": "LOW",
+    "reason": "Generally safe when used in recommended doses",
+    "advice": "Safe for most users under normal conditions",
+    "disease_risk": {
+      "general": "Minimal risk",
+      "liver_disease": "Monitor dosage if applicable",
+      "kidney_disease": "Use cautiously if long-term"
+    }
+  },
+  "loratadine + pseudoephedrine": {
+    "level": "LOW",
+    "reason": "Generally safe when used in recommended doses",
+    "advice": "Safe for most users under normal conditions",
+    "disease_risk": {
+      "general": "Minimal risk",
+      "liver_disease": "Monitor dosage if applicable",
+      "kidney_disease": "Use cautiously if long-term"
+    }
+  },
+  "loratadine + naproxen": {
+    "level": "LOW",
+    "reason": "Generally safe when used in recommended doses",
+    "advice": "Safe for most users under normal conditions",
+    "disease_risk": {
+      "general": "Minimal risk",
+      "liver_disease": "Monitor dosage if applicable",
+      "kidney_disease": "Use cautiously if long-term"
+    }
+  },
+  "loratadine + diclofenac": {
+    "level": "LOW",
+    "reason": "Generally safe when used in recommended doses",
+    "advice": "Safe for most users under normal conditions",
+    "disease_risk": {
+      "general": "Minimal risk",
+      "liver_disease": "Monitor dosage if applicable",
+      "kidney_disease": "Use cautiously if long-term"
+    }
+  },
+  "loratadine + aspirin": {
+    "level": "LOW",
+    "reason": "Generally safe when used in recommended doses",
+    "advice": "Safe for most users under normal conditions",
+    "disease_risk": {
+      "general": "Minimal risk",
+      "liver_disease": "Monitor dosage if applicable",
+      "kidney_disease": "Use cautiously if long-term"
+    }
+  },
+  "loratadine + magnesium": {
+    "level": "LOW",
+    "reason": "Generally safe when used in recommended doses",
+    "advice": "Safe for most users under normal conditions",
+    "disease_risk": {
+      "general": "Minimal risk",
+      "liver_disease": "Monitor dosage if applicable",
+      "kidney_disease": "Use cautiously if long-term"
+    }
+  },
+  "vitamin c + vitamin d": {
+    "level": "LOW",
+    "reason": "Generally safe when used in recommended doses",
+    "advice": "Safe for most users under normal conditions",
+    "disease_risk": {
+      "general": "Minimal risk",
+      "liver_disease": "Monitor dosage if applicable",
+      "kidney_disease": "Use cautiously if long-term"
+    }
+  },
+  "vitamin c + calcium": {
+    "level": "LOW",
+    "reason": "Generally safe when used in recommended doses",
+    "advice": "Safe for most users under normal conditions",
+    "disease_risk": {
+      "general": "Minimal risk",
+      "liver_disease": "Monitor dosage if applicable",
+      "kidney_disease": "Use cautiously if long-term"
+    }
+  },
+  "vitamin c + iron": {
+    "level": "LOW",
+    "reason": "Generally safe when used in recommended doses",
+    "advice": "Safe for most users under normal conditions",
+    "disease_risk": {
+      "general": "Minimal risk",
+      "liver_disease": "Monitor dosage if applicable",
+      "kidney_disease": "Use cautiously if long-term"
+    }
+  },
+  "vitamin c + antacid": {
+    "level": "LOW",
+    "reason": "Generally safe when used in recommended doses",
+    "advice": "Safe for most users under normal conditions",
+    "disease_risk": {
+      "general": "Minimal risk",
+      "liver_disease": "Monitor dosage if applicable",
+      "kidney_disease": "Use cautiously if long-term"
+    }
+  },
+  "vitamin c + montelukast": {
+    "level": "LOW",
+    "reason": "Generally safe when used in recommended doses",
+    "advice": "Safe for most users under normal conditions",
+    "disease_risk": {
+      "general": "Minimal risk",
+      "liver_disease": "Monitor dosage if applicable",
+      "kidney_disease": "Use cautiously if long-term"
+    }
+  },
+  "vitamin c + levocetirizine": {
+    "level": "LOW",
+    "reason": "Generally safe when used in recommended doses",
+    "advice": "Safe for most users under normal conditions",
+    "disease_risk": {
+      "general": "Minimal risk",
+      "liver_disease": "Monitor dosage if applicable",
+      "kidney_disease": "Use cautiously if long-term"
+    }
+  },
+  "vitamin c + pantoprazole": {
+    "level": "LOW",
+    "reason": "Generally safe when used in recommended doses",
+    "advice": "Safe for most users under normal conditions",
+    "disease_risk": {
+      "general": "Minimal risk",
+      "liver_disease": "Monitor dosage if applicable",
+      "kidney_disease": "Use cautiously if long-term"
+    }
+  },
+  "vitamin c + omeprazole": {
+    "level": "LOW",
+    "reason": "Generally safe when used in recommended doses",
+    "advice": "Safe for most users under normal conditions",
+    "disease_risk": {
+      "general": "Minimal risk",
+      "liver_disease": "Monitor dosage if applicable",
+      "kidney_disease": "Use cautiously if long-term"
+    }
+  },
+  "vitamin c + ranitidine": {
+    "level": "LOW",
+    "reason": "Generally safe when used in recommended doses",
+    "advice": "Safe for most users under normal conditions",
+    "disease_risk": {
+      "general": "Minimal risk",
+      "liver_disease": "Monitor dosage if applicable",
+      "kidney_disease": "Use cautiously if long-term"
+    }
+  },
+  "vitamin c + dextromethorphan": {
+    "level": "LOW",
+    "reason": "Generally safe when used in recommended doses",
+    "advice": "Safe for most users under normal conditions",
+    "disease_risk": {
+      "general": "Minimal risk",
+      "liver_disease": "Monitor dosage if applicable",
+      "kidney_disease": "Use cautiously if long-term"
+    }
+  },
+  "vitamin c + pseudoephedrine": {
+    "level": "LOW",
+    "reason": "Generally safe when used in recommended doses",
+    "advice": "Safe for most users under normal conditions",
+    "disease_risk": {
+      "general": "Minimal risk",
+      "liver_disease": "Monitor dosage if applicable",
+      "kidney_disease": "Use cautiously if long-term"
+    }
+  },
+  "vitamin c + naproxen": {
+    "level": "LOW",
+    "reason": "Generally safe when used in recommended doses",
+    "advice": "Safe for most users under normal conditions",
+    "disease_risk": {
+      "general": "Minimal risk",
+      "liver_disease": "Monitor dosage if applicable",
+      "kidney_disease": "Use cautiously if long-term"
+    }
+  },
+  "vitamin c + diclofenac": {
+    "level": "LOW",
+    "reason": "Generally safe when used in recommended doses",
+    "advice": "Safe for most users under normal conditions",
+    "disease_risk": {
+      "general": "Minimal risk",
+      "liver_disease": "Monitor dosage if applicable",
+      "kidney_disease": "Use cautiously if long-term"
+    }
+  },
+  "vitamin c + aspirin": {
+    "level": "LOW",
+    "reason": "Generally safe when used in recommended doses",
+    "advice": "Safe for most users under normal conditions",
+    "disease_risk": {
+      "general": "Minimal risk",
+      "liver_disease": "Monitor dosage if applicable",
+      "kidney_disease": "Use cautiously if long-term"
+    }
+  },
+  "vitamin c + magnesium": {
+    "level": "LOW",
+    "reason": "Generally safe when used in recommended doses",
+    "advice": "Safe for most users under normal conditions",
+    "disease_risk": {
+      "general": "Minimal risk",
+      "liver_disease": "Monitor dosage if applicable",
+      "kidney_disease": "Use cautiously if long-term"
+    }
+  },
+  "vitamin d + calcium": {
+    "level": "LOW",
+    "reason": "Generally safe when used in recommended doses",
+    "advice": "Safe for most users under normal conditions",
+    "disease_risk": {
+      "general": "Minimal risk",
+      "liver_disease": "Monitor dosage if applicable",
+      "kidney_disease": "Use cautiously if long-term"
+    }
+  },
+  "vitamin d + iron": {
+    "level": "LOW",
+    "reason": "Generally safe when used in recommended doses",
+    "advice": "Safe for most users under normal conditions",
+    "disease_risk": {
+      "general": "Minimal risk",
+      "liver_disease": "Monitor dosage if applicable",
+      "kidney_disease": "Use cautiously if long-term"
+    }
+  },
+  "vitamin d + antacid": {
+    "level": "LOW",
+    "reason": "Generally safe when used in recommended doses",
+    "advice": "Safe for most users under normal conditions",
+    "disease_risk": {
+      "general": "Minimal risk",
+      "liver_disease": "Monitor dosage if applicable",
+      "kidney_disease": "Use cautiously if long-term"
+    }
+  },
+  "vitamin d + montelukast": {
+    "level": "LOW",
+    "reason": "Generally safe when used in recommended doses",
+    "advice": "Safe for most users under normal conditions",
+    "disease_risk": {
+      "general": "Minimal risk",
+      "liver_disease": "Monitor dosage if applicable",
+      "kidney_disease": "Use cautiously if long-term"
+    }
+  },
+  "vitamin d + levocetirizine": {
+    "level": "LOW",
+    "reason": "Generally safe when used in recommended doses",
+    "advice": "Safe for most users under normal conditions",
+    "disease_risk": {
+      "general": "Minimal risk",
+      "liver_disease": "Monitor dosage if applicable",
+      "kidney_disease": "Use cautiously if long-term"
+    }
+  },
+  "vitamin d + pantoprazole": {
+    "level": "LOW",
+    "reason": "Generally safe when used in recommended doses",
+    "advice": "Safe for most users under normal conditions",
+    "disease_risk": {
+      "general": "Minimal risk",
+      "liver_disease": "Monitor dosage if applicable",
+      "kidney_disease": "Use cautiously if long-term"
+    }
+  },
+  "vitamin d + omeprazole": {
+    "level": "LOW",
+    "reason": "Generally safe when used in recommended doses",
+    "advice": "Safe for most users under normal conditions",
+    "disease_risk": {
+      "general": "Minimal risk",
+      "liver_disease": "Monitor dosage if applicable",
+      "kidney_disease": "Use cautiously if long-term"
+    }
+  },
+  "vitamin d + ranitidine": {
+    "level": "LOW",
+    "reason": "Generally safe when used in recommended doses",
+    "advice": "Safe for most users under normal conditions",
+    "disease_risk": {
+      "general": "Minimal risk",
+      "liver_disease": "Monitor dosage if applicable",
+      "kidney_disease": "Use cautiously if long-term"
+    }
+  },
+  "vitamin d + dextromethorphan": {
+    "level": "LOW",
+    "reason": "Generally safe when used in recommended doses",
+    "advice": "Safe for most users under normal conditions",
+    "disease_risk": {
+      "general": "Minimal risk",
+      "liver_disease": "Monitor dosage if applicable",
+      "kidney_disease": "Use cautiously if long-term"
+    }
+  },
+  "vitamin d + pseudoephedrine": {
+    "level": "LOW",
+    "reason": "Generally safe when used in recommended doses",
+    "advice": "Safe for most users under normal conditions",
+    "disease_risk": {
+      "general": "Minimal risk",
+      "liver_disease": "Monitor dosage if applicable",
+      "kidney_disease": "Use cautiously if long-term"
+    }
+  },
+  "vitamin d + naproxen": {
+    "level": "LOW",
+    "reason": "Generally safe when used in recommended doses",
+    "advice": "Safe for most users under normal conditions",
+    "disease_risk": {
+      "general": "Minimal risk",
+      "liver_disease": "Monitor dosage if applicable",
+      "kidney_disease": "Use cautiously if long-term"
+    }
+  },
+  "vitamin d + diclofenac": {
+    "level": "LOW",
+    "reason": "Generally safe when used in recommended doses",
+    "advice": "Safe for most users under normal conditions",
+    "disease_risk": {
+      "general": "Minimal risk",
+      "liver_disease": "Monitor dosage if applicable",
+      "kidney_disease": "Use cautiously if long-term"
+    }
+  },
+  "vitamin d + aspirin": {
+    "level": "LOW",
+    "reason": "Generally safe when used in recommended doses",
+    "advice": "Safe for most users under normal conditions",
+    "disease_risk": {
+      "general": "Minimal risk",
+      "liver_disease": "Monitor dosage if applicable",
+      "kidney_disease": "Use cautiously if long-term"
+    }
+  },
+  "vitamin d + magnesium": {
+    "level": "LOW",
+    "reason": "Generally safe when used in recommended doses",
+    "advice": "Safe for most users under normal conditions",
+    "disease_risk": {
+      "general": "Minimal risk",
+      "liver_disease": "Monitor dosage if applicable",
+      "kidney_disease": "Use cautiously if long-term"
+    }
+  },
+  "calcium + iron": {
+    "level": "LOW",
+    "reason": "Generally safe when used in recommended doses",
+    "advice": "Safe for most users under normal conditions",
+    "disease_risk": {
+      "general": "Minimal risk",
+      "liver_disease": "Monitor dosage if applicable",
+      "kidney_disease": "Use cautiously if long-term"
+    }
+  },
+  "calcium + antacid": {
+    "level": "LOW",
+    "reason": "Generally safe when used in recommended doses",
+    "advice": "Safe for most users under normal conditions",
+    "disease_risk": {
+      "general": "Minimal risk",
+      "liver_disease": "Monitor dosage if applicable",
+      "kidney_disease": "Use cautiously if long-term"
+    }
+  },
+  "calcium + montelukast": {
+    "level": "LOW",
+    "reason": "Generally safe when used in recommended doses",
+    "advice": "Safe for most users under normal conditions",
+    "disease_risk": {
+      "general": "Minimal risk",
+      "liver_disease": "Monitor dosage if applicable",
+      "kidney_disease": "Use cautiously if long-term"
+    }
+  },
+  "calcium + levocetirizine": {
+    "level": "LOW",
+    "reason": "Generally safe when used in recommended doses",
+    "advice": "Safe for most users under normal conditions",
+    "disease_risk": {
+      "general": "Minimal risk",
+      "liver_disease": "Monitor dosage if applicable",
+      "kidney_disease": "Use cautiously if long-term"
+    }
+  },
+  "calcium + pantoprazole": {
+    "level": "LOW",
+    "reason": "Generally safe when used in recommended doses",
+    "advice": "Safe for most users under normal conditions",
+    "disease_risk": {
+      "general": "Minimal risk",
+      "liver_disease": "Monitor dosage if applicable",
+      "kidney_disease": "Use cautiously if long-term"
+    }
+  },
+  "calcium + omeprazole": {
+    "level": "LOW",
+    "reason": "Generally safe when used in recommended doses",
+    "advice": "Safe for most users under normal conditions",
+    "disease_risk": {
+      "general": "Minimal risk",
+      "liver_disease": "Monitor dosage if applicable",
+      "kidney_disease": "Use cautiously if long-term"
+    }
+  },
+  "calcium + ranitidine": {
+    "level": "LOW",
+    "reason": "Generally safe when used in recommended doses",
+    "advice": "Safe for most users under normal conditions",
+    "disease_risk": {
+      "general": "Minimal risk",
+      "liver_disease": "Monitor dosage if applicable",
+      "kidney_disease": "Use cautiously if long-term"
+    }
+  },
+  "calcium + dextromethorphan": {
+    "level": "LOW",
+    "reason": "Generally safe when used in recommended doses",
+    "advice": "Safe for most users under normal conditions",
+    "disease_risk": {
+      "general": "Minimal risk",
+      "liver_disease": "Monitor dosage if applicable",
+      "kidney_disease": "Use cautiously if long-term"
+    }
+  },
+  "calcium + pseudoephedrine": {
+    "level": "LOW",
+    "reason": "Generally safe when used in recommended doses",
+    "advice": "Safe for most users under normal conditions",
+    "disease_risk": {
+      "general": "Minimal risk",
+      "liver_disease": "Monitor dosage if applicable",
+      "kidney_disease": "Use cautiously if long-term"
+    }
+  },
+  "calcium + naproxen": {
+    "level": "LOW",
+    "reason": "Generally safe when used in recommended doses",
+    "advice": "Safe for most users under normal conditions",
+    "disease_risk": {
+      "general": "Minimal risk",
+      "liver_disease": "Monitor dosage if applicable",
+      "kidney_disease": "Use cautiously if long-term"
+    }
+  },
+  "calcium + diclofenac": {
+    "level": "LOW",
+    "reason": "Generally safe when used in recommended doses",
+    "advice": "Safe for most users under normal conditions",
+    "disease_risk": {
+      "general": "Minimal risk",
+      "liver_disease": "Monitor dosage if applicable",
+      "kidney_disease": "Use cautiously if long-term"
+    }
+  },
+  "calcium + aspirin": {
+    "level": "LOW",
+    "reason": "Generally safe when used in recommended doses",
+    "advice": "Safe for most users under normal conditions",
+    "disease_risk": {
+      "general": "Minimal risk",
+      "liver_disease": "Monitor dosage if applicable",
+      "kidney_disease": "Use cautiously if long-term"
+    }
+  },
+  "calcium + magnesium": {
+    "level": "LOW",
+    "reason": "Generally safe when used in recommended doses",
+    "advice": "Safe for most users under normal conditions",
+    "disease_risk": {
+      "general": "Minimal risk",
+      "liver_disease": "Monitor dosage if applicable",
+      "kidney_disease": "Use cautiously if long-term"
+    }
+  },
+  "iron + antacid": {
+    "level": "LOW",
+    "reason": "Generally safe when used in recommended doses",
+    "advice": "Safe for most users under normal conditions",
+    "disease_risk": {
+      "general": "Minimal risk",
+      "liver_disease": "Monitor dosage if applicable",
+      "kidney_disease": "Use cautiously if long-term"
+    }
+  },
+  "iron + montelukast": {
+    "level": "LOW",
+    "reason": "Generally safe when used in recommended doses",
+    "advice": "Safe for most users under normal conditions",
+    "disease_risk": {
+      "general": "Minimal risk",
+      "liver_disease": "Monitor dosage if applicable",
+      "kidney_disease": "Use cautiously if long-term"
+    }
+  },
+  "iron + levocetirizine": {
+    "level": "LOW",
+    "reason": "Generally safe when used in recommended doses",
+    "advice": "Safe for most users under normal conditions",
+    "disease_risk": {
+      "general": "Minimal risk",
+      "liver_disease": "Monitor dosage if applicable",
+      "kidney_disease": "Use cautiously if long-term"
+    }
+  },
+  "iron + pantoprazole": {
+    "level": "LOW",
+    "reason": "Generally safe when used in recommended doses",
+    "advice": "Safe for most users under normal conditions",
+    "disease_risk": {
+      "general": "Minimal risk",
+      "liver_disease": "Monitor dosage if applicable",
+      "kidney_disease": "Use cautiously if long-term"
+    }
+  },
+  "iron + omeprazole": {
+    "level": "LOW",
+    "reason": "Generally safe when used in recommended doses",
+    "advice": "Safe for most users under normal conditions",
+    "disease_risk": {
+      "general": "Minimal risk",
+      "liver_disease": "Monitor dosage if applicable",
+      "kidney_disease": "Use cautiously if long-term"
+    }
+  },
+  "iron + ranitidine": {
+    "level": "LOW",
+    "reason": "Generally safe when used in recommended doses",
+    "advice": "Safe for most users under normal conditions",
+    "disease_risk": {
+      "general": "Minimal risk",
+      "liver_disease": "Monitor dosage if applicable",
+      "kidney_disease": "Use cautiously if long-term"
+    }
+  },
+  "iron + dextromethorphan": {
+    "level": "LOW",
+    "reason": "Generally safe when used in recommended doses",
+    "advice": "Safe for most users under normal conditions",
+    "disease_risk": {
+      "general": "Minimal risk",
+      "liver_disease": "Monitor dosage if applicable",
+      "kidney_disease": "Use cautiously if long-term"
+    }
+  },
+  "iron + pseudoephedrine": {
+    "level": "LOW",
+    "reason": "Generally safe when used in recommended doses",
+    "advice": "Safe for most users under normal conditions",
+    "disease_risk": {
+      "general": "Minimal risk",
+      "liver_disease": "Monitor dosage if applicable",
+      "kidney_disease": "Use cautiously if long-term"
+    }
+  }
+}

@@ -1,0 +1,1212 @@
+{
+  "paracetamol + ibuprofen": {
+    "level": "MEDIUM",
+    "reason": "May cause moderate interaction requiring monitoring",
+    "advice": "Use with caution and consult a healthcare professional if needed",
+    "disease_risk": {
+      "hypertension": "May affect blood pressure control",
+      "diabetes": "May alter glucose levels",
+      "kidney_disease": "May increase kidney stress",
+      "liver_disease": "Monitor liver function"
+    }
+  },
+  "paracetamol + aspirin": {
+    "level": "MEDIUM",
+    "reason": "May cause moderate interaction requiring monitoring",
+    "advice": "Use with caution and consult a healthcare professional if needed",
+    "disease_risk": {
+      "hypertension": "May affect blood pressure control",
+      "diabetes": "May alter glucose levels",
+      "kidney_disease": "May increase kidney stress",
+      "liver_disease": "Monitor liver function"
+    }
+  },
+  "paracetamol + diclofenac": {
+    "level": "MEDIUM",
+    "reason": "May cause moderate interaction requiring monitoring",
+    "advice": "Use with caution and consult a healthcare professional if needed",
+    "disease_risk": {
+      "hypertension": "May affect blood pressure control",
+      "diabetes": "May alter glucose levels",
+      "kidney_disease": "May increase kidney stress",
+      "liver_disease": "Monitor liver function"
+    }
+  },
+  "paracetamol + naproxen": {
+    "level": "MEDIUM",
+    "reason": "May cause moderate interaction requiring monitoring",
+    "advice": "Use with caution and consult a healthcare professional if needed",
+    "disease_risk": {
+      "hypertension": "May affect blood pressure control",
+      "diabetes": "May alter glucose levels",
+      "kidney_disease": "May increase kidney stress",
+      "liver_disease": "Monitor liver function"
+    }
+  },
+  "paracetamol + cetirizine": {
+    "level": "MEDIUM",
+    "reason": "May cause moderate interaction requiring monitoring",
+    "advice": "Use with caution and consult a healthcare professional if needed",
+    "disease_risk": {
+      "hypertension": "May affect blood pressure control",
+      "diabetes": "May alter glucose levels",
+      "kidney_disease": "May increase kidney stress",
+      "liver_disease": "Monitor liver function"
+    }
+  },
+  "paracetamol + loratadine": {
+    "level": "MEDIUM",
+    "reason": "May cause moderate interaction requiring monitoring",
+    "advice": "Use with caution and consult a healthcare professional if needed",
+    "disease_risk": {
+      "hypertension": "May affect blood pressure control",
+      "diabetes": "May alter glucose levels",
+      "kidney_disease": "May increase kidney stress",
+      "liver_disease": "Monitor liver function"
+    }
+  },
+  "paracetamol + diphenhydramine": {
+    "level": "MEDIUM",
+    "reason": "May cause moderate interaction requiring monitoring",
+    "advice": "Use with caution and consult a healthcare professional if needed",
+    "disease_risk": {
+      "hypertension": "May affect blood pressure control",
+      "diabetes": "May alter glucose levels",
+      "kidney_disease": "May increase kidney stress",
+      "liver_disease": "Monitor liver function"
+    }
+  },
+  "paracetamol + chlorpheniramine": {
+    "level": "MEDIUM",
+    "reason": "May cause moderate interaction requiring monitoring",
+    "advice": "Use with caution and consult a healthcare professional if needed",
+    "disease_risk": {
+      "hypertension": "May affect blood pressure control",
+      "diabetes": "May alter glucose levels",
+      "kidney_disease": "May increase kidney stress",
+      "liver_disease": "Monitor liver function"
+    }
+  },
+  "paracetamol + pseudoephedrine": {
+    "level": "MEDIUM",
+    "reason": "May cause moderate interaction requiring monitoring",
+    "advice": "Use with caution and consult a healthcare professional if needed",
+    "disease_risk": {
+      "hypertension": "May affect blood pressure control",
+      "diabetes": "May alter glucose levels",
+      "kidney_disease": "May increase kidney stress",
+      "liver_disease": "Monitor liver function"
+    }
+  },
+  "paracetamol + dextromethorphan": {
+    "level": "MEDIUM",
+    "reason": "May cause moderate interaction requiring monitoring",
+    "advice": "Use with caution and consult a healthcare professional if needed",
+    "disease_risk": {
+      "hypertension": "May affect blood pressure control",
+      "diabetes": "May alter glucose levels",
+      "kidney_disease": "May increase kidney stress",
+      "liver_disease": "Monitor liver function"
+    }
+  },
+  "paracetamol + antacid": {
+    "level": "MEDIUM",
+    "reason": "May cause moderate interaction requiring monitoring",
+    "advice": "Use with caution and consult a healthcare professional if needed",
+    "disease_risk": {
+      "hypertension": "May affect blood pressure control",
+      "diabetes": "May alter glucose levels",
+      "kidney_disease": "May increase kidney stress",
+      "liver_disease": "Monitor liver function"
+    }
+  },
+  "paracetamol + omeprazole": {
+    "level": "MEDIUM",
+    "reason": "May cause moderate interaction requiring monitoring",
+    "advice": "Use with caution and consult a healthcare professional if needed",
+    "disease_risk": {
+      "hypertension": "May affect blood pressure control",
+      "diabetes": "May alter glucose levels",
+      "kidney_disease": "May increase kidney stress",
+      "liver_disease": "Monitor liver function"
+    }
+  },
+  "paracetamol + pantoprazole": {
+    "level": "MEDIUM",
+    "reason": "May cause moderate interaction requiring monitoring",
+    "advice": "Use with caution and consult a healthcare professional if needed",
+    "disease_risk": {
+      "hypertension": "May affect blood pressure control",
+      "diabetes": "May alter glucose levels",
+      "kidney_disease": "May increase kidney stress",
+      "liver_disease": "Monitor liver function"
+    }
+  },
+  "paracetamol + ranitidine": {
+    "level": "MEDIUM",
+    "reason": "May cause moderate interaction requiring monitoring",
+    "advice": "Use with caution and consult a healthcare professional if needed",
+    "disease_risk": {
+      "hypertension": "May affect blood pressure control",
+      "diabetes": "May alter glucose levels",
+      "kidney_disease": "May increase kidney stress",
+      "liver_disease": "Monitor liver function"
+    }
+  },
+  "paracetamol + iron": {
+    "level": "MEDIUM",
+    "reason": "May cause moderate interaction requiring monitoring",
+    "advice": "Use with caution and consult a healthcare professional if needed",
+    "disease_risk": {
+      "hypertension": "May affect blood pressure control",
+      "diabetes": "May alter glucose levels",
+      "kidney_disease": "May increase kidney stress",
+      "liver_disease": "Monitor liver function"
+    }
+  },
+  "paracetamol + calcium": {
+    "level": "MEDIUM",
+    "reason": "May cause moderate interaction requiring monitoring",
+    "advice": "Use with caution and consult a healthcare professional if needed",
+    "disease_risk": {
+      "hypertension": "May affect blood pressure control",
+      "diabetes": "May alter glucose levels",
+      "kidney_disease": "May increase kidney stress",
+      "liver_disease": "Monitor liver function"
+    }
+  },
+  "paracetamol + vitamin c": {
+    "level": "MEDIUM",
+    "reason": "May cause moderate interaction requiring monitoring",
+    "advice": "Use with caution and consult a healthcare professional if needed",
+    "disease_risk": {
+      "hypertension": "May affect blood pressure control",
+      "diabetes": "May alter glucose levels",
+      "kidney_disease": "May increase kidney stress",
+      "liver_disease": "Monitor liver function"
+    }
+  },
+  "paracetamol + vitamin d": {
+    "level": "MEDIUM",
+    "reason": "May cause moderate interaction requiring monitoring",
+    "advice": "Use with caution and consult a healthcare professional if needed",
+    "disease_risk": {
+      "hypertension": "May affect blood pressure control",
+      "diabetes": "May alter glucose levels",
+      "kidney_disease": "May increase kidney stress",
+      "liver_disease": "Monitor liver function"
+    }
+  },
+  "paracetamol + metformin": {
+    "level": "MEDIUM",
+    "reason": "May cause moderate interaction requiring monitoring",
+    "advice": "Use with caution and consult a healthcare professional if needed",
+    "disease_risk": {
+      "hypertension": "May affect blood pressure control",
+      "diabetes": "May alter glucose levels",
+      "kidney_disease": "May increase kidney stress",
+      "liver_disease": "Monitor liver function"
+    }
+  },
+  "paracetamol + glimepiride": {
+    "level": "MEDIUM",
+    "reason": "May cause moderate interaction requiring monitoring",
+    "advice": "Use with caution and consult a healthcare professional if needed",
+    "disease_risk": {
+      "hypertension": "May affect blood pressure control",
+      "diabetes": "May alter glucose levels",
+      "kidney_disease": "May increase kidney stress",
+      "liver_disease": "Monitor liver function"
+    }
+  },
+  "paracetamol + atenolol": {
+    "level": "MEDIUM",
+    "reason": "May cause moderate interaction requiring monitoring",
+    "advice": "Use with caution and consult a healthcare professional if needed",
+    "disease_risk": {
+      "hypertension": "May affect blood pressure control",
+      "diabetes": "May alter glucose levels",
+      "kidney_disease": "May increase kidney stress",
+      "liver_disease": "Monitor liver function"
+    }
+  },
+  "paracetamol + amlodipine": {
+    "level": "MEDIUM",
+    "reason": "May cause moderate interaction requiring monitoring",
+    "advice": "Use with caution and consult a healthcare professional if needed",
+    "disease_risk": {
+      "hypertension": "May affect blood pressure control",
+      "diabetes": "May alter glucose levels",
+      "kidney_disease": "May increase kidney stress",
+      "liver_disease": "Monitor liver function"
+    }
+  },
+  "paracetamol + losartan": {
+    "level": "MEDIUM",
+    "reason": "May cause moderate interaction requiring monitoring",
+    "advice": "Use with caution and consult a healthcare professional if needed",
+    "disease_risk": {
+      "hypertension": "May affect blood pressure control",
+      "diabetes": "May alter glucose levels",
+      "kidney_disease": "May increase kidney stress",
+      "liver_disease": "Monitor liver function"
+    }
+  },
+  "paracetamol + telmisartan": {
+    "level": "MEDIUM",
+    "reason": "May cause moderate interaction requiring monitoring",
+    "advice": "Use with caution and consult a healthcare professional if needed",
+    "disease_risk": {
+      "hypertension": "May affect blood pressure control",
+      "diabetes": "May alter glucose levels",
+      "kidney_disease": "May increase kidney stress",
+      "liver_disease": "Monitor liver function"
+    }
+  },
+  "paracetamol + furosemide": {
+    "level": "MEDIUM",
+    "reason": "May cause moderate interaction requiring monitoring",
+    "advice": "Use with caution and consult a healthcare professional if needed",
+    "disease_risk": {
+      "hypertension": "May affect blood pressure control",
+      "diabetes": "May alter glucose levels",
+      "kidney_disease": "May increase kidney stress",
+      "liver_disease": "Monitor liver function"
+    }
+  },
+  "paracetamol + spironolactone": {
+    "level": "MEDIUM",
+    "reason": "May cause moderate interaction requiring monitoring",
+    "advice": "Use with caution and consult a healthcare professional if needed",
+    "disease_risk": {
+      "hypertension": "May affect blood pressure control",
+      "diabetes": "May alter glucose levels",
+      "kidney_disease": "May increase kidney stress",
+      "liver_disease": "Monitor liver function"
+    }
+  },
+  "ibuprofen + aspirin": {
+    "level": "MEDIUM",
+    "reason": "May cause moderate interaction requiring monitoring",
+    "advice": "Use with caution and consult a healthcare professional if needed",
+    "disease_risk": {
+      "hypertension": "May affect blood pressure control",
+      "diabetes": "May alter glucose levels",
+      "kidney_disease": "May increase kidney stress",
+      "liver_disease": "Monitor liver function"
+    }
+  },
+  "ibuprofen + diclofenac": {
+    "level": "MEDIUM",
+    "reason": "May cause moderate interaction requiring monitoring",
+    "advice": "Use with caution and consult a healthcare professional if needed",
+    "disease_risk": {
+      "hypertension": "May affect blood pressure control",
+      "diabetes": "May alter glucose levels",
+      "kidney_disease": "May increase kidney stress",
+      "liver_disease": "Monitor liver function"
+    }
+  },
+  "ibuprofen + naproxen": {
+    "level": "MEDIUM",
+    "reason": "May cause moderate interaction requiring monitoring",
+    "advice": "Use with caution and consult a healthcare professional if needed",
+    "disease_risk": {
+      "hypertension": "May affect blood pressure control",
+      "diabetes": "May alter glucose levels",
+      "kidney_disease": "May increase kidney stress",
+      "liver_disease": "Monitor liver function"
+    }
+  },
+  "ibuprofen + cetirizine": {
+    "level": "MEDIUM",
+    "reason": "May cause moderate interaction requiring monitoring",
+    "advice": "Use with caution and consult a healthcare professional if needed",
+    "disease_risk": {
+      "hypertension": "May affect blood pressure control",
+      "diabetes": "May alter glucose levels",
+      "kidney_disease": "May increase kidney stress",
+      "liver_disease": "Monitor liver function"
+    }
+  },
+  "ibuprofen + loratadine": {
+    "level": "MEDIUM",
+    "reason": "May cause moderate interaction requiring monitoring",
+    "advice": "Use with caution and consult a healthcare professional if needed",
+    "disease_risk": {
+      "hypertension": "May affect blood pressure control",
+      "diabetes": "May alter glucose levels",
+      "kidney_disease": "May increase kidney stress",
+      "liver_disease": "Monitor liver function"
+    }
+  },
+  "ibuprofen + diphenhydramine": {
+    "level": "MEDIUM",
+    "reason": "May cause moderate interaction requiring monitoring",
+    "advice": "Use with caution and consult a healthcare professional if needed",
+    "disease_risk": {
+      "hypertension": "May affect blood pressure control",
+      "diabetes": "May alter glucose levels",
+      "kidney_disease": "May increase kidney stress",
+      "liver_disease": "Monitor liver function"
+    }
+  },
+  "ibuprofen + chlorpheniramine": {
+    "level": "MEDIUM",
+    "reason": "May cause moderate interaction requiring monitoring",
+    "advice": "Use with caution and consult a healthcare professional if needed",
+    "disease_risk": {
+      "hypertension": "May affect blood pressure control",
+      "diabetes": "May alter glucose levels",
+      "kidney_disease": "May increase kidney stress",
+      "liver_disease": "Monitor liver function"
+    }
+  },
+  "ibuprofen + pseudoephedrine": {
+    "level": "MEDIUM",
+    "reason": "May cause moderate interaction requiring monitoring",
+    "advice": "Use with caution and consult a healthcare professional if needed",
+    "disease_risk": {
+      "hypertension": "May affect blood pressure control",
+      "diabetes": "May alter glucose levels",
+      "kidney_disease": "May increase kidney stress",
+      "liver_disease": "Monitor liver function"
+    }
+  },
+  "ibuprofen + dextromethorphan": {
+    "level": "MEDIUM",
+    "reason": "May cause moderate interaction requiring monitoring",
+    "advice": "Use with caution and consult a healthcare professional if needed",
+    "disease_risk": {
+      "hypertension": "May affect blood pressure control",
+      "diabetes": "May alter glucose levels",
+      "kidney_disease": "May increase kidney stress",
+      "liver_disease": "Monitor liver function"
+    }
+  },
+  "ibuprofen + antacid": {
+    "level": "MEDIUM",
+    "reason": "May cause moderate interaction requiring monitoring",
+    "advice": "Use with caution and consult a healthcare professional if needed",
+    "disease_risk": {
+      "hypertension": "May affect blood pressure control",
+      "diabetes": "May alter glucose levels",
+      "kidney_disease": "May increase kidney stress",
+      "liver_disease": "Monitor liver function"
+    }
+  },
+  "ibuprofen + omeprazole": {
+    "level": "MEDIUM",
+    "reason": "May cause moderate interaction requiring monitoring",
+    "advice": "Use with caution and consult a healthcare professional if needed",
+    "disease_risk": {
+      "hypertension": "May affect blood pressure control",
+      "diabetes": "May alter glucose levels",
+      "kidney_disease": "May increase kidney stress",
+      "liver_disease": "Monitor liver function"
+    }
+  },
+  "ibuprofen + pantoprazole": {
+    "level": "MEDIUM",
+    "reason": "May cause moderate interaction requiring monitoring",
+    "advice": "Use with caution and consult a healthcare professional if needed",
+    "disease_risk": {
+      "hypertension": "May affect blood pressure control",
+      "diabetes": "May alter glucose levels",
+      "kidney_disease": "May increase kidney stress",
+      "liver_disease": "Monitor liver function"
+    }
+  },
+  "ibuprofen + ranitidine": {
+    "level": "MEDIUM",
+    "reason": "May cause moderate interaction requiring monitoring",
+    "advice": "Use with caution and consult a healthcare professional if needed",
+    "disease_risk": {
+      "hypertension": "May affect blood pressure control",
+      "diabetes": "May alter glucose levels",
+      "kidney_disease": "May increase kidney stress",
+      "liver_disease": "Monitor liver function"
+    }
+  },
+  "ibuprofen + iron": {
+    "level": "MEDIUM",
+    "reason": "May cause moderate interaction requiring monitoring",
+    "advice": "Use with caution and consult a healthcare professional if needed",
+    "disease_risk": {
+      "hypertension": "May affect blood pressure control",
+      "diabetes": "May alter glucose levels",
+      "kidney_disease": "May increase kidney stress",
+      "liver_disease": "Monitor liver function"
+    }
+  },
+  "ibuprofen + calcium": {
+    "level": "MEDIUM",
+    "reason": "May cause moderate interaction requiring monitoring",
+    "advice": "Use with caution and consult a healthcare professional if needed",
+    "disease_risk": {
+      "hypertension": "May affect blood pressure control",
+      "diabetes": "May alter glucose levels",
+      "kidney_disease": "May increase kidney stress",
+      "liver_disease": "Monitor liver function"
+    }
+  },
+  "ibuprofen + vitamin c": {
+    "level": "MEDIUM",
+    "reason": "May cause moderate interaction requiring monitoring",
+    "advice": "Use with caution and consult a healthcare professional if needed",
+    "disease_risk": {
+      "hypertension": "May affect blood pressure control",
+      "diabetes": "May alter glucose levels",
+      "kidney_disease": "May increase kidney stress",
+      "liver_disease": "Monitor liver function"
+    }
+  },
+  "ibuprofen + vitamin d": {
+    "level": "MEDIUM",
+    "reason": "May cause moderate interaction requiring monitoring",
+    "advice": "Use with caution and consult a healthcare professional if needed",
+    "disease_risk": {
+      "hypertension": "May affect blood pressure control",
+      "diabetes": "May alter glucose levels",
+      "kidney_disease": "May increase kidney stress",
+      "liver_disease": "Monitor liver function"
+    }
+  },
+  "ibuprofen + metformin": {
+    "level": "MEDIUM",
+    "reason": "May cause moderate interaction requiring monitoring",
+    "advice": "Use with caution and consult a healthcare professional if needed",
+    "disease_risk": {
+      "hypertension": "May affect blood pressure control",
+      "diabetes": "May alter glucose levels",
+      "kidney_disease": "May increase kidney stress",
+      "liver_disease": "Monitor liver function"
+    }
+  },
+  "ibuprofen + glimepiride": {
+    "level": "MEDIUM",
+    "reason": "May cause moderate interaction requiring monitoring",
+    "advice": "Use with caution and consult a healthcare professional if needed",
+    "disease_risk": {
+      "hypertension": "May affect blood pressure control",
+      "diabetes": "May alter glucose levels",
+      "kidney_disease": "May increase kidney stress",
+      "liver_disease": "Monitor liver function"
+    }
+  },
+  "ibuprofen + atenolol": {
+    "level": "MEDIUM",
+    "reason": "May cause moderate interaction requiring monitoring",
+    "advice": "Use with caution and consult a healthcare professional if needed",
+    "disease_risk": {
+      "hypertension": "May affect blood pressure control",
+      "diabetes": "May alter glucose levels",
+      "kidney_disease": "May increase kidney stress",
+      "liver_disease": "Monitor liver function"
+    }
+  },
+  "ibuprofen + amlodipine": {
+    "level": "MEDIUM",
+    "reason": "May cause moderate interaction requiring monitoring",
+    "advice": "Use with caution and consult a healthcare professional if needed",
+    "disease_risk": {
+      "hypertension": "May affect blood pressure control",
+      "diabetes": "May alter glucose levels",
+      "kidney_disease": "May increase kidney stress",
+      "liver_disease": "Monitor liver function"
+    }
+  },
+  "ibuprofen + losartan": {
+    "level": "MEDIUM",
+    "reason": "May cause moderate interaction requiring monitoring",
+    "advice": "Use with caution and consult a healthcare professional if needed",
+    "disease_risk": {
+      "hypertension": "May affect blood pressure control",
+      "diabetes": "May alter glucose levels",
+      "kidney_disease": "May increase kidney stress",
+      "liver_disease": "Monitor liver function"
+    }
+  },
+  "ibuprofen + telmisartan": {
+    "level": "MEDIUM",
+    "reason": "May cause moderate interaction requiring monitoring",
+    "advice": "Use with caution and consult a healthcare professional if needed",
+    "disease_risk": {
+      "hypertension": "May affect blood pressure control",
+      "diabetes": "May alter glucose levels",
+      "kidney_disease": "May increase kidney stress",
+      "liver_disease": "Monitor liver function"
+    }
+  },
+  "ibuprofen + furosemide": {
+    "level": "MEDIUM",
+    "reason": "May cause moderate interaction requiring monitoring",
+    "advice": "Use with caution and consult a healthcare professional if needed",
+    "disease_risk": {
+      "hypertension": "May affect blood pressure control",
+      "diabetes": "May alter glucose levels",
+      "kidney_disease": "May increase kidney stress",
+      "liver_disease": "Monitor liver function"
+    }
+  },
+  "ibuprofen + spironolactone": {
+    "level": "MEDIUM",
+    "reason": "May cause moderate interaction requiring monitoring",
+    "advice": "Use with caution and consult a healthcare professional if needed",
+    "disease_risk": {
+      "hypertension": "May affect blood pressure control",
+      "diabetes": "May alter glucose levels",
+      "kidney_disease": "May increase kidney stress",
+      "liver_disease": "Monitor liver function"
+    }
+  },
+  "aspirin + diclofenac": {
+    "level": "MEDIUM",
+    "reason": "May cause moderate interaction requiring monitoring",
+    "advice": "Use with caution and consult a healthcare professional if needed",
+    "disease_risk": {
+      "hypertension": "May affect blood pressure control",
+      "diabetes": "May alter glucose levels",
+      "kidney_disease": "May increase kidney stress",
+      "liver_disease": "Monitor liver function"
+    }
+  },
+  "aspirin + naproxen": {
+    "level": "MEDIUM",
+    "reason": "May cause moderate interaction requiring monitoring",
+    "advice": "Use with caution and consult a healthcare professional if needed",
+    "disease_risk": {
+      "hypertension": "May affect blood pressure control",
+      "diabetes": "May alter glucose levels",
+      "kidney_disease": "May increase kidney stress",
+      "liver_disease": "Monitor liver function"
+    }
+  },
+  "aspirin + cetirizine": {
+    "level": "MEDIUM",
+    "reason": "May cause moderate interaction requiring monitoring",
+    "advice": "Use with caution and consult a healthcare professional if needed",
+    "disease_risk": {
+      "hypertension": "May affect blood pressure control",
+      "diabetes": "May alter glucose levels",
+      "kidney_disease": "May increase kidney stress",
+      "liver_disease": "Monitor liver function"
+    }
+  },
+  "aspirin + loratadine": {
+    "level": "MEDIUM",
+    "reason": "May cause moderate interaction requiring monitoring",
+    "advice": "Use with caution and consult a healthcare professional if needed",
+    "disease_risk": {
+      "hypertension": "May affect blood pressure control",
+      "diabetes": "May alter glucose levels",
+      "kidney_disease": "May increase kidney stress",
+      "liver_disease": "Monitor liver function"
+    }
+  },
+  "aspirin + diphenhydramine": {
+    "level": "MEDIUM",
+    "reason": "May cause moderate interaction requiring monitoring",
+    "advice": "Use with caution and consult a healthcare professional if needed",
+    "disease_risk": {
+      "hypertension": "May affect blood pressure control",
+      "diabetes": "May alter glucose levels",
+      "kidney_disease": "May increase kidney stress",
+      "liver_disease": "Monitor liver function"
+    }
+  },
+  "aspirin + chlorpheniramine": {
+    "level": "MEDIUM",
+    "reason": "May cause moderate interaction requiring monitoring",
+    "advice": "Use with caution and consult a healthcare professional if needed",
+    "disease_risk": {
+      "hypertension": "May affect blood pressure control",
+      "diabetes": "May alter glucose levels",
+      "kidney_disease": "May increase kidney stress",
+      "liver_disease": "Monitor liver function"
+    }
+  },
+  "aspirin + pseudoephedrine": {
+    "level": "MEDIUM",
+    "reason": "May cause moderate interaction requiring monitoring",
+    "advice": "Use with caution and consult a healthcare professional if needed",
+    "disease_risk": {
+      "hypertension": "May affect blood pressure control",
+      "diabetes": "May alter glucose levels",
+      "kidney_disease": "May increase kidney stress",
+      "liver_disease": "Monitor liver function"
+    }
+  },
+  "aspirin + dextromethorphan": {
+    "level": "MEDIUM",
+    "reason": "May cause moderate interaction requiring monitoring",
+    "advice": "Use with caution and consult a healthcare professional if needed",
+    "disease_risk": {
+      "hypertension": "May affect blood pressure control",
+      "diabetes": "May alter glucose levels",
+      "kidney_disease": "May increase kidney stress",
+      "liver_disease": "Monitor liver function"
+    }
+  },
+  "aspirin + antacid": {
+    "level": "MEDIUM",
+    "reason": "May cause moderate interaction requiring monitoring",
+    "advice": "Use with caution and consult a healthcare professional if needed",
+    "disease_risk": {
+      "hypertension": "May affect blood pressure control",
+      "diabetes": "May alter glucose levels",
+      "kidney_disease": "May increase kidney stress",
+      "liver_disease": "Monitor liver function"
+    }
+  },
+  "aspirin + omeprazole": {
+    "level": "MEDIUM",
+    "reason": "May cause moderate interaction requiring monitoring",
+    "advice": "Use with caution and consult a healthcare professional if needed",
+    "disease_risk": {
+      "hypertension": "May affect blood pressure control",
+      "diabetes": "May alter glucose levels",
+      "kidney_disease": "May increase kidney stress",
+      "liver_disease": "Monitor liver function"
+    }
+  },
+  "aspirin + pantoprazole": {
+    "level": "MEDIUM",
+    "reason": "May cause moderate interaction requiring monitoring",
+    "advice": "Use with caution and consult a healthcare professional if needed",
+    "disease_risk": {
+      "hypertension": "May affect blood pressure control",
+      "diabetes": "May alter glucose levels",
+      "kidney_disease": "May increase kidney stress",
+      "liver_disease": "Monitor liver function"
+    }
+  },
+  "aspirin + ranitidine": {
+    "level": "MEDIUM",
+    "reason": "May cause moderate interaction requiring monitoring",
+    "advice": "Use with caution and consult a healthcare professional if needed",
+    "disease_risk": {
+      "hypertension": "May affect blood pressure control",
+      "diabetes": "May alter glucose levels",
+      "kidney_disease": "May increase kidney stress",
+      "liver_disease": "Monitor liver function"
+    }
+  },
+  "aspirin + iron": {
+    "level": "MEDIUM",
+    "reason": "May cause moderate interaction requiring monitoring",
+    "advice": "Use with caution and consult a healthcare professional if needed",
+    "disease_risk": {
+      "hypertension": "May affect blood pressure control",
+      "diabetes": "May alter glucose levels",
+      "kidney_disease": "May increase kidney stress",
+      "liver_disease": "Monitor liver function"
+    }
+  },
+  "aspirin + calcium": {
+    "level": "MEDIUM",
+    "reason": "May cause moderate interaction requiring monitoring",
+    "advice": "Use with caution and consult a healthcare professional if needed",
+    "disease_risk": {
+      "hypertension": "May affect blood pressure control",
+      "diabetes": "May alter glucose levels",
+      "kidney_disease": "May increase kidney stress",
+      "liver_disease": "Monitor liver function"
+    }
+  },
+  "aspirin + vitamin c": {
+    "level": "MEDIUM",
+    "reason": "May cause moderate interaction requiring monitoring",
+    "advice": "Use with caution and consult a healthcare professional if needed",
+    "disease_risk": {
+      "hypertension": "May affect blood pressure control",
+      "diabetes": "May alter glucose levels",
+      "kidney_disease": "May increase kidney stress",
+      "liver_disease": "Monitor liver function"
+    }
+  },
+  "aspirin + vitamin d": {
+    "level": "MEDIUM",
+    "reason": "May cause moderate interaction requiring monitoring",
+    "advice": "Use with caution and consult a healthcare professional if needed",
+    "disease_risk": {
+      "hypertension": "May affect blood pressure control",
+      "diabetes": "May alter glucose levels",
+      "kidney_disease": "May increase kidney stress",
+      "liver_disease": "Monitor liver function"
+    }
+  },
+  "aspirin + metformin": {
+    "level": "MEDIUM",
+    "reason": "May cause moderate interaction requiring monitoring",
+    "advice": "Use with caution and consult a healthcare professional if needed",
+    "disease_risk": {
+      "hypertension": "May affect blood pressure control",
+      "diabetes": "May alter glucose levels",
+      "kidney_disease": "May increase kidney stress",
+      "liver_disease": "Monitor liver function"
+    }
+  },
+  "aspirin + glimepiride": {
+    "level": "MEDIUM",
+    "reason": "May cause moderate interaction requiring monitoring",
+    "advice": "Use with caution and consult a healthcare professional if needed",
+    "disease_risk": {
+      "hypertension": "May affect blood pressure control",
+      "diabetes": "May alter glucose levels",
+      "kidney_disease": "May increase kidney stress",
+      "liver_disease": "Monitor liver function"
+    }
+  },
+  "aspirin + atenolol": {
+    "level": "MEDIUM",
+    "reason": "May cause moderate interaction requiring monitoring",
+    "advice": "Use with caution and consult a healthcare professional if needed",
+    "disease_risk": {
+      "hypertension": "May affect blood pressure control",
+      "diabetes": "May alter glucose levels",
+      "kidney_disease": "May increase kidney stress",
+      "liver_disease": "Monitor liver function"
+    }
+  },
+  "aspirin + amlodipine": {
+    "level": "MEDIUM",
+    "reason": "May cause moderate interaction requiring monitoring",
+    "advice": "Use with caution and consult a healthcare professional if needed",
+    "disease_risk": {
+      "hypertension": "May affect blood pressure control",
+      "diabetes": "May alter glucose levels",
+      "kidney_disease": "May increase kidney stress",
+      "liver_disease": "Monitor liver function"
+    }
+  },
+  "aspirin + losartan": {
+    "level": "MEDIUM",
+    "reason": "May cause moderate interaction requiring monitoring",
+    "advice": "Use with caution and consult a healthcare professional if needed",
+    "disease_risk": {
+      "hypertension": "May affect blood pressure control",
+      "diabetes": "May alter glucose levels",
+      "kidney_disease": "May increase kidney stress",
+      "liver_disease": "Monitor liver function"
+    }
+  },
+  "aspirin + telmisartan": {
+    "level": "MEDIUM",
+    "reason": "May cause moderate interaction requiring monitoring",
+    "advice": "Use with caution and consult a healthcare professional if needed",
+    "disease_risk": {
+      "hypertension": "May affect blood pressure control",
+      "diabetes": "May alter glucose levels",
+      "kidney_disease": "May increase kidney stress",
+      "liver_disease": "Monitor liver function"
+    }
+  },
+  "aspirin + furosemide": {
+    "level": "MEDIUM",
+    "reason": "May cause moderate interaction requiring monitoring",
+    "advice": "Use with caution and consult a healthcare professional if needed",
+    "disease_risk": {
+      "hypertension": "May affect blood pressure control",
+      "diabetes": "May alter glucose levels",
+      "kidney_disease": "May increase kidney stress",
+      "liver_disease": "Monitor liver function"
+    }
+  },
+  "aspirin + spironolactone": {
+    "level": "MEDIUM",
+    "reason": "May cause moderate interaction requiring monitoring",
+    "advice": "Use with caution and consult a healthcare professional if needed",
+    "disease_risk": {
+      "hypertension": "May affect blood pressure control",
+      "diabetes": "May alter glucose levels",
+      "kidney_disease": "May increase kidney stress",
+      "liver_disease": "Monitor liver function"
+    }
+  },
+  "diclofenac + naproxen": {
+    "level": "MEDIUM",
+    "reason": "May cause moderate interaction requiring monitoring",
+    "advice": "Use with caution and consult a healthcare professional if needed",
+    "disease_risk": {
+      "hypertension": "May affect blood pressure control",
+      "diabetes": "May alter glucose levels",
+      "kidney_disease": "May increase kidney stress",
+      "liver_disease": "Monitor liver function"
+    }
+  },
+  "diclofenac + cetirizine": {
+    "level": "MEDIUM",
+    "reason": "May cause moderate interaction requiring monitoring",
+    "advice": "Use with caution and consult a healthcare professional if needed",
+    "disease_risk": {
+      "hypertension": "May affect blood pressure control",
+      "diabetes": "May alter glucose levels",
+      "kidney_disease": "May increase kidney stress",
+      "liver_disease": "Monitor liver function"
+    }
+  },
+  "diclofenac + loratadine": {
+    "level": "MEDIUM",
+    "reason": "May cause moderate interaction requiring monitoring",
+    "advice": "Use with caution and consult a healthcare professional if needed",
+    "disease_risk": {
+      "hypertension": "May affect blood pressure control",
+      "diabetes": "May alter glucose levels",
+      "kidney_disease": "May increase kidney stress",
+      "liver_disease": "Monitor liver function"
+    }
+  },
+  "diclofenac + diphenhydramine": {
+    "level": "MEDIUM",
+    "reason": "May cause moderate interaction requiring monitoring",
+    "advice": "Use with caution and consult a healthcare professional if needed",
+    "disease_risk": {
+      "hypertension": "May affect blood pressure control",
+      "diabetes": "May alter glucose levels",
+      "kidney_disease": "May increase kidney stress",
+      "liver_disease": "Monitor liver function"
+    }
+  },
+  "diclofenac + chlorpheniramine": {
+    "level": "MEDIUM",
+    "reason": "May cause moderate interaction requiring monitoring",
+    "advice": "Use with caution and consult a healthcare professional if needed",
+    "disease_risk": {
+      "hypertension": "May affect blood pressure control",
+      "diabetes": "May alter glucose levels",
+      "kidney_disease": "May increase kidney stress",
+      "liver_disease": "Monitor liver function"
+    }
+  },
+  "diclofenac + pseudoephedrine": {
+    "level": "MEDIUM",
+    "reason": "May cause moderate interaction requiring monitoring",
+    "advice": "Use with caution and consult a healthcare professional if needed",
+    "disease_risk": {
+      "hypertension": "May affect blood pressure control",
+      "diabetes": "May alter glucose levels",
+      "kidney_disease": "May increase kidney stress",
+      "liver_disease": "Monitor liver function"
+    }
+  },
+  "diclofenac + dextromethorphan": {
+    "level": "MEDIUM",
+    "reason": "May cause moderate interaction requiring monitoring",
+    "advice": "Use with caution and consult a healthcare professional if needed",
+    "disease_risk": {
+      "hypertension": "May affect blood pressure control",
+      "diabetes": "May alter glucose levels",
+      "kidney_disease": "May increase kidney stress",
+      "liver_disease": "Monitor liver function"
+    }
+  },
+  "diclofenac + antacid": {
+    "level": "MEDIUM",
+    "reason": "May cause moderate interaction requiring monitoring",
+    "advice": "Use with caution and consult a healthcare professional if needed",
+    "disease_risk": {
+      "hypertension": "May affect blood pressure control",
+      "diabetes": "May alter glucose levels",
+      "kidney_disease": "May increase kidney stress",
+      "liver_disease": "Monitor liver function"
+    }
+  },
+  "diclofenac + omeprazole": {
+    "level": "MEDIUM",
+    "reason": "May cause moderate interaction requiring monitoring",
+    "advice": "Use with caution and consult a healthcare professional if needed",
+    "disease_risk": {
+      "hypertension": "May affect blood pressure control",
+      "diabetes": "May alter glucose levels",
+      "kidney_disease": "May increase kidney stress",
+      "liver_disease": "Monitor liver function"
+    }
+  },
+  "diclofenac + pantoprazole": {
+    "level": "MEDIUM",
+    "reason": "May cause moderate interaction requiring monitoring",
+    "advice": "Use with caution and consult a healthcare professional if needed",
+    "disease_risk": {
+      "hypertension": "May affect blood pressure control",
+      "diabetes": "May alter glucose levels",
+      "kidney_disease": "May increase kidney stress",
+      "liver_disease": "Monitor liver function"
+    }
+  },
+  "diclofenac + ranitidine": {
+    "level": "MEDIUM",
+    "reason": "May cause moderate interaction requiring monitoring",
+    "advice": "Use with caution and consult a healthcare professional if needed",
+    "disease_risk": {
+      "hypertension": "May affect blood pressure control",
+      "diabetes": "May alter glucose levels",
+      "kidney_disease": "May increase kidney stress",
+      "liver_disease": "Monitor liver function"
+    }
+  },
+  "diclofenac + iron": {
+    "level": "MEDIUM",
+    "reason": "May cause moderate interaction requiring monitoring",
+    "advice": "Use with caution and consult a healthcare professional if needed",
+    "disease_risk": {
+      "hypertension": "May affect blood pressure control",
+      "diabetes": "May alter glucose levels",
+      "kidney_disease": "May increase kidney stress",
+      "liver_disease": "Monitor liver function"
+    }
+  },
+  "diclofenac + calcium": {
+    "level": "MEDIUM",
+    "reason": "May cause moderate interaction requiring monitoring",
+    "advice": "Use with caution and consult a healthcare professional if needed",
+    "disease_risk": {
+      "hypertension": "May affect blood pressure control",
+      "diabetes": "May alter glucose levels",
+      "kidney_disease": "May increase kidney stress",
+      "liver_disease": "Monitor liver function"
+    }
+  },
+  "diclofenac + vitamin c": {
+    "level": "MEDIUM",
+    "reason": "May cause moderate interaction requiring monitoring",
+    "advice": "Use with caution and consult a healthcare professional if needed",
+    "disease_risk": {
+      "hypertension": "May affect blood pressure control",
+      "diabetes": "May alter glucose levels",
+      "kidney_disease": "May increase kidney stress",
+      "liver_disease": "Monitor liver function"
+    }
+  },
+  "diclofenac + vitamin d": {
+    "level": "MEDIUM",
+    "reason": "May cause moderate interaction requiring monitoring",
+    "advice": "Use with caution and consult a healthcare professional if needed",
+    "disease_risk": {
+      "hypertension": "May affect blood pressure control",
+      "diabetes": "May alter glucose levels",
+      "kidney_disease": "May increase kidney stress",
+      "liver_disease": "Monitor liver function"
+    }
+  },
+  "diclofenac + metformin": {
+    "level": "MEDIUM",
+    "reason": "May cause moderate interaction requiring monitoring",
+    "advice": "Use with caution and consult a healthcare professional if needed",
+    "disease_risk": {
+      "hypertension": "May affect blood pressure control",
+      "diabetes": "May alter glucose levels",
+      "kidney_disease": "May increase kidney stress",
+      "liver_disease": "Monitor liver function"
+    }
+  },
+  "diclofenac + glimepiride": {
+    "level": "MEDIUM",
+    "reason": "May cause moderate interaction requiring monitoring",
+    "advice": "Use with caution and consult a healthcare professional if needed",
+    "disease_risk": {
+      "hypertension": "May affect blood pressure control",
+      "diabetes": "May alter glucose levels",
+      "kidney_disease": "May increase kidney stress",
+      "liver_disease": "Monitor liver function"
+    }
+  },
+  "diclofenac + atenolol": {
+    "level": "MEDIUM",
+    "reason": "May cause moderate interaction requiring monitoring",
+    "advice": "Use with caution and consult a healthcare professional if needed",
+    "disease_risk": {
+      "hypertension": "May affect blood pressure control",
+      "diabetes": "May alter glucose levels",
+      "kidney_disease": "May increase kidney stress",
+      "liver_disease": "Monitor liver function"
+    }
+  },
+  "diclofenac + amlodipine": {
+    "level": "MEDIUM",
+    "reason": "May cause moderate interaction requiring monitoring",
+    "advice": "Use with caution and consult a healthcare professional if needed",
+    "disease_risk": {
+      "hypertension": "May affect blood pressure control",
+      "diabetes": "May alter glucose levels",
+      "kidney_disease": "May increase kidney stress",
+      "liver_disease": "Monitor liver function"
+    }
+  },
+  "diclofenac + losartan": {
+    "level": "MEDIUM",
+    "reason": "May cause moderate interaction requiring monitoring",
+    "advice": "Use with caution and consult a healthcare professional if needed",
+    "disease_risk": {
+      "hypertension": "May affect blood pressure control",
+      "diabetes": "May alter glucose levels",
+      "kidney_disease": "May increase kidney stress",
+      "liver_disease": "Monitor liver function"
+    }
+  },
+  "diclofenac + telmisartan": {
+    "level": "MEDIUM",
+    "reason": "May cause moderate interaction requiring monitoring",
+    "advice": "Use with caution and consult a healthcare professional if needed",
+    "disease_risk": {
+      "hypertension": "May affect blood pressure control",
+      "diabetes": "May alter glucose levels",
+      "kidney_disease": "May increase kidney stress",
+      "liver_disease": "Monitor liver function"
+    }
+  },
+  "diclofenac + furosemide": {
+    "level": "MEDIUM",
+    "reason": "May cause moderate interaction requiring monitoring",
+    "advice": "Use with caution and consult a healthcare professional if needed",
+    "disease_risk": {
+      "hypertension": "May affect blood pressure control",
+      "diabetes": "May alter glucose levels",
+      "kidney_disease": "May increase kidney stress",
+      "liver_disease": "Monitor liver function"
+    }
+  },
+  "diclofenac + spironolactone": {
+    "level": "MEDIUM",
+    "reason": "May cause moderate interaction requiring monitoring",
+    "advice": "Use with caution and consult a healthcare professional if needed",
+    "disease_risk": {
+      "hypertension": "May affect blood pressure control",
+      "diabetes": "May alter glucose levels",
+      "kidney_disease": "May increase kidney stress",
+      "liver_disease": "Monitor liver function"
+    }
+  },
+  "naproxen + cetirizine": {
+    "level": "MEDIUM",
+    "reason": "May cause moderate interaction requiring monitoring",
+    "advice": "Use with caution and consult a healthcare professional if needed",
+    "disease_risk": {
+      "hypertension": "May affect blood pressure control",
+      "diabetes": "May alter glucose levels",
+      "kidney_disease": "May increase kidney stress",
+      "liver_disease": "Monitor liver function"
+    }
+  },
+  "naproxen + loratadine": {
+    "level": "MEDIUM",
+    "reason": "May cause moderate interaction requiring monitoring",
+    "advice": "Use with caution and consult a healthcare professional if needed",
+    "disease_risk": {
+      "hypertension": "May affect blood pressure control",
+      "diabetes": "May alter glucose levels",
+      "kidney_disease": "May increase kidney stress",
+      "liver_disease": "Monitor liver function"
+    }
+  },
+  "naproxen + diphenhydramine": {
+    "level": "MEDIUM",
+    "reason": "May cause moderate interaction requiring monitoring",
+    "advice": "Use with caution and consult a healthcare professional if needed",
+    "disease_risk": {
+      "hypertension": "May affect blood pressure control",
+      "diabetes": "May alter glucose levels",
+      "kidney_disease": "May increase kidney stress",
+      "liver_disease": "Monitor liver function"
+    }
+  },
+  "naproxen + chlorpheniramine": {
+    "level": "MEDIUM",
+    "reason": "May cause moderate interaction requiring monitoring",
+    "advice": "Use with caution and consult a healthcare professional if needed",
+    "disease_risk": {
+      "hypertension": "May affect blood pressure control",
+      "diabetes": "May alter glucose levels",
+      "kidney_disease": "May increase kidney stress",
+      "liver_disease": "Monitor liver function"
+    }
+  },
+  "naproxen + pseudoephedrine": {
+    "level": "MEDIUM",
+    "reason": "May cause moderate interaction requiring monitoring",
+    "advice": "Use with caution and consult a healthcare professional if needed",
+    "disease_risk": {
+      "hypertension": "May affect blood pressure control",
+      "diabetes": "May alter glucose levels",
+      "kidney_disease": "May increase kidney stress",
+      "liver_disease": "Monitor liver function"
+    }
+  },
+  "naproxen + dextromethorphan": {
+    "level": "MEDIUM",
+    "reason": "May cause moderate interaction requiring monitoring",
+    "advice": "Use with caution and consult a healthcare professional if needed",
+    "disease_risk": {
+      "hypertension": "May affect blood pressure control",
+      "diabetes": "May alter glucose levels",
+      "kidney_disease": "May increase kidney stress",
+      "liver_disease": "Monitor liver function"
+    }
+  },
+  "naproxen + antacid": {
+    "level": "MEDIUM",
+    "reason": "May cause moderate interaction requiring monitoring",
+    "advice": "Use with caution and consult a healthcare professional if needed",
+    "disease_risk": {
+      "hypertension": "May affect blood pressure control",
+      "diabetes": "May alter glucose levels",
+      "kidney_disease": "May increase kidney stress",
+      "liver_disease": "Monitor liver function"
+    }
+  },
+  "naproxen + omeprazole": {
+    "level": "MEDIUM",
+    "reason": "May cause moderate interaction requiring monitoring",
+    "advice": "Use with caution and consult a healthcare professional if needed",
+    "disease_risk": {
+      "hypertension": "May affect blood pressure control",
+      "diabetes": "May alter glucose levels",
+      "kidney_disease": "May increase kidney stress",
+      "liver_disease": "Monitor liver function"
+    }
+  },
+  "naproxen + pantoprazole": {
+    "level": "MEDIUM",
+    "reason": "May cause moderate interaction requiring monitoring",
+    "advice": "Use with caution and consult a healthcare professional if needed",
+    "disease_risk": {
+      "hypertension": "May affect blood pressure control",
+      "diabetes": "May alter glucose levels",
+      "kidney_disease": "May increase kidney stress",
+      "liver_disease": "Monitor liver function"
+    }
+  },
+  "naproxen + ranitidine": {
+    "level": "MEDIUM",
+    "reason": "May cause moderate interaction requiring monitoring",
+    "advice": "Use with caution and consult a healthcare professional if needed",
+    "disease_risk": {
+      "hypertension": "May affect blood pressure control",
+      "diabetes": "May alter glucose levels",
+      "kidney_disease": "May increase kidney stress",
+      "liver_disease": "Monitor liver function"
+    }
+  },
+  "naproxen + iron": {
+    "level": "MEDIUM",
+    "reason": "May cause moderate interaction requiring monitoring",
+    "advice": "Use with caution and consult a healthcare professional if needed",
+    "disease_risk": {
+      "hypertension": "May affect blood pressure control",
+      "diabetes": "May alter glucose levels",
+      "kidney_disease": "May increase kidney stress",
+      "liver_disease": "Monitor liver function"
+    }
+  },
+  "naproxen + calcium": {
+    "level": "MEDIUM",
+    "reason": "May cause moderate interaction requiring monitoring",
+    "advice": "Use with caution and consult a healthcare professional if needed",
+    "disease_risk": {
+      "hypertension": "May affect blood pressure control",
+      "diabetes": "May alter glucose levels",
+      "kidney_disease": "May increase kidney stress",
+      "liver_disease": "Monitor liver function"
+    }
+  }
+}

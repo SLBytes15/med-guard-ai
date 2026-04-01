@@ -1,0 +1,15 @@
+services:
+  - type: web
+    name: med-guard-api
+    env: node
+    plan: free
+    buildCommand: npm install
+    startCommand: npm run api
+    healthCheckPath: /api/health
+    envVars:
+      - key: HOST
+        value: 0.0.0.0
+      - key: ALLOWED_ORIGINS
+        value: http://localhost:8080
+      - key: INTERACTIONS_FILE
+        value: /opt/render/project/src/data/kaggle_interactions.json
