@@ -7,6 +7,7 @@ import logo from "@/assets/rxsense-logo.png";
 const navLinks = [
   { label: "Features", href: "/#features" },
   { label: "Analyzer", href: "/analyzer" },
+  { label: "Rx Scanner", href: "/scan" },
   { label: "Pricing", href: "/pricing" },
   { label: "API Docs", href: "/api-docs" },
 ];
