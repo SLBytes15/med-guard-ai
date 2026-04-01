@@ -312,6 +312,41 @@ const server = createServer(async (req, res) => {
       return;
     }
 
+    /** Pharmacy / billing demo — body: { drugs: ["aspirin", "warfarin"] } */
+    if (req.method === "POST" && url.pathname === "/api/analyze") {
+      const body = await parseBody(req);
+      const raw = Array.isArray(body.drugs) ? body.drugs : [];
+      const seen = new Set();
+      const medications = [];
+      for (const item of raw) {
+        const name = typeof item === "string" ? item.trim() : String(item || "").trim();
+        if (!name) continue;
+        const key = normalize(name);
+        if (seen.has(key)) continue;
+        seen.add(key);
+        medications.push(name);
+      }
+
+      if (medications.length < 2) {
+        sendJson(res, 200, {
+          interactions: [],
+          timestamp: new Date().toISOString(),
+          medicationCount: medications.length,
+          summary: { total: 0, high: 0, moderate: 0, low: 0 },
+        });
+        return;
+      }
+
+      const interactions = findInteractions(medications);
+      sendJson(res, 200, {
+        interactions,
+        timestamp: new Date().toISOString(),
+        medicationCount: medications.length,
+        summary: buildSummary(interactions),
+      });
+      return;
+    }
+
     sendJson(res, 404, { error: "Not found" });
   } catch (error) {
     sendJson(res, 500, {

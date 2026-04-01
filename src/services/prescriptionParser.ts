@@ -93,28 +93,64 @@ function fuzzyMatchDrug(token: string): { name: string; confidence: number } | n
 }
 
 /**
- * Clean raw OCR text
+ * Clean raw OCR text (preserves line breaks so each medicine can be split out)
  */
 export function cleanOcrText(raw: string): string {
+  const cleanLine = (line: string) =>
+    line
+      .replace(/[|\\{}[\]@#$%^&*_=~`]/g, " ")
+      .replace(/\s+/g, " ")
+      .replace(/(\d)\s+(mg|ml|mcg|g|iu)\b/gi, "$1$2")
+      .trim();
+
   return raw
-    .replace(/[|\\{}[\]@#$%^&*_=~`]/g, " ") // remove noise symbols
-    .replace(/\s+/g, " ")                      // collapse whitespace
-    .replace(/(\d)\s+(mg|ml|mcg|g|iu)\b/gi, "$1$2") // join dosage numbers
-    .trim();
+    .replace(/\r\n/g, "\n")
+    .split("\n")
+    .map(cleanLine)
+    .filter(Boolean)
+    .join("\n");
+}
+
+/**
+ * Split pasted prescription text into one block per numbered item (1. … 2. … 3. …)
+ */
+function splitMedicationBlocks(text: string): string[] {
+  const t = text.replace(/\r\n/g, "\n").trim();
+  if (!t) return [];
+
+  const byNumber = t.split(/\n(?=\s*\d+\.\s)/);
+  if (byNumber.length > 1) {
+    return byNumber.map((s) => s.trim()).filter(Boolean);
+  }
+
+  // Same line: "1. Tab A … 2. Tab B …"
+  const inline = t.split(
+    /(?=\s\d+\.\s+(?:Tab|Cap|Capsule|Cream|Inj\.?|Syr|Inhaler|Syrup|Susp|Oint|Gel|Drop|Patch)\b)/i
+  );
+  if (inline.length > 1) {
+    return inline.map((s) => s.trim()).filter(Boolean);
+  }
+
+  return [t];
 }
 
 /**
  * Parse cleaned OCR text into structured medications
  */
 export function parsePrescriptionText(text: string): ParsedMedication[] {
-  const cleaned = cleanOcrText(text);
-  const lines = cleaned.split(/\n|;|,\s*(?=[A-Z])/);
+  const blocks = splitMedicationBlocks(text);
   const results: ParsedMedication[] = [];
 
-  for (const line of lines) {
-    const trimmed = line.trim();
-    if (!trimmed || trimmed.length < 3) continue;
+  for (const block of blocks) {
+    const cleaned = cleanOcrText(block);
+    const merged = cleaned
+      .split(/\n/)
+      .map((l) => l.trim())
+      .filter(Boolean)
+      .join(" ");
+    if (!merged || merged.length < 3) continue;
 
+    const trimmed = merged;
     const tokens = trimmed.split(/\s+/);
     let drugMatch: { name: string; confidence: number } | null = null;
     let dosage: string | undefined;
@@ -170,7 +206,7 @@ export function parsePrescriptionText(text: string): ParsedMedication[] {
         dosage,
         frequency,
         form,
-        raw: trimmed,
+        raw: block.replace(/\r\n/g, "\n").trim(),
         confidence: drugMatch.confidence,
       });
     }

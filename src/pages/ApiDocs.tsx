@@ -39,6 +39,18 @@ const endpoints = [
   },
   {
     method: "POST",
+    path: "/api/analyze",
+    desc: "Pharmacy demo — drug names only; same interaction engine as check-interactions.",
+    body: `{ "drugs": ["aspirin", "warfarin"] }`,
+    response: `{
+  "interactions": [ ... ],
+  "timestamp": "2026-04-02T...",
+  "medicationCount": 2,
+  "summary": { "total": 1, "high": 1, "moderate": 0, "low": 0 }
+}`,
+  },
+  {
+    method: "POST",
     path: "/api/keys/generate",
     desc: "Generate a new API key for programmatic access.",
     body: `{ "label": "Production EHR" }`,

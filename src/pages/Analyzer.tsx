@@ -24,10 +24,12 @@ import {
   searchDrugSuggestions,
   type DrugSuggestion,
 } from "@/services/drugIntelligence";
+import { useSearchParams } from "react-router-dom";
 
 export default function Analyzer() {
   const { user } = useAuth();
   const { toast } = useToast();
+  const [searchParams] = useSearchParams();
   const [selectedDrugs, setSelectedDrugs] = useState<string[]>([]);
   const [inputValue, setInputValue] = useState("");
   const [suggestions, setSuggestions] = useState<DrugSuggestion[]>([]);
@@ -36,6 +38,7 @@ export default function Analyzer() {
   const [analyzing, setAnalyzing] = useState(false);
   const [expandedIdx, setExpandedIdx] = useState<number | null>(null);
   const [loadingSuggestions, setLoadingSuggestions] = useState(false);
+  const [suggestionHighlight, setSuggestionHighlight] = useState(0);
   const inputRef = useRef<HTMLInputElement>(null);
   const dropdownRef = useRef<HTMLDivElement>(null);
 
@@ -56,6 +59,10 @@ export default function Analyzer() {
     return () => clearTimeout(timer);
   }, [inputValue, selectedDrugs]);
 
+  useEffect(() => {
+    setSuggestionHighlight(0);
+  }, [suggestions, inputValue]);
+
   // Close dropdown on outside click
   useEffect(() => {
     const handler = (e: MouseEvent) => {
@@ -66,6 +73,18 @@ export default function Analyzer() {
     document.addEventListener("mousedown", handler);
     return () => document.removeEventListener("mousedown", handler);
   }, []);
+
+  // Hydrate selected drugs from query param (e.g. /analyzer?drugs=paracetamol,ibuprofen)
+  useEffect(() => {
+    const drugsParam = searchParams.get("drugs");
+    if (!drugsParam) return;
+
+    const entries = parsePrescriptionText(drugsParam);
+    if (entries.length === 0) return;
+
+    setSelectedDrugs((prev) => appendUniqueEntries(prev, entries));
+    setResult(null);
+  }, [searchParams]);
 
   const addEntries = useCallback((entries: string[]) => {
     setSelectedDrugs((prev) => appendUniqueEntries(prev, entries));
@@ -161,10 +180,32 @@ export default function Analyzer() {
   };
 
   const handleKeyDown = (e: React.KeyboardEvent) => {
-    if (e.key === "Enter" && suggestions.length > 0) {
+    if (e.key === "Escape") {
       e.preventDefault();
-      addSuggestion(suggestions[0].id);
-    } else if (e.key === "Enter" && inputValue.trim()) {
+      setShowSuggestions(false);
+      return;
+    }
+
+    if (showSuggestions && suggestions.length > 0) {
+      if (e.key === "ArrowDown") {
+        e.preventDefault();
+        setSuggestionHighlight((i) => Math.min(i + 1, suggestions.length - 1));
+        return;
+      }
+      if (e.key === "ArrowUp") {
+        e.preventDefault();
+        setSuggestionHighlight((i) => Math.max(i - 1, 0));
+        return;
+      }
+      if (e.key === "Enter") {
+        e.preventDefault();
+        const s = suggestions[suggestionHighlight] ?? suggestions[0];
+        if (s) addSuggestion(s.id);
+        return;
+      }
+    }
+
+    if (e.key === "Enter" && inputValue.trim()) {
       e.preventDefault();
       addFromTypedInput();
     } else if (e.key === "Backspace" && inputValue === "" && selectedDrugs.length > 0) {
@@ -286,6 +327,8 @@ export default function Analyzer() {
                   onKeyDown={handleKeyDown}
                   placeholder={selectedDrugs.length === 0 ? "Type medicine (e.g., combiflam, dolo 650, aspirin)..." : "Add another medicine..."}
                   className="flex-1 min-w-[160px] border-0 shadow-none p-0 h-auto focus-visible:ring-0 bg-transparent"
+                  aria-autocomplete="list"
+                  aria-expanded={showSuggestions && suggestions.length > 0}
                 />
                 {inputValue.trim().length > 0 && (
                   <Button
@@ -315,10 +358,14 @@ export default function Analyzer() {
                         Searching...
                       </div>
                     ) : (
-                      suggestions.map((s) => (
+                      suggestions.map((s, idx) => (
                         <button
                           key={s.id}
-                          className="w-full text-left px-4 py-2.5 text-sm hover:bg-muted transition-colors flex items-center justify-between gap-3"
+                          type="button"
+                          className={`w-full text-left px-4 py-2.5 text-sm hover:bg-muted transition-colors flex items-center justify-between gap-3 ${
+                            idx === suggestionHighlight ? "bg-muted" : ""
+                          }`}
+                          onMouseEnter={() => setSuggestionHighlight(idx)}
                           onMouseDown={(e) => {
                             e.preventDefault();
                             addSuggestion(s.id);
@@ -342,6 +389,9 @@ export default function Analyzer() {
               </AnimatePresence>
             </div>
 
+            <p className="text-xs text-muted-foreground mt-3">
+              Keyboard: ↑↓ to highlight suggestions, Enter to add, Esc to close list. Empty input + Backspace removes last chip.
+            </p>
             <div className="flex items-center justify-between mt-4">
               <p className="text-xs text-muted-foreground">
                 {selectedDrugs.length} medication{selectedDrugs.length !== 1 ? "s" : ""} selected

@@ -11,6 +11,7 @@ import Analyzer from "./pages/Analyzer";
 import ApiDocs from "./pages/ApiDocs";
 import Pricing from "./pages/Pricing";
 import PrescriptionScanner from "./pages/PrescriptionScanner";
+import PharmacyBilling from "./pages/PharmacyBilling";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -30,6 +31,7 @@ const App = () => (
             <Route path="/api-docs" element={<ApiDocs />} />
             <Route path="/pricing" element={<Pricing />} />
             <Route path="/scan" element={<PrescriptionScanner />} />
+            <Route path="/pharmacy" element={<PharmacyBilling />} />
             <Route path="*" element={<NotFound />} />
           </Routes>
         </BrowserRouter>
